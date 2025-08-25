@@ -7,4 +7,4 @@ Sandbox website for my courses
 
 [Stat 115](https://vinnys-classes.github.io/main_115_tester.html)
 
-[Stat 209](https://nfriedrichsen.github.io/STA209s25.html)
+[Stat 209](https://vinnys-classes.github.io/main_209_tester.html)
