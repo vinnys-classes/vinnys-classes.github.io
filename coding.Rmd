@@ -1,0 +1,8 @@
+---
+title: "coding"
+output: html_document
+date: "2025-08-26"
+---
+
+# Introduction Notes
+* [Random Dots Graph](R/intro_dot_graphs.R)
