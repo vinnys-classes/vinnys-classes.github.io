@@ -1,8 +1,8 @@
 ---
-title: "coding"
+title: "Coding"
 output: html_document
 date: "2025-08-26"
 ---
 
-# Introduction Notes
+## Introduction Notes
 * [Random Dots Graph](R/intro_dot_graphs.R)
