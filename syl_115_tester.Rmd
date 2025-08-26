@@ -9,17 +9,21 @@ output:
 
 **Instructor**:
 
-* Vinny Paris, Noyce 2522, parisvin at grinnell.edu
+
+* Vinny Paris
+* Noyce 2522
+* parisvin at grinnell.edu
 
 **Class Meetings**:
 
-* SST-115-01: HSSC N2170, MWF 8:30-9:50 AM
+* SST-115-01
+* HSSC N2170
+* MWF 8:30-9:50 AM
 
 **Office Hours**:
 
 * Location: Noyce 2522 (Vinny's Office)
 * Monday 10am - noon,
-* Tuesday 2-4pm, 
 * Wednesday 1-2pm
 * Open door -> Feel free to pop your head in
 * If these times do not work for you, *please* message me and we will find a time to meet.
@@ -29,11 +33,17 @@ output:
 * TBD
 
 
+<hr style="border:2px solid grey">
+
 **Course Description**:
 
 This course covers the application of basic statistical methods such as univariate graphics and summary statistics, basic statistical inference for one and two samples, linear regression, one- and two-way ANOVA, and categorical data analysis. Students will use statistical software to analyze data and conduct simulations. (You will learn all these terms throughout the semester\!)
 
 A personal goal of mine is to help you learn how to make publication ready graphics that you can use in the rest of your academic careers.
+
+
+<hr style="border:2px solid grey">
+
 
 **Texts**:
 
@@ -43,7 +53,13 @@ All additional materials will be posted on the course website.
 
 There will be required readings from other sources which will be provided as necessary. Mostly these will be short papers.
 
-### Aims and Objectives
+
+<br>
+
+<hr style="border:3px solid black">
+
+
+## Aims and Objectives
 
 This course aims to introduce students to the field of statistics, including its vocabulary and fundamental principles. The course will prepare students to read, recognize, interpret, and discuss statistical concepts and their use in scientific applications. The course will provide students an understanding of the role of statistics within the scientific method, and provide students the tools to use data to make informed conclusions.
 
@@ -55,11 +71,20 @@ After completing this course, students should be able to:
 * Communicate the methods and results of statistical analyses succinctly and accurately in both writing and speaking  
 * Read, identify, and critique the statistical concepts and choices of data presentation used in various media publications (newspaper articles, reports, blogs, etc.)
 
-### Grading
+
+
+<br>
+
+<hr style="border:3px solid black">
+
+## Grading
 
 **Engagement and Participation** \- 0%
 
 Participation in a lab-heavy course is needed. During labs you are expected to help your partner(s) learn the material (which goes beyond simply answering the lab questions), and they are expected to help you. There is no formal attendance; I recognize you are adults and are capable of making your own decisions. I cannot stress enough though how important the act of showing up to the classroom is for you academic success, in this course and in later in life. I won't claim causality, but there is definitely a correlation.
+
+
+<hr style="border:2px solid grey">
 
 
 **Labs** \- 10%
@@ -68,17 +93,29 @@ In-class labs contain embedded questions that you and your lab partner(s) will a
 
 All labs are worth 5 points, and will be due at 5:00pm two days after we are no longer working on it in class, but my goal is for everyone to have them finished before class is over. Your two lowest lab scores will be dropped (which includes the possibility of dropping 0's).
 
+
+<hr style="border:2px solid grey">
+
+
 **Individual Homework** \- 20%
 
-Homework will be assigned regularly. Absolutely no late homework will be accepted, but your lowest two scores will be dropped (which can include 0's). Homework will be due on Canvas, generally due 5pm on Tuesdays. 
+Homework will be assigned regularly. Absolutely no late homework will be graded, but your lowest two scores will be dropped (which can include 0's). Please note that you will still recieve feedback/commentary on your homework, just not a grade. Homework will be due on Canvas, generally due 5pm on Tuesdays. 
 
 I encourage you to work with other students or visit the Math Lab for help on homework questions, but you should clearly understand all your answers and your assignment should be entirely in your own words. The homework is intended primarily as an exercise to practice and develop your understanding and to assist in identifying weaknesses: you do yourself a disservice if you submit work that you do not fully understand. I try to not assign "busy work".
 
 If you engage in significant collaboration with classmates or tutors, you must explicitly acknowledge that person(s) on the top of your assignment (again, you are encouraged to collaborate, and I want to emphasize that there is no penalty for doing so). For example, Jack and Jill working together and producing similar answers (right or wrong) is fine. Jack turning in verbatim Jill's answers is not okay. Jack turning in code that is exactly the same as Jill's is also not okay. 
 
+
+<hr style="border:2px solid grey">
+
+
 **Required Readings** \* \- 10%
 
 At least three papers will be assigned during the course of the semester to read. They will not be overly long nor mathematically difficult to read. The goal of these papers is to help solidify the big picture understanding that I want you to walk out of here with. A single paper will be assigned one to two weeks before a small quiz on it will be done in class. These quizzes will be closed notes/papers.
+
+
+<hr style="border:2px solid grey">
+
 
 
 **Exams (3)**\* \- 15% each
@@ -92,12 +129,34 @@ Alternative exam arrangements need to be made at least one week in advance of th
 For those of you with accommodations, those accommodations are your right and I intend to respect those rights fully. Even if the semester has already started and you want/need an accomodation we (the college) can do that for you. Please just reach out. Also note that I am never given your diagnosis/background for why; I'm just informed there is an accommodation which I will meet.
 
 
+<hr style="border:2px solid grey">
+
+
+
 **Final Project** \- 15%
 * Data visualization at midterms \- 5%
 * Final presentation and write up \- 10%
 There will be an ongoing group project throughout the semester. The project will include a few short progress reports. Near the midpoint of the semester lightening talks (<3 minutes) from each group giving a graphical analysis and exploration of the data will occur. The project will culminate in a short in-class presentation, time allowing, and a three to five page written report in the last week of the semester. More details will be announced later.
 
-### Policies
+
+
+<br>
+
+<hr style="border:3px solid black">
+
+
+## Policies
+
+
+**Extensions for Assignments** 
+
+Absolutely no deadline extensions will be given for homework (outside of  accomodations). Fairness is something that is very important to me and the only way I can find to be absolutely fair and not show favoritism is by making a bright line rule. The due date and time is the due date and time. 
+
+Please do not ask for an extension as you will not be given one. More so I find, personally, it's draining on me to say no because I like to be kind/helpful but fairness is important so please don't ask. 
+
+
+<hr style="border:2px solid grey">
+
 
 **Class Sessions**
 
@@ -106,11 +165,17 @@ The core component of our class meetings will be working through hands-on labs i
 Most labs will begin with a brief “preamble” section that we will go through together as class. The purpose of this section is to introduce the topic of the lab and ensure a smooth start to each class meeting.
 
 
+<hr style="border:2px solid grey">
+
 **Attendance**
 
 Because this course involves some amount of group work, absences impact not only yourself but also your classmates. That said, I understand that missing class is sometimes necessary. I will not take attendance directly, but labs occasionally being missed will affect lab scores. There is leeway built into these (see Participation and Labs above). 
 
 Please note that if you are sick I do NOT want you in class. Please do not come to class. If you show up and are clearly demostrating sympotoms of being sick you will be asked to leave. 
+
+
+<hr style="border:2px solid grey">
+
 
 **Software**
 
@@ -125,6 +190,10 @@ You may also work on a classroom computer, all of which will have `R` and `R Stu
 
 Alternatives to `R Studio` do exist and you are invited to use them if you are already familiar with them. Please understand though that my knowledge of some of them is more limited. The UI (user-interface) companion chosen will not affect the final code. 
 
+
+
+<hr style="border:2px solid grey">
+
 **Academic Honesty**
 
 At Grinnell College you are part of a conversation among scholars, professors, and students, one that helps sustain both the intellectual community here and the larger world of thinkers, researchers, and writers. The tests you take, the research you do, the writing you submit-all these are ways you participate in this conversation.
@@ -133,19 +202,33 @@ The College presumes that your work for any course is your own contribution to t
 
 Failure to live up to this expectation constitutes academic dishonesty. Academic dishonesty is misrepresenting someone else’s intellectual effort as your own. Within the context of a course, it also can include misrepresenting your own work as produced for that class when in fact it was produced for some other purpose. A complete list of dishonest behaviors, as defined by Grinnell College, [can be found here](https://catalog.grinnell.edu/content.php?catoid=12\&navoid=2537\#alleged-violation).
 
+
+<hr style="border:2px solid grey">
+
+
 **Inclusive Classroom**
 
 Grinnell College makes reasonable accommodations for students with documented disabilities. To receive accommodations, students must provide documentation to the Coordinator for Disability Resources, information [can be found here](http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services). If you plan on using accommodations in this course, you should speak with me as early as possible in the semester so that we can discuss ways to ensure your full participation in the course.
+
+
+<hr style="border:2px solid grey">
+
 
 **Religious Holidays**
 
 Grinnell College encourages students who plan to observe holy days that coincide with class meetings or assignment due dates to consult with your instructor in the first three weeks of classes so that you may reach a mutual understanding of how you can meet the terms of your religious observance, and the requirements of the course.
 
+
+<hr style="border:2px solid grey">
+
+
 **Pregnancy Related Conditions, Title IX**
 
 Grinnell College is committed to compliance with Title IX and to supporting the academic success of pregnant and parenting students and students with pregnancy related conditions. If you are a pregnant student, have pregnancy related conditions, or are a parenting student (child under 1-year needs documented medical care) who wishes to request reasonable related supportive measures from the College under Title IX, please email the Title IX Coordinator at [titleix@grinnel.edu](mailto:titleix@grinnel.edu). The Title IX Coordinator will work with Disability Resources and your professors to provide reasonable supportive measures in support of your education while pregnant or as a parent under Title IX. 
 
-### Misc
+
+<hr style="border:2px solid grey">
+
 
 **Getting Help**
 
@@ -156,6 +239,9 @@ The Data Science and Social Inquiry Lab (DASIL) is staffed by mentors who are ex
 The Grinnell Math Lab is located on the 2nd floor of Noyce Science Center in Room 2012 and offers drop-in statistics tutoring.
 
 The online platform Stack Overflow is a useful resource to find user-generated coding solutions to common R problems. Nearly all professionals have needed to “look up” a coding strategy on a site like Stack Overflow at some point in their career, and I have no problem with you doing the same on assignments or projects. However, if you make substantial use of a Stack Overflow answer (ie: actually integrating lines of code written by someone else into your work, not just getting help identifying the right functions/arguments) the expectation is that you cite or acknowledge doing so. I admit the line can be somewhat blurred but generally if you copy and paste 20+ lines of code and don't know what it's doing that is a problem.
+
+
+<hr style="border:2px solid grey">
 
 **Large Language Models**
 
