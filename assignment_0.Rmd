@@ -1,0 +1,79 @@
+---
+title: "What About You?"
+output: pdf_document
+date: "2025-08-26"
+---
+This assignment will serve a three-fold purpose. It'll be a relatively painless introduction to RMarkdown files and how to work with them. It'll give me a bit of insight into the class. Finally, it'll also give you no-stress introduction to submitting to canvas. Hopefully any kinks in the system can be worked out with this faux-assignment before the topical ones. 
+
+For this, you just need to type your response to a question immeditately below that question. Afterwards, you'll need to knit (render, create) the project to a pdf. 
+
+Please do not worry about messing with the things in <> as those are used for formatting. 
+
+<hr style="border:3px solid black">
+<br>
+
+## Question 1 
+What is your year, major, and what topic interests you the most about your major?
+
+    
+INSERT ANSER HERE
+
+
+<br>
+<br>
+<hr style="border:2px solid grey">
+
+## Question 2
+Favorite movie and book? Least favorite movie and book?
+
+
+INSERT ANSER HERE
+
+
+<br>
+<br>
+<hr style="border:2px solid grey">
+
+## Question 3
+Why did you take this class? What do you want to get out of it?
+
+INSERT ANSER HERE
+
+
+<br>
+<br>
+<hr style="border:2px solid grey">
+
+## Question 4
+If you have spotify or another music streaming app, what's the top three songs on your Repeat Rewind/recently played playlist?
+
+
+
+
+INSERT ANSER HERE
+
+
+
+
+<br>
+<br>
+<hr style="border:2px solid grey">
+
+## Question 5
+Is there anything that professors do here that you strongly DISLIKE and want me to avoid in this semester? No promises I can meet everyone's desires but I can try to minimize the worst behaviors. 
+
+
+
+INSERT ANSER HERE
+
+
+
+<br>
+<br>
+<hr style="border:2px solid grey">
+## Question 6
+Is there anything that professors do here that you strongly LIKE and want me to replicate/imitate in this semester? No promises I can meet everyone's desires but I can try to maximize the best behaviors. 
+
+
+INSERT ANSER HERE
+
