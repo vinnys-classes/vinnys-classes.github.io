@@ -58,4 +58,8 @@ You can locate course content by scrolling, or by using the outline in the upper
 <hr style="border:3px solid black">
 
 
+# Coding 
+My goal is to include the R code that I use to make different graphs, expamples, etc..., for the course. Most of it will be more advanced than what I will teach you or that you need but I want you to have access to examples if you'd like.
+
+Please go [here](coding.html).
 
