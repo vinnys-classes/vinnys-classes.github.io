@@ -218,3 +218,32 @@ Large language models, such as ChatGPT, Bing Chat, or Bard, can be a useful tool
 To be abundantly clear, simply copying and pasting the output from a LLM is not acceptable work for this course. 
 
 *Note: My stance on LLM usage through the course may change, but you will be given notice and, if applied retroactively, won't lower your grade*
+
+
+
+<br>
+
+<hr style="border:3px solid black">
+
+## Sketch of Schedule
+
+| Week | Topic |
+|:-----|:-------|
+|1|Intro|
+|2|R|
+|3|Data Summaries|
+|4|Correlation and SLR|
+|5| SLR and MLR|
+|6| Transformations and Outliers|
+||Exame 1|
+|7| Sampling Distribution for a mean|
+|8| Confidence Intervals and Hypothesis test for means|
+|9| Confidence Intervals and Hypothesis test for means|
+|10|ANOVA|
+|11|Inference on Regression & Decision Errors|
+||Exam 2|
+|12| Probability & Sampling Distribution for a proportion
+|13| Confidence Intervals and Hypothesis test for proportions
+|14| Confidence Intervals and Hypothesis test for proportions
+|15| \chi^2 tests and Logisitic Regression
+||Final|
