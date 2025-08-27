@@ -97,7 +97,7 @@ All labs are worth 5 points, and will be due at 5:00pm two days after we are no 
 <hr style="border:2px solid grey">
 
 
-**Individual Homework** \- 20%
+**Individual Homework** \- 11%
 
 Homework will be assigned regularly. Absolutely no late homework will be graded, but your lowest two scores will be dropped (which can include 0's). Please note that you will still recieve feedback/commentary on your homework, just not a grade. Homework will be due on Canvas, generally due 5pm on Tuesdays. 
 
@@ -118,7 +118,7 @@ At least three papers will be assigned during the course of the semester to read
 
 
 
-**Exams (3)**\* \- 15% each
+**Exams (3)**\* \- 18% each
 
 There will be 2 midterms and a final exam. Each midterm will focus on a specific set of content, but because course topics are naturally cumulative there may be some questions involving earlier content. The 3 exams will contribute a total 45% towards your end-of-semester grade. Your lowest exam grade will be replaced by it's percentage's square root mulitplied by ten (eg if your lowest test score is 64% it will become 10\*sqrt(64) = 80%).
 
@@ -134,8 +134,11 @@ For those of you with accommodations, those accommodations are your right and I 
 
 
 **Final Project** \- 15%
-* Data visualization at midterms \- 5%
-* Final presentation and write up \- 10%
+
+* Data visualization at midterms \- 7.5%
+
+* Write up \- 7.5%
+
 There will be an ongoing group project throughout the semester. The project will include a few short progress reports. Near the midpoint of the semester lightening talks (<3 minutes) from each group giving a graphical analysis and exploration of the data will occur. The project will culminate in a short in-class presentation, time allowing, and a three to five page written report in the last week of the semester. More details will be announced later.
 
 
@@ -152,7 +155,7 @@ There will be an ongoing group project throughout the semester. The project will
 
 Absolutely no deadline extensions will be given for homework (outside of  accomodations). Fairness is something that is very important to me and the only way I can find to be absolutely fair and not show favoritism is by making a bright line rule. The due date and time is the due date and time. 
 
-Please do not ask for an extension as you will not be given one. More so I find, personally, it's draining on me to say no because I like to be kind/helpful but fairness is important so please don't ask. 
+Please do not ask for an extension as you will not be given one and it's emotionally draining on me. 
 
 
 <hr style="border:2px solid grey">
