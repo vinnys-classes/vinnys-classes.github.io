@@ -155,7 +155,7 @@ There will be an ongoing group project throughout the semester. The project will
 
 Absolutely no deadline extensions will be given for homework (outside of  accomodations). Fairness is something that is very important to me and the only way I can find to be absolutely fair and not show favoritism is by making a bright line rule. The due date and time is the due date and time. 
 
-Please do not ask for an extension as you will not be given one and it's emotionally draining on me. 
+Please do not ask for an extension as you will not be given one and, more so, it's emotionally draining on me. 
 
 
 <hr style="border:2px solid grey">
@@ -193,7 +193,7 @@ You may also work on a classroom computer, all of which will have `R` and `R Stu
 
 Alternatives to `R Studio` do exist and you are invited to use them if you are already familiar with them. Please understand though that my knowledge of some of them is more limited. The UI (user-interface) companion chosen will not affect the final code. 
 
-
+Grinnell hosts an online version of R Studio that you may use while on campus internet: https://rstudio.grinnell.edu/
 
 <hr style="border:2px solid grey">
 
