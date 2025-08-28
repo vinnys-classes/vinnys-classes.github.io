@@ -225,7 +225,9 @@ To be abundantly clear, simply copying and pasting the output from a LLM is not 
 
 <hr style="border:3px solid black">
 
-## Sketch of Schedule
+## Sketch of Topics
+
+Weeks are approximations. Exact dates for exams and the midterm presentation will be announced later in the semester.
 
 | Week | Topic |
 |:-----|:-------|
@@ -235,15 +237,15 @@ To be abundantly clear, simply copying and pasting the output from a LLM is not 
 |4|Correlation and SLR|
 |5| SLR and MLR|
 |6| Transformations and Outliers|
-||Exame 1|
+||Exam 1|
 |7| Sampling Distribution for a mean|
-|8| Confidence Intervals and Hypothesis test for means|
-|9| Confidence Intervals and Hypothesis test for means|
+|8| Confidence Intervals and Hypothesis test for one mean|
+|9| Confidence Intervals and Hypothesis test for two means|
 |10|ANOVA|
 |11|Inference on Regression & Decision Errors|
 ||Exam 2|
 |12| Probability & Sampling Distribution for a proportion
 |13| Confidence Intervals and Hypothesis test for proportions
 |14| Confidence Intervals and Hypothesis test for proportions
-|15| \chi^2 tests and Logisitic Regression
+|15| $\chi^2$ tests and logistic regression (time allowing)
 ||Final|

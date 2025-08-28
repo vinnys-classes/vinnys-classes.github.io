@@ -278,5 +278,5 @@ To be abundantly clear, simply copying and pasting the output from a LLM is not 
 |12| Probability & Sampling Distribution for a proportion
 |13| Confidence Intervals and Hypothesis test for proportions
 |14| Confidence Intervals and Hypothesis test for proportions
-|15| \chi^2 tests and Logisitic Regression
+|15| $\chi^2$ tests 
 ||Final|
