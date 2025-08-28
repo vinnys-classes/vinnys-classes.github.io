@@ -1,5 +1,5 @@
-# vinnys-classes.github.io
-Sandbox website for my courses
+# Vinny's Classes
+A website for my courses
 
 
 ## Teaching (Grinnell)
