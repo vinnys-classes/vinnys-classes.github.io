@@ -37,10 +37,10 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 ### Module 1 (Introduction)
 
-| Date | Lecture | Lab | Reading |
+| Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Fri 8/28 | [Syllabus](syl_209_tester.html) | - | - |
-|          | [Introduction](lectures/intro_115-2.pdf)  | - | (Optional) IMS Sections 1.2.1-1.2.3 |
+|          | [Introduction](lectures/intro_115-2.pdf)  | - |IMS Sections 1.2.1-1.2.3 |
 
 **Assignments and Deadlines**
 
