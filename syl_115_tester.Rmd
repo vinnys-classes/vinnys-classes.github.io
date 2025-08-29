@@ -99,7 +99,7 @@ All labs are worth 5 points, and will be due at 5:00pm two days after we are no 
 
 **Individual Homework** \- 11%
 
-Homework will be assigned regularly. You may turn in your exactly two late homeworks or labs and recieve 80% credit. All other late homework will not be graded (although it will still be commented on). Your lowest two scores will be dropped (which can include 0's). Homework will be due on Canvas, generally due 9pm on Tuesdays. 
+Homework will be assigned regularly. You may turn in your exactly two late homeworks or labs and recieve 80% credit. All other late homework will not be graded (although it will still be commented on). Your lowest two scores will be dropped (which can include 0's). Homework will be due on Canvas, generally due 9pm on Wednesday. 
 
 
 I encourage you to work with other students or visit the Math Lab for help on homework questions, but you should clearly understand all your answers and your assignment should be entirely in your own words. The homework is intended primarily as an exercise to practice and develop your understanding and to assist in identifying weaknesses: you do yourself a disservice if you submit work that you do not fully understand. I try to not assign "busy work".
@@ -114,6 +114,7 @@ If you engage in significant collaboration with classmates or tutors, you must e
 
 At least three papers will be assigned during the course of the semester to read. They will not be overly long nor mathematically difficult to read. The goal of these papers is to help solidify the big picture understanding that I want you to walk out of here with. A single paper will be assigned one to two weeks before a small quiz on it will be done in class. These quizzes will be closed notes/papers.
 
+These papers will be distinct from the suggested reading tab in the module summary.
 
 <hr style="border:2px solid grey">
 
