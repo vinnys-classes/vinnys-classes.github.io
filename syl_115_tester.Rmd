@@ -153,9 +153,9 @@ There will be an ongoing group project throughout the semester. The project will
 
 **Extensions for Assignments** 
 
-Absolutely no deadline extensions will be given for homework (outside of  accomodations). Fairness is something that is very important to me and the only way I can find to be absolutely fair and not show favoritism is by making a bright line rule. The due date and time is the due date and time. 
+Twice, and only twice, a semester you may submit either a lab or homework late for 80% credit. The late assignment or lab must be handed in before the exam over that material. Homework is not meant to be busy work but to give you practice with the material.
 
-Please do not ask for an extension as you will not be given one and, more so, it's emotionally draining on me. 
+Please note that the deadline is the deadline and will be treated as a bright line cut off. Fairness is something that is very important to me and the only way I can find to be absolutely fair and not show favoritism is by making a bright line rule. The due date and time is the due date and time. If you are late you may use one of your two late submissions. Beyond that I will not give credit for late work.
 
 
 <hr style="border:2px solid grey">
@@ -268,7 +268,7 @@ To be abundantly clear, simply copying and pasting the output from a LLM is not 
 |4|Correlation and SLR|
 |5| SLR and MLR|
 |6| Transformations and Outliers|
-||Exame 1|
+||Exam 1|
 |7| Sampling Distribution for a mean|
 |8| Confidence Intervals and Hypothesis test for means|
 |9| Confidence Intervals and Hypothesis test for means|
