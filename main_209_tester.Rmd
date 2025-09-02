@@ -29,6 +29,18 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 <br>
 
+# Required Readings
+| Title | Author | Journal | Year | Quiz|
+|:-----|:-------|:-----|:-----|:-----|
+|Tidy Data| Hadley Wickham| Journal of Statistical Software|2014|9/15|
+
+
+<hr style="border:3px solid black">
+
+
+
+<br>
+
 # Notes
 
 <hr style="border:2px solid grey">
@@ -51,7 +63,20 @@ You can locate course content by scrolling, or by using the outline in the upper
 3) Begin thinking of interesting data sources for you midterm projects
 
 <hr style="border:2px solid grey">
+
+<br>
     
+### Module 2 (R)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Wednesday 9/3 | [Intro to R](lectures/r-2.pdf) |  [lab 1](labs/01_introR.html)|-   
+| Friday 9/5 | Visualizations in R (depending on Wednesday)|  [Continue lab 1](labs/01_introR.html)|- | 
+
+**Assignments and Deadlines**
+
+1) First lab is due Septmber 9th
+2) Hadley Wickham's Tidy Data published in Journal of Statistical Software in 2014 with a quiz on September 15th
 
 <br>
 
