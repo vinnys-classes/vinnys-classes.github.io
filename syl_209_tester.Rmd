@@ -5,7 +5,7 @@ output:
   html_document: default
 author: "Vinny Paris"
 ---
-# COLLECT ATTENDANCE VINNY!!
+
 # Syllabus \- SAT-209 (Fall 2025\)
 
 **Instructor**:
