@@ -29,6 +29,18 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 <br>
 
+# Required Readings
+| Title | Author | Journal | Year | Quiz|
+|:-----|:-------|:-----|:-----|:-----|
+|Tidy Data| Hadley Wickham| Journal of Statistical Software|2014|9/15|
+
+
+<hr style="border:3px solid black">
+
+
+
+<br>
+
 # Notes
 
 <hr style="border:2px solid grey">
@@ -39,7 +51,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| Fri 8/28 | [Syllabus](syl_115_tester.html) | - | - |
+| Friday 8/28 | [Syllabus](syl_115_tester.html) | - | - |
 |          | [Introduction](lectures/intro_115-2.pdf)  | - | IMS Sections 1.2.1-1.2.3 |
 
 **Assignments and Deadlines**
@@ -49,6 +61,28 @@ You can locate course content by scrolling, or by using the outline in the upper
 2) Install RStudio (https://posit.co/download/rstudio-desktop/)
 
 3) Begin thinking of interesting data sources for you midterm projects
+
+<hr style="border:2px solid grey">
+    
+
+<br>
+
+<hr style="border:3px solid black">
+
+
+
+### Module 2 (R)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Wednesday 9/3 | [Intro to R](lectures/r-2.pdf) |  [lab 1](labs/01_introR.html)|-   
+| Friday 9/5 | Visualizations in R (depending on Wednesday)|  [Continue lab 1](labs/01_introR.html)|- | 
+
+**Assignments and Deadlines**
+
+1) First lab is due Septmber 9th
+2) Hadley Wickham's Tidy Data published in Journal of Statistical Software in 2014 with a quiz on September 15th
+
 
 <hr style="border:2px solid grey">
     
