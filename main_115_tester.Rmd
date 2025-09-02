@@ -67,7 +67,6 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 <br>
 
-<hr style="border:3px solid black">
 
 
 
