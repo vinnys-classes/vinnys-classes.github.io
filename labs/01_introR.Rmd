@@ -334,7 +334,7 @@ For this question, we will be using the `HappyPlanet` data that we have just loo
   
   - **Part C** Using `$` to extract columns from the dataset, find the mean life expectancy of all countries in the dataset? (Hint: what functions have we seen already in this lab?)
   
-  - **Part D** Using [,] to extract columns, what is the median GDP per Capita?
+  - **Part D** Using [,] to extract columns, what is the median GDP per Capita? Hint: Use the help pages if NA appears (specficially the na.rm parameter)
   
   - **Part E** Are there any variables in this dataset that are stored as a numeric that would be better suited as a categorical variable? Explain your answer
   
@@ -346,7 +346,7 @@ For this question, we will be using the `HappyPlanet` data that we have just loo
 
 ## Wrapping Up
 
-This concludes our first introduction to R. Once you have finished with your lab, make sure that you are able to successfully Knit to PDF. Once that is finished, we are ready to submit to canvas
+This concludes our first introduction to R. Once you have finished with your lab, make sure that you are able to successfully Knit to PDF. Once that is finished, we are ready to submit to canvas. 
 
 
 
