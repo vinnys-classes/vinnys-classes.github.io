@@ -1,0 +1,68 @@
+---
+title: "Hints for Lab 1"
+output: html_document
+date: "2025-09-03"
+---
+
+Below are common things you'll want to know for lab/FAQ
+
+# My markdown won't knit and says I don't have latex install?
+
+You'll want to run the lines of code before which installs a way to make markdown render (tinytex), help with data cleaning (dplyr), and make graphs (ggplot2)
+```{r}
+# We'll install these packages and then run the next line as well. To do this, un-hashtag (ie delete the # symbol) the two lines below and run them. 
+
+#install.packages(c("tinytex", "dplyr", "ggplot2"))
+#tinytex::install_tinytex()
+```
+
+
+# My markdown won't knit and says it can't find a png from some website?
+
+This is due to three lines in the original lab markdown that creates images. Part F of Question 3 talks about it and gives the relevant line numbers of code that are the problem. You can try to hashtag out the lines (ie use a  # to tell R that that the rest of the stuff to the right of # should be ignored). This didn't work for a student and instead we ended up just deleting those three lines. 
+
+# I'm trying subsetting on question 2 but keep getting NA
+
+Subsetting in the form of x[k] collects the k^th element from x, so...
+
+```{r}
+x <- c(1,2,3,4,5,6,7) * 2 
+x
+#say I want the fourth element...
+x[4] #is correct
+x[2] #is incorrect (this is the second element)
+
+#if I want the second and third elements I can...
+x[2:3] #is correct
+x[c(2,3)] #also correct but less compact
+
+#x[2,3] is INcorrect and throws up an error
+
+```
+
+
+# I keep getting NA when I try to calculate the median?
+This is a question I wanted you to have to reach for. Let's make a reproducable toy example of what could cause this problem. 
+
+To do this we will make our own data frame to more easily see the 
+
+```{r}
+x1 <- 1:5
+x2 <- c(0,0,NA,4,5)
+my_data <- data.frame(x1, x2)
+my_data
+
+median(my_data$x2)
+#Uh oh...let's look at x2 first
+my_data$x2 
+
+#so there is an NA in the vector which is problematic since NA isn't a number. 
+
+#let's GO TO THE HELP PAGE
+?median
+#So looking at the function shows a second (default/optional) parameter that is set to false. Looking at the arguments it seems like it removes the NA before the calculations. 
+
+#Looking further down into the Value (ie output) section we can see in the second paragraph that if there are NA values and na.rm = FALSE then NA is returned. Sooo..... we need to include na.rm = TRUE which will clear up the issue.
+
+median(my_data$x2, na.rm = TRUE)
+```
