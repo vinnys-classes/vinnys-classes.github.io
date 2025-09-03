@@ -30,7 +30,6 @@ You can locate course content by scrolling, or by using the outline in the upper
 <br>
 
 # Required Readings
-# Take Atttendance Vinny!!
 | Title | Author | Journal | Year | Quiz|
 |:-----|:-------|:-----|:-----|:-----|
 |Tidy Data| Hadley Wickham| Journal of Statistical Software|2014|9/15|
