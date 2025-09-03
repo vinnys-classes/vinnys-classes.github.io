@@ -8,7 +8,7 @@ Below are common things you'll want to know for lab/FAQ
 
 # My markdown won't knit and says I don't have latex install?
 
-You'll want to run the lines of code before which installs a way to make markdown render (tinytex), help with data cleaning (dplyr), and make graphs (ggplot2)
+You'll want to run the lines of code below which installs a way to make markdown render (tinytex), help with data cleaning (dplyr), and make graphs (ggplot2)
 ```{r}
 # We'll install these packages and then run the next line as well. To do this, un-hashtag (ie delete the # symbol) the two lines below and run them. 
 
