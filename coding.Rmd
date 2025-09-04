@@ -6,3 +6,8 @@ date: "2025-08-26"
 
 ## Introduction Notes
 * [Random Dots Graph](R/intro_dot_graphs.R)
+
+## Intro to R 
+* [Extra Practice in R](R/extra_R_practice.Rmd)
+* [Extra Practice in R Solutions](R/extra_R_practice_solutions.Rmd)
+* [Example of making functions](R/functions.Rmd)
