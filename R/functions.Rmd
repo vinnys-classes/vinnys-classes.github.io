@@ -1,0 +1,100 @@
+---
+title: "Making a Function and Functional Enviroments"
+output: 
+  html_document:
+  toc: true
+date: "2025-09-04"
+---
+
+# Function Fundementals
+
+I wasn't planning on showing you this but it came up in the 209 class so I thought I'd post a toy example for you to see. In R, functions are things you can create and assign to the name you'd want. Here is a very simple case.
+
+   This function's job is to mulitply the input by 2. It's not a particularly inspiring function but it shows you the basics.
+
+```{r}
+#we will name our function x2_function (which is completely arbitrary)
+x2_function <- function(x){
+  y <- x*2 #this part does the actual mulitplying
+  return(y)  #this part tells R what we want spat out
+}
+
+x2_function(x = 4) #we actually don't *have* to include the x= part, R will assume you are giving the parameters listed in the function in the order they are listed. This can be both nice because it's quick but can also lead to danger
+x2_function(4)
+x2_function(-1)
+x2_function(pi)
+```
+
+<br>
+
+## Giving parameters default settings
+
+Alright, so that was easy enough. We can tweak it now and allow for two parameters, one that has to be given and one that has a default setting.
+
+To do this we will edit the function so instead of always multiplying by two there is a second optional parameter (named *scale* that will change the scale/what we mulitply by. To make it default to 2, we use an "= 2" after the parameter. We will name this function xk_function
+
+```{r}
+xk_function <- function(x, scale = 2){
+  y <- x*scale #this part does the actual mulitplying
+  return(y)  #this part tells R what we want spat out
+} #curly brackets immediately after the ) behind the parameters and then again right after return (the curly brakets tell R to treat everything in them as one thought; roughly)
+
+xk_function(4)
+xk_function(pi)
+xk_function(4, scale = 3)
+xk_function(5, scale = -1)
+xk_function(5, 4) #again, R will assume paramters are coming in the order listed in the function.
+
+#xk_function(scale = 2) This line produces an error...why? Hint: look at the function and see what parameter has a default and which one has to be given
+```
+
+<br>
+<br>
+<br>
+
+# Enviroments 
+
+In class I said you can't assign the same name to two things and that is true with the condition that you are in the same enviroment. When you call a function in R, things happen below the hood that we generally don't see nor care about. Under the hood variables can be named, used, and then forgotten once the function completes. For example, here is the function from earlier...
+
+```{r}
+x2_function <- function(x){
+  y <- x*2  #note that we are defining a variable called y
+  return(y)  #and returning it's value at the end of the function
+}
+
+y <- 5 #define y in the global enviroment
+y #and it's what we expect
+
+x2_function(9) #we run the function that, under the hood, redefines y but....
+
+y #we still have the same y as we started with.
+```
+
+<br>
+
+### How to define something globally from within a function
+
+There isn't a way, without recoding the function, to get the y it defined under the hood to the global enviroment that I'm aware of. And actually redefining a variable in the global enviroment via defining the variable in a function is usually considered very dangerous/poor coding practice in R. The edit to the code is simple enough, all you need to do is to change your arrow symbol <- to <<- with double less-than signs. 
+```{r}
+x2_function <- function(x){
+  qqqq <<- x*2
+  return(qqqq)
+}
+
+#qqqq  This will produce an error since we haven't defined qqqq yet
+
+x2_function(3) # we run the function
+
+qqqq #and now we have qqqq defined. 
+```
+This is extremely dangerous in coding. I actively made the function use a variable not likely to come up in day-to-day coding but if, like in the first example, I said, instead of qqqq, y <- x*2 then any variable you have already defined as y will be overwirtten with whatever the function calculates. See below for an example. That is the danger. Variables are being overwritten, possibly without your knowledge/intention. There are times it's theoretically desirable but those are far and few between. 
+
+```{r}
+#lets make qqqq = 10 
+qqqq <- 10
+qqqq #what I expect
+
+x2_function(3)
+
+qqqq #this has now changed without us actively redefining qqqq in our script
+```
