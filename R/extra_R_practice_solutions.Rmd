@@ -1,0 +1,94 @@
+---
+title: "extra_R_practice_solutions"
+output: html_document
+date: "2025-09-04"
+---
+# Orange Trees
+
+0) I found the orange tree data to be interesting enough at a glance; it's why I used it for the example. Beyond that the Nile river data set is interesting and pretty famous
+
+1) Age is measured in days since New Year's Eve 1968. Circumference is in milimeters at "breast height" which is honestly a real thing to this day in forestry stuff
+
+2) There are five trees. This can be found by looking at the data or by using either of the following functions
+
+```{r}
+table(Orange$Tree) #table gives you the counts for each unique string in a given object. So here we have sevent observations for each tree (with five trees in total)
+
+unique(Orange$Tree) #this lists all unique strings in a given object; here it's the five labels for the five trees
+```
+
+3) Factor and ordered. The first is how R indicates something is a categorical variable and the second indicates that the variable is ordinal. The ordering is based off the max diameter (as per the help page for Orangs)
+
+```{r}
+class(Orange$Tree)
+```
+
+
+
+4) 
+```{r}
+mean(Orange$circumference)
+```
+
+5) Looking at the data the rows where the trees were the oldest are rows 7, 14, 21, 28, 35. Note that the resulting mean here is larger than the one reported in question 4. This makes sense since we assume that as trees age they get a larger circumference, at least up to a point
+```{r}
+my_small_data_frame <- Orange[c(7,14,21,28,35), ]
+my_small_data_frame
+mean(my_small_data_frame$circumference)
+```
+
+6) So to get the diameter from the circumference I need to divide by pi 
+```{r}
+c(1,2,6) + 2 #small test case
+Orange$circumference/pi
+
+#We can also add this to our data frame by using the format data.frame$NEWVARIABLE
+Orange$diameter <- Orange$circumference/pi
+head(Orange) #using the head function to look at the first six rows
+```
+
+
+7) Well, we need to find a function that let's us locate the minimum rapidly. So, let's go with...
+```{r}
+?minimum #well, minimum isn't a function so we will need to search for it
+??minimum #several things pop up. Using the hint to skip the igraph there is only about five results. The most useful one is at the very bottom (of my machine) which is from the "base" package and is entitled which.min. 
+
+which.min(Orange$circumference) #so the very first observation has the smallest circumference 
+
+Orange[1,] #we print out the first row of the data and get the age of 118
+
+```
+
+
+8) I'll show you the less nice way to do it and then the faster way to do it
+
+```{r}
+my_new_data_frame <- data.frame(Orange$Tree,
+                                Orange$circumference,
+                                Orange$age)
+
+head(my_new_data_frame) #just looking at the first six rows of the data frame by using the head() function
+
+#A faster way is to use the subsetting [,] method and to reference the columns in the order we want. Remember that the subset order is [row, columns] so we don't want to put anything before the comma (so R will include all the rows)
+my_other_new_data <- Orange[,c(1,3,2)] 
+head(my_other_new_data)
+
+#We will NOT get into it but some objects extend the dimensions. For example a three dimensional array is [rows, columns, depth]. That is beyond what you need though most likely.
+```
+
+
+9) As noted, my machine starts to run slow once I hit 200,000,000 observations
+
+10) 
+```{r}
+rm(random_numbers)
+gc()
+```
+
+11)
+```{r}
+num_of_simulations <- 10000
+
+mean(rnorm(10000))
+#note that mean(k <- rnorm(10000)) fails as you can't(??) assign a variable name within a function's call (at least to the best of my knowledge)
+```
