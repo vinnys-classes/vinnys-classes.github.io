@@ -269,7 +269,7 @@ median(df$value)
 
 ```
 
-Data frames are organized (and subsetted) similar to vectors except now we have two dimensions instead of one. We still use the [ ] system but now we need to insert a comma, the left hand side is the row and the right hand side is the column (rise over run is how I remember)
+Data frames are organized (and subsetted) similar to vectors except now we have two dimensions instead of one. We still use the [ ] system but now we need to insert a comma, the left hand side of the comma is the row and the right hand side is the column (rise over run is how I remember)
 
 ```{r}
 #refresh what the data frame looks like to ourselves
