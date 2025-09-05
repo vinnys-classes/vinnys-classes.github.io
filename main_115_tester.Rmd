@@ -76,7 +76,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 | Wednesday 9/3 | [Intro to R](lectures/r-2.pdf) |  [lab 1](labs/01_introR.html)|-  
 | -|-| [lab 1 Helpful Hints](labs/Lab_1_hints.html)|-   
-| Friday 9/5 | Visualizations in R (depending on Wednesday)|  [Continue lab 1](labs/01_introR.html)|- | 
+| Friday 9/5 | [Visualizations in R](lectures/data_vis_115.pdf)|  [Continue lab 1](labs/01_introR.html)|- | 
 
 **Assignments and Deadlines**
 
