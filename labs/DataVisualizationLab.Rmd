@@ -43,16 +43,17 @@ For the techincal side, a generally accepted way is to use the 5 W's and HOW! Th
 * **What** -- What variables was the data recorded on? That is, what pieces of information did we collect from our sample? Eg if we are interested in the voting population of the state of Iowa's views of gay marriage we would probably record if they support it, party affiliation, gender, age bracket, etc...
 
 
+* **Where** -- Where was the data collected? A poll done in Massachusetts offers limited information on the state of Iowa's views on gay marraige.
+
+
 * **When** -- When was the data collected? The voting population of the state of Iowa's views of gay marriage in 1995 offers limited information for today's views.
 
-
-* **Where** -- Where was the data collected? A poll done in Massachusetts offers limited information on the state of Iowa's views on gay marraige.
 
 
 * **Why** -- Why was the data collected? What research question(s) were the investigators trying to answer? This should be answered in the note on context above.
 
 
-* **How** -- How was the experiment ran? How was the data physically collected? 
+* **How** -- How was the experiment ran? How was the data physically collected? How was a random sample randomly sampled?
 
 
 We may not always use all of these in our own descriptions, but they are useful to add context to our data, and potentially see if there are any issues with the study. It is incorrect to believe that one needs to just respond to each question I presented above. Those are examples of common things that researchers convey to their audience that you need to cognizant about. 
@@ -62,6 +63,8 @@ We may not always use all of these in our own descriptions, but they are useful 
 ### Describing Studies
 
 **Question 1:** (Healthcare Opinions) In 2009, the PEW research group wanted to learn more about public opinion on the idea of the public option for health coverage. One thing that they wanted to know was the percentage of adult U.S. residents who favored a public option for health coverage in October 2009. In a poll of 1500 randomly selected Adult residents in the United States, they found that 55% of adult residents favored a government health insurance plan to compete with private plans. [Source](https://www.pewresearch.org/politics/2009/10/08/section-2-opinions-of-health-care-proposals/) 
+
+* What is the point of the study? Why did they do this poll?
 
 * Describe the population in this study:
 
@@ -73,7 +76,11 @@ We may not always use all of these in our own descriptions, but they are useful 
 
 * Do you think this data is useful for learning about healthcare opinions in 2024?
 
+
+
 **Question 2:** (National household size) The American Community Survey (ACS) conducts yearly surveys. One thing that is of interest is the average household size. In April 2022, the ACS had surveyed 1,980,550 U.S. households and found the average household size to be 2.50. [Source](https://data.census.gov/table/ACSDP1Y2022.DP02) 
+
+* Describe briefly why the American Community Survey is ran. Hint: you may google the survey to learn more about it and it's goals.
 
 * Describe the population in this study:
 
@@ -83,7 +90,8 @@ We may not always use all of these in our own descriptions, but they are useful 
 
 * What is the variable of interest in this study? Is it categorical or quantitative?
 
-**Question 3:** (Real Life Engineering Example) Forty prismatic lithium-ion pouch cells were built at the University of Michigan Battery Laboratory. Cells were formed using two different formation protocols: "fast formation" and "baseline formation". After formation, the cells were put under cycle life testing at room temperature and 45degC. Cells were cycled until the discharge capacities dropped below 50% of the initial capacities and the number of cycles was recorded.
+
+**Question 3:** (Consulting Problem) Making batteries last longer is an economically profitable area and many experiments occur with them. At Iowa State 64 laptop-style batteries were produced using the same standardized process. The cells were then either "slowly discharged" where the battery is slowly drained of power or "quickly discharged" where the battery is rapidly drained of power. All batteries would then be recharged and the process repeated. This continued for each battery until it fell below an acceptable operating condition (ie wouldn't hold a strong enough charge). The total number of charges/discharges for each battery was recorded.
 
 * Describe an observation in this study:
 
@@ -91,7 +99,9 @@ We may not always use all of these in our own descriptions, but they are useful 
 
 * Describe the population in this study:
 
-* What question do you think the researchers were trying to answer?:
+* What question do you think the researchers were trying to answer?
+
+* What are the two variables that are being collected?
 
 ---
 
@@ -99,11 +109,12 @@ We may not always use all of these in our own descriptions, but they are useful 
 
 The *distribution* of a variable is a description of how frequently values of that variable show up. We saw that the way in which we describe the distribution of a variable is different depending on if the variable is categorical or quantitative. 
 
-**Question 1:** Below is a bar chart representing the hair color of students in a statistics class (color may be exaggerated in the chart). Describe the distribution of the haircolor variable. 
+**Question 1:** Below is a bar chart representing the hair color of students in a statistics class. Describe the distribution of the haircolor variable. 
 
-(In the graph code chunks I have put the term 'echo=FALSE' in the brackets. This stops RStudio from showing the code in the pdf to save a little bit of space). We will talk more about how to make these graphs on Wednesday.
+(In the graph code chunks I have put the term 'echo=FALSE' in the brackets. This stops RStudio from showing the code in the pdf to save a little bit of space). We will talk more about how to make these graphs on Wednesday (possibly Friday)
 
 ```{r, echo=F}
+#load in the data and make a new data frame
 data = data.frame(HairEyeColor)
 Hair = c("Black", "Blond", "Brown", "Red")
 Count = c(sum(data$Freq[data$Hair=="Black"]),
@@ -111,12 +122,18 @@ Count = c(sum(data$Freq[data$Hair=="Black"]),
           sum(data$Freq[data$Hair=="Brown"]),
           sum(data$Freq[data$Hair=="Red"]))
 new_data = data.frame(Hair, Count)
+
+#and this is what makes the plot
 ggplot(new_data, aes(x=Hair, y=Count, fill=Hair)) +
   geom_bar(stat = "identity") +
-  scale_fill_manual(values=c("black", "gold","tan4", "red"))
+  scale_fill_manual(values=c("hotpink", "green","purple", "blue"))
 ```
 
-**Question 2:** Comment on whether you believe that distribution is representative of the class and the college in general. Then, go skim the help page for HairEyeColor (it is a data set that comes with R, but, despite not being a function, it has it's own help page). Comment on any piece of information presented about the data that would be relevant to any possible discrepancies.
+
+**Question 2:** Comment on the appropriateness of the color choices in the graph. Then, try to edit the code to make the colors seem more natural.
+
+
+**Question 3:** Comment on whether you believe that distribution is representative of the class and the college in general. Then, go skim the help page for HairEyeColor (it is a data set that comes with R, but, despite not being a function, it has it's own help page). Comment on any piece of information presented about the data that would be relevant to any possible discrepancies.
 
 
 ---

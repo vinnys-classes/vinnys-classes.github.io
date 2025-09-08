@@ -86,6 +86,22 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 <hr style="border:3px solid black">
 
 
+   
+### Module 2 (3)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Monday 9/8 | [Data Visualization II](lectures/data_vis_2-2.pdf) |  lab 2 Time permitting|-  
+|
+
+**Assignments and Deadlines**
+
+1) First lab is due Septmber 9th
+2) Hadley Wickham's Tidy Data published in Journal of Statistical Software in 2014 with a quiz on September 15th
+
+
+
+
 # Coding 
 My goal is to include the R code that I use to make different graphs, expamples, etc..., for the course. Most of it will be more advanced than what I will teach you or that you need but I want you to have access to examples if you'd like.
 
