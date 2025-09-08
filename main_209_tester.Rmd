@@ -87,7 +87,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 
    
-### Module 2 (3)
+### Module 3 (Data Graphics)
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
