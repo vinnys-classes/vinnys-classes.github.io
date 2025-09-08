@@ -12,7 +12,7 @@ output:
 
 * Vinny Paris
 * Noyce 2522
-* parisvin at grinnell.edu
+* parisvin at gri.....
 
 **Class Meetings**:
 
@@ -30,7 +30,9 @@ output:
 
 **Mentor Information**:
 
-* TBD
+* Edward Pike
+* Email: pikeedwa @ gr...
+* Mentor sessions 7-8 Tuesday in Noyce 2401
 
 
 <hr style="border:2px solid grey">
