@@ -100,7 +100,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Monday 9/8 | Finish Data Visualization  | |- 
-| Wednesday 9/10 | [Data Visualization Part II](lectures/data_vis_2-2.pdf) |  lab 2 (to be posted later)|-  
+| Wednesday 9/10 | [Data Visualization Part II](lectures/data_vis_2-4.pdf) |  lab 2 (to be posted later)|-  
+| | [Data Visualization Part III Accessibility](lectures/accessible_graphics-2.pdf) | |-  
 
 
 
