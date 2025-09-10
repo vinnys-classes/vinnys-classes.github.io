@@ -81,10 +81,9 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 1) First lab is due Septmber 9th
 2) Hadley Wickham's Tidy Data published in Journal of Statistical Software in 2014 with a quiz on September 15th
 
+<hr style="border:2px solid grey">
+
 <br>
-
-<hr style="border:3px solid black">
-
 
    
 ### Module 3 (Data Graphics)
@@ -93,6 +92,10 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 | Monday 9/8 | [Data Visualization II (Boxplots)](lectures/data_vis_2-2.pdf) |  lab 2 Time permitting|-  |
 | Wednesday 9/10 | [Data Visualization III (Accessibility)](lectures/data_vis_2-2.pdf) | lab 2 (to be posted during class) |- 
+
+<br>
+
+<hr style="border:3px solid black">
 
 
 
