@@ -111,7 +111,7 @@ The *distribution* of a variable is a description of how frequently values of th
 
 **Question 1:** Below is a bar chart representing the hair color of students in a statistics class. Describe the distribution of the haircolor variable. 
 
-(In the graph code chunks I have put the term 'echo=FALSE' in the brackets. This stops RStudio from showing the code in the pdf to save a little bit of space). We will talk more about how to make these graphs on Wednesday (possibly Friday)
+(In the graph code chunks I have put the term 'echo=FALSE' in the brackets. This stops RStudio from showing the code in the pdf to save a little bit of space). We will talk more about how to make these graphs on Friday
 
 ```{r, echo=F}
 #load in the data and make a new data frame
@@ -186,7 +186,7 @@ labs(x = "Average Faculty Salary",
 y = "Median 10-yr Salary")
 ```
 
-**Question 5:** Below is another scatterplot similar to the one in Question 3, but it now includs information on whether the colleges are public or private. Is the relationship between Average Faculty Salary and Median 10-year Salary different for public and private colleges? *Briefly* explain (1 or 2 sentences).
+**Question 5:** Below is another scatterplot similar to the one in Question 4, but it now includs information on whether the colleges are public or private. Is the relationship between Average Faculty Salary and Median 10-year Salary different for public and private colleges? *Briefly* explain (1 or 2 sentences).
 
 ```{r, echo=FALSE}
 ggplot(colleges, aes(Avg_Fac_Salary, Salary10yr_median, color=Private)) +
