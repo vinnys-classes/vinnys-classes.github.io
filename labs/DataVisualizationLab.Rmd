@@ -162,7 +162,6 @@ ggplot(colleges, aes(y=Region, fill=Private)) +
 **Question 3:** Using the side-by-side box plots below, answer the following questions.
 
 ```{r, echo=FALSE}
-
 ggplot(colleges, aes(ACT_median, Region)) +
   geom_boxplot() + labs(x="Median ACT") +
   scale_x_continuous(breaks=seq(14,36,2)) +
