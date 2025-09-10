@@ -91,7 +91,10 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| Monday 9/8 | [Data Visualization II](lectures/data_vis_2-2.pdf) |  lab 2 Time permitting|-  |
+| Monday 9/8 | [Data Visualization II (Boxplots)](lectures/data_vis_2-2.pdf) |  lab 2 Time permitting|-  |
+| Wednesday 9/10 | [Data Visualization III (Accessibility)](lectures/data_vis_2-2.pdf) | lab 2 (to be posted during class) |- 
+
+
 
 **Assignments and Deadlines**
 
