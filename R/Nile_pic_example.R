@@ -71,3 +71,10 @@ ggplot(data = Nile, #function is ggplot, data is Nile
   ylab("Flow")
 
 
+
+#and now we save the resulting data set
+#using the write.csv() command
+write.csv(Nile, # give the data set
+          './data/Nile.csv', #give the name we want
+          row.names = FALSE) #dont save the names of rows
+
