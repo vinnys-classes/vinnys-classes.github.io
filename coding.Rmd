@@ -11,3 +11,6 @@ date: "2025-08-26"
 * [Extra Practice in R](R/extra_R_practice.Rmd)
 * [Extra Practice in R Solutions](R/extra_R_practice_solutions.Rmd)
 * [Example of making functions](R/functions.Rmd)
+
+## Data Visualization
+* [How I made histograms for two categories](R/histograms_for_two_categories.R)
