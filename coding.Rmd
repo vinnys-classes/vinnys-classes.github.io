@@ -14,3 +14,7 @@ date: "2025-08-26"
 
 ## Data Visualization
 * [How I made histograms for two categories](R/histograms_for_two_categories.R)
+
+
+## ggplot2
+* [River Nile graph](R/Nile_pic_example.R)
