@@ -1,9 +1,10 @@
 ---
 title: "Applied Statistics Sylabus"
+author: "Vinny Paris"
 date: "2025-08-25"
 output:
   html_document: default
-author: "Vinny Paris"
+  pdf_document: default
 ---
 
 # Syllabus \- SAT-209 (Fall 2025\)
@@ -12,7 +13,7 @@ author: "Vinny Paris"
 
 * Vinny Paris
 * Noyce 2522
-* parisvin at grinnell.edu
+* parisvin at grin...
 
 **Class Meetings**:
 
@@ -31,6 +32,7 @@ author: "Vinny Paris"
 **Mentor Information**:
 
 * Sarah Liu
+* liusarah at grin...
 * Monday 8-9pm
 * Noyce 2402
 
