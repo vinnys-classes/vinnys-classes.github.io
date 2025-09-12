@@ -92,7 +92,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 | Monday 9/8 | [Data Visualization II (Boxplots)](lectures/data_vis_2-2.pdf) |  |-  |
 | Wednesday 9/10 | [Data Visualization III (Accessibility)](lectures/accessible_graphics-3.pdf) | [data vis lab](labs/DataVisualizationLab.Rmd) |- 
-
+| Friday 9/12 | [Ggplot2](lectures/ggplot2-3.pdf) | Finish lab 2  |-  |
 <br>
 
 <hr style="border:3px solid black">
