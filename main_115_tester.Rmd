@@ -38,6 +38,8 @@ You can locate course content by scrolling, or by using the outline in the upper
 Please note that you are fully allowed (encouraged even!) to visit during office hours to talk about the required reading if you'd like. I'm glad to chat about it and discuss any questions you might have. Also please note that I'd like you to understand the broad strokes of the paper/what the author is getting at. I will avoid quizzing you over the nitty-gritty details.
 
 
+
+
 <hr style="border:3px solid black">
 
 
@@ -101,7 +103,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 | Monday 9/8 | Finish Data Visualization  | |- 
 | Wednesday 9/10 | [Data Visualization Part II](lectures/data_vis_2-4.pdf) |  lab 2 (to be posted later)|-  
-| | [Data Visualization Part III Accessibility](lectures/accessible_graphics-2.pdf) | [data vis lab](labs/DataVisualizationLab.Rmd)-  
+| Friday 9/12 | [Data Visualization Part III Accessibility](lectures/accessible_graphics-2.pdf) | [data vis lab](labs/DataVisualizationLab.Rmd)-  
 
 
 
