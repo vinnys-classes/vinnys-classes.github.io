@@ -113,6 +113,17 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 2) Hadley Wickham's Tidy Data published in Journal of Statistical Software in 2014 with a quiz on September 15th
 
 
+
+<hr style="border:2px solid grey">
+    
+
+<br>
+
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Monday 9/15 | ggplot2  | finish lab 2, [ggplot 2](labs/ggplot2_lab.Rmd) |- 
+
 <hr style="border:3px solid black">
 
 
