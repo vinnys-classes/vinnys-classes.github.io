@@ -126,6 +126,10 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 | Monday 9/15 | [ggplot2](lectures/ggplot2-3.pdf)  | finish lab 2, [ggplot 2](labs/ggplot2_lab.Rmd) |- 
 
+**Assignments and Deadlines**
+
+1) Second lab is due Septmber 15th
+
 <hr style="border:3px solid black">
 
 
