@@ -120,9 +120,11 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 <br>
 
 
+### Module 4 (ggplot2 and Numeric Summaries)
+
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| Monday 9/15 | ggplot2  | finish lab 2, [ggplot 2](labs/ggplot2_lab.Rmd) |- 
+| Monday 9/15 | [ggplot2](lectures/ggplot2-3.pdf)  | finish lab 2, [ggplot 2](labs/ggplot2_lab.Rmd) |- 
 
 <hr style="border:3px solid black">
 
