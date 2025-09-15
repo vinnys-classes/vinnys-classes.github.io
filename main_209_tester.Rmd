@@ -92,17 +92,33 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 | Monday 9/8 | [Data Visualization II (Boxplots)](lectures/data_vis_2-2.pdf) |  |-  |
 | Wednesday 9/10 | [Data Visualization III (Accessibility)](lectures/accessible_graphics-3.pdf) | [data vis lab](labs/DataVisualizationLab.Rmd) |- 
-| Friday 9/12 | [Ggplot2](lectures/ggplot2-3.pdf) | Finish lab 2  |-  |
-<br>
-
-<hr style="border:3px solid black">
-
+| Friday 9/12 | - | Finish lab 2  |-  |
 
 
 **Assignments and Deadlines**
 
 1) First lab is due Septmber 9th
 2) Hadley Wickham's Tidy Data published in Journal of Statistical Software in 2014 with a quiz on September 15th
+
+
+
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Module 4 (ggplot2 and Numeric Summaries)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Monday 9/15 | [ggplot2](lectures/ggplot2-3.pdf) |  | -  |
+
+**Assignments and Deadlines**
+
+1) Second lab is due September 16th
+
+<hr style="border:3px solid black">
+
 
 
 
