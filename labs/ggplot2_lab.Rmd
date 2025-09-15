@@ -1,12 +1,15 @@
 ---
 title: "ggplot2 Lab Part I"
 output:
-  html_document: default
+  pdf_document: default
   word_document: default
+  html_document: default
 date: "2025-09-11"
 editor_options:
   chunk_output_type: console
 ---
+# Intro
+
 Our goals for this lab is to 
 
 1. Make data visualizations with R
@@ -15,11 +18,11 @@ Our goals for this lab is to
 
 3. Get the idea of how ggplot2 builds graphs one step at a time
 
-Next ggplot2 lab will dive into the different types of graphs and (eg boxplots) and give you a better variety of graphics. This one is supppose to be the minimally painful introduction.
+The next ggplot2 lab will dive into the different types of graphs  (eg boxplots) and give you a better variety of graphics. This one is suppose to be the minimally painful introduction.
 
 # Rebuilding the Nile River Graph
 
-## Preliminaries and getting the Data
+## Preliminaries and Getting the Data
 
 First we need to read in the data from my website and make sure it worked as expected.
 ```{r}
@@ -42,11 +45,13 @@ class(my_nile$changepoint)
 my_nile$changepoint <- as.factor(my_nile$changepoint)
 class(my_nile$changepoint)
 ```
+
 ### Question 1
+
 Please make a new Rmd file and indicate the names and types of variables we have in our data. 
 
 
-There is a second thing that is optional that I prefer. Next to the knit button is a cog wheel (options). "Chunk Output Inline" will make a plot/output in general in Rmd files appear immediately below the code. I prefer "Chunk Output in Console" where the plot will show up on the right hand side of your screen. My prefered option treats the code like you are running it in the console and avoids making me scroll between the code and the graph
+There is a second thing that is optional that I prefer. Next to the knit button is a cog wheel (options). "Chunk Output Inline" will make a plot/output in general in Rmd files appear immediately below the code. I prefer "Chunk Output in Console" where the plot will show up on the right hand side of your screen. My preferred option treats the code like you are running it in the console and avoids making me scroll between the code and the graph. Food for thought.
 
 
 ## Making a (blank) Plot
@@ -104,9 +109,9 @@ Please comment on which of the two graphs you prefer and why. Work under the ass
 
 Two other popular geom_'s for our type of data are
 
-1. geom_smooth() where R makes something akin to a curvy ``free-hand'' best fit line through the data
+1. geom_smooth() where R makes something akin to a curvy ``free-hand'' best fit line through the data. There is math involved but that is the idea (the math deals with fitting a polynomial to the data in a small region of the graph)
 
-2. geom_jitter() which is very similar to geom_point() except the data points are *jittered*. That is, the points have a small amount of "white noise" added to them. An example of why this can be useful is near the end of the lab. 
+2. geom_jitter() which is very similar to geom_point() except the data points are *jittered*. That is, the points have a small amount of "white noise" added to them. An example of why this can be useful is in a later lab. 
 
 If you'd like you may try the above two and see what happens on the plot we have now (OPTIONAL)
 
@@ -130,14 +135,14 @@ Please discuss the difficulty needed to add line type in addition to color in or
 
 
 ### Question 5
-Let's go back to the scatterplot idea from Quesiton 2. Please remake that graph but this time add **just** color to the graph. 
+Let's go back to the scatterplot idea from Quesiton 2. Please remake that graph (feel free to copy and paste) but this time add **just** color to the graph. 
 
 ### Question 6
 Because it's points and not lines the parameter linetype won't be useful. Instead, the parameter we'd like to set in it's place is called "shape". Please do this now.
 
 
 ### Question 7
-Using any of the graphs made so far (with preferrence to the scatterplot), please describe the relationship between years and flow rate. You do not need to discuss the change point; I'm wanting you to practice describing a scatterplot.
+Using any of the graphs made so far (with strong preferrence to the scatterplot), please describe the relationship between years and flow rate. You do not need to discuss the change point; I'm wanting you to practice describing a scatterplot. Mention the form, direction, strength, and outliers please.
 
 ## Theme
 
@@ -161,6 +166,7 @@ Please change the theme in the above code to another theme that you like more. A
 
 Our next goal is more important and helps make the graph accessible. We need to increase the font size. Currently I consider the default text of ggplot's to be too small (and grey for that matter....). Copy and paste the code you made for question 7 below. 
 
+
 ### Question 9
 Again, on the help page for theme_grey there seems to be four parameters that are set. Read the description of them under the Arguments section and then set the parameter associated with font size to 15. HINT: whatever theme you choose, the parameter to set the font size will be the same
 
@@ -181,10 +187,10 @@ ggplot(data = my_nile,
   xlab("My x-axis") +
   ylab("My y-axis") +
   
-  labs(title = 'A Graph about a River',
-       subtitle = 'An Example',
-       color = 'My color and lines',
-       linetype = 'My color and lines')
+  labs(title = 'A Graph about a River', #Main title
+       subtitle = 'An Example', #Subtitle
+       color = 'My color and lines',  
+       linetype = 'My color and lines') #color and linetype; both of these need the same name otherwise R will make two legends!!
 ```
 
 ### Question 10
@@ -199,12 +205,12 @@ Edit the above code so that...
 
 
 
-At this point you should a graph that looks very similar to the ones in the powerpoint with the addition of your names and different labels & theme.
+At this point you should have a graph that looks very similar to the ones in the notes with the addition of your names and different labels & theme.
 
 
 
 ### Question 11
-Let's go further for accessibility and create alt text. Look at the help page for labs and read about the parameter called "alt". Follow the link in the description of the parameter to see an example of it used (bottom of the page). Please add a (very) brief alt text to your graph. To do this, inside labs() you'll make a new line and set alt = "MY DESCRIPTION" 
+Let's go further for accessibility and create alt text. Look at the help page for labs() and read about the parameter called "alt". Follow the link in the description of the parameter to see an example of it used (bottom of the resulting page). Please add alt text to your graph. To do this, inside labs() you'll make a new line and set alt = "YOUR DESCRIPTION". Be sure to list the major takeaways of this graph that you'd like someone with poor vision to understand. Eg 
 
 NOTE: It's hard to see if it has worked but 1) there is generally a warning or error if it went wrong and 2) we can actually save our ggplot like we would a variable using the <- notation. Afterwards we can run get_alt_text() to see if it's there. For example....
 
@@ -221,7 +227,7 @@ get_alt_text(my_example)
 ```
 
 ## Facets
-This isn't really a graph that we would facet but I want to give you the experience and round out this example. There are other things I'm not yet showing you (eg how to control colors but that did make a very brief appearance/teaser in the data_vis lab). This will be dealt with later.
+This isn't really a graph that we would facet but I want to give you the experience and round out this example. There are other things I'm not yet showing you. These will be dealt with later.
 
 Facets allow us to subset the data on different (categorical) variables to see how each subpopulation of data behaves. Again, this example isn't a great one but it's worth seeing. We will use changepoint as our facet variable
 
@@ -250,13 +256,13 @@ ggplot(data = my_nile,
 ```
 
 ### Question 12
-Please explain why there is "blank" space to the right of the red solid line on the left graph and empty space to the left of the blue dashed line. 
+Please explain why there is "blank" space to the right of the purple solid line on the left graph and empty space to the left of the green dashed line. 
 
 ### Question 13
 Let's get rid of that blank space and instead make the axis "free" so they can have the most natural axis for the data in each pane. To do this, go to the help page for facet_grid() and look at the parameter called "scales". Choose the option that allows *only* the x-axis to be "free". 
 
 ### Question 14
-Copy the graph made above in question 13 and change the side the tilda (the squiggly line) from the left side of the "changepoint" variable to the right side. Rerun the graph and comment on what changed. 
+Copy the graph made above in question 13 and change the side the tilda (the squiggly line) is on from the left side of the "changepoint" variable to the right side. Rerun the graph and comment on what changed. 
 
 
 ### Question 15
