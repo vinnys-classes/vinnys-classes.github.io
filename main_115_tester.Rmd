@@ -125,6 +125,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Monday 9/15 | [ggplot2](lectures/ggplot2-3.pdf)  | finish lab 2, [ggplot 2 lab](labs/ggplot2_lab.Rmd) |- 
+| Wednesday 9/17 | [Numeric Summaries](lectures/numeric_summaries.pdf)  | [finish ggplot 2 lab](labs/ggplot2_lab.Rmd) |- 
 
 **Assignments and Deadlines**
 
