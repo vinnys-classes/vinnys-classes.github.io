@@ -21,3 +21,4 @@ date: "2025-08-26"
 
 ## Numeric Summaries
 * [Weird Histograms](R/weird_hists.R)
+* [Aggregating HairEyeColor](R/hair_eye_color_table.R)
