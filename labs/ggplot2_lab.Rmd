@@ -262,7 +262,7 @@ Please explain why there is "blank" space to the right of the purple solid line 
 Let's get rid of that blank space and instead make the axis "free" so they can have the most natural axis for the data in each pane. To do this, go to the help page for facet_grid() and look at the parameter called "scales". Choose the option that allows *only* the x-axis to be "free". 
 
 ### Question 14
-Copy the graph made above in question 13 and change the side the tilda (the squiggly line) is on from the left side of the "changepoint" variable to the right side. Rerun the graph and comment on what changed. 
+Copy the graph made above in question 13 and change the side the tilda (the squiggly line) is on from the left side of the "changepoint" variable to the right side and then put a dot (eg changepoint ~ .) and then rerun the graph and comment on what changed. 
 
 
 ### Question 15
