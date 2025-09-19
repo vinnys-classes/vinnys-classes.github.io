@@ -112,8 +112,9 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Monday 9/15 | [ggplot2](lectures/ggplot2-3.pdf) | [ggplot2 lab](labs/ggplot2_lab.Rmd) | -  |
-| Wednesday 9/17 | [Numeric Summaries](lectures/numeric_summaries.pdf) |Finish ggplot2 lab| -  |
+| Wednesday 9/17 | |Finish ggplot2 lab| -  |
 | | | [ggplot2 helpful hints](labs/ggplot2_lab_help.html)
+| Friday 9/19 | [Numeric Summaries](lectures/numeric_summaries.pdf) | [Code Along](R/Code_Along.Rmd)
 **Assignments and Deadlines**
 
 1) Second lab is due September 16th
