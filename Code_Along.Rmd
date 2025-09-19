@@ -1,0 +1,58 @@
+---
+title: "Code_Along"
+output: html_document
+date: "2025-09-17"
+---
+# Goals:
+
+1. extra practice with ggplot2 (changing the x-scale to log 10)
+
+2. finding summary statistics (via the summary() function)
+
+3. transforming a variable (via the log() function)
+
+4. Aggregatation (via the aggregate() function)
+
+### Load the Data 
+
+```{r}
+
+colleges <- read.csv("https://remiller1450.github.io/data/Colleges2019_Complete.csv")
+
+head(colleges)
+```
+
+
+
+### Histogram And 5 \# Summary of Percentage of Women Enrolled
+
+```{r}
+library(ggplot2)
+
+ggplot(data = colleges,
+       aes(x = PercentFemale)) +
+  
+  geom_histogram()
+
+
+summary(colleges$PercentFemale)
+  
+```
+
+
+
+### Histogram and 5\# Summary of Enrollment
+
+```{r}
+
+ggplot(data = colleges,
+       aes(x = Enrollment)) +
+  
+  geom_histogram()
+
+
+summary(colleges$Enrollment)
+  
+```
+
+
