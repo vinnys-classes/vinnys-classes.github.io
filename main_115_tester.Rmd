@@ -52,7 +52,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
     
 
 
-### Module 1 (Introduction)
+### Week 1 (Introduction)
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
@@ -75,7 +75,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 
 
-### Module 2 (R)
+### Week 2 (R)
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
@@ -97,7 +97,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 
 
-### Module 3 (Data Visualization)
+### Week 3 (Data Visualization)
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
@@ -120,7 +120,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 <br>
 
 
-### Module 4 (ggplot2 and Numeric Summaries)
+### Week 4 (ggplot2 and Numeric Summaries)
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
@@ -133,8 +133,27 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 **Assignments and Deadlines**
 
-1) Second lab is due Septmber 15th
-2) Second lab is due Septmber 22nd
+1) Second lab is due September 15th
+2) ggplot2 lab is due September 24th
+
+<hr style="border:2px solid grey">
+    
+
+<br>
+
+
+### Week 5 (Numeric Summaries + Correlations)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Monday 9/22 |  [Numeric Summaries Cont.](lectures/numeric_summaries.pdf)  | |[Code Along](R/Code_Along_115.Rmd) 
+
+
+**Assignments and Deadlines**
+
+1) ggplot2 lab is due September 24nd
+
+<hr style="border:2px solid grey">
 
 
 <hr style="border:3px solid black">

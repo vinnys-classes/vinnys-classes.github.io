@@ -1,0 +1,18 @@
+---
+title: "code_along_115"
+output: pdf_document
+date: "2025-09-22"
+---
+
+# 
+
+This is to help 
+1. Reenforce the coding that we have gone over and 
+2. Help make a boring lecture slightly less boring
+
+
+```{r}
+colleges <- read.csv("https://remiller1450.github.io/data/Colleges2019_Complete.csv")
+
+head(colleges)
+```
