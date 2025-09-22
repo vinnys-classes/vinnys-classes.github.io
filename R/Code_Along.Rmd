@@ -16,9 +16,10 @@ date: "2025-09-17"
 ### Load the Data 
 
 ```{r}
-
+#read in the data
 colleges <- read.csv("https://remiller1450.github.io/data/Colleges2019_Complete.csv")
 
+#and look at the first few rows
 head(colleges)
 ```
 
@@ -27,16 +28,25 @@ head(colleges)
 ### Histogram And 5 \# Summary of Percentage of Women Enrolled
 
 ```{r}
-library(ggplot2)
+library(ggplot2) #load ggplot2
 
-ggplot(data = colleges,
-       aes(x = PercentFemale)) +
+ggplot(data = colleges, #tell ggplot2 that our data is colleges and our 
+       aes(x = PercentFemale)) + #x-axis is the % women
   
-  geom_histogram()
-
-
-summary(colleges$PercentFemale)
+  #Side note: often times statisticians get use to using male/female for
+  #due to our ties to the biological sciences (eg male vs female cows) and
+  #we (statisticians as a whole) have a habit of using the terms when 
+  #referencing people. I know some people dislike our habit of doing it.
+  #We are trying to tackle this from a scientific persepective and part of
+  #that is using the more scientific-y jargon. I'll try not to do so verablly
+  #in class but there will be data sets/examples/etc... where the terms
+  #male/female are still used
   
+  geom_histogram() #make a histogram
+
+
+summary(colleges$PercentFemale) #five number summary
+   
 ```
 
 
@@ -44,7 +54,7 @@ summary(colleges$PercentFemale)
 ### Histogram and 5\# Summary of Enrollment
 
 ```{r}
-
+#All we need to do is swap out PercentFemale for Enrollment
 ggplot(data = colleges,
        aes(x = Enrollment)) +
   
@@ -56,3 +66,177 @@ summary(colleges$Enrollment)
 ```
 
 
+
+## Histogram and 5\# Summary of Enrollment on log base 10
+```{r}
+
+ggplot(data = colleges,
+       aes(x = Enrollment)) +
+  
+  geom_histogram() +
+  
+  scale_x_log10() + #this changes our x-axis from it's regular scale
+                    #to a log base 10 scale
+  
+  theme_bw() #make the theme more pretty
+
+
+#make a new variable time
+
+enroll_10 <- log(colleges$Enrollment,
+                 base = 10) #the log() function takes the log of the data
+                            #and we can define the base as whatever we want
+                            #here, we use base = 10
+
+head(enroll_10) #make sure it looks right
+
+colleges$enroll_10 <- enroll_10 #add it to our data set as a new 
+                                #variable called enroll_10
+
+summary(colleges$enroll_10)  
+
+```
+
+
+# Slide has an incorrect label
+
+Not sure why it's labeled as median income in the notes tbh
+```{r}
+#Similar to the other graphs, just with a new variable
+#NOTE: we removed the log base 10 scale as we don't
+#want nor need it
+ggplot(data = colleges,
+       aes(x = FourYearComp_Females)) +
+  
+  theme_classic() +
+  
+  geom_histogram()
+
+
+summary(colleges$FourYearComp_Females)
+```
+
+
+
+# Remaking the percent white graph
+
+```{r}
+
+ggplot(data = colleges,
+       aes(x = PercentWhite)) +
+  
+  theme_classic() + #slightly diffeent theme
+  
+  geom_histogram()
+
+summary(colleges$PercentWhite)
+
+```
+
+
+
+
+
+
+# last graph for Median Debt
+```{r}
+
+ggplot(data = colleges,
+       aes(x = Debt_median)) +
+  
+  theme_classic() +
+  
+  geom_histogram()
+
+summary(colleges$Debt_median)
+
+```
+
+
+
+# Data exploration 
+Quick note: the use of == is used in R to test if something is logically true. For example...
+
+```{r}
+2 + 2 == 4
+2 + 5 == 4
+```
+
+
+
+
+```{r}
+# Percents don't add up to 100
+head(colleges)
+
+#collect the row sums of the variables
+#talking about ethnicities 
+my_percents <- rowSums(colleges[,16:19])
+my_percents #don't add up to 1, don't know why
+
+
+#let's find Grinnell College in the data set
+#We are using the subset() function
+
+subset(colleges, #first we say what our data set is 
+       Name == 'Grinnell College')  #now we write the variable's column header
+                                    #and use == to say that we want ONLY the
+                                    #rows that contain the name Grinnell College
+
+#Ie the second argument Name == 'Grinnell College' says to take the rows for
+#which that is true. It's only one row as only one row exists with Grinnell
+ 
+
+#Why is our Q3 act score lower than the median act score?
+colleges$ACT_Q3 - colleges$ACT_median 
+#Why is *everyone*'s Q3 lower than the median?
+
+
+#TRUE or FALSE: all Q3 and Q1 the same?
+colleges$ACT_Q3 == colleges$ACT_Q1   
+#Ahhhh, Q3 was "overwritten" by Q1
+```
+
+
+
+# Aggregating Data
+So we want the five number summary of each type of college (private vs public). So what we will use is the aggregate function. It's a somewhat clunky function to use but it's quite useful once you get comfortable with it. And it's quite literally one of Wickham's four verbs used in data manipulation
+```{r}
+my_summary <- aggregate(Enrollment ~ Private, 
+                        #Variable of Interest ~ Nominal Variable
+                        #This breaks the data set into as many levels as there 
+                        #are in the nominal variable
+                        
+          data = colleges, #say where our data is from
+          
+          FUN = summary) #The FUNction we want is summary() which will give
+                        #the five number summary for each subset of the data
+my_summary #and look at the result
+
+
+
+#Second example, finding mean Enrollment for each region
+#of the country
+my_ave_enroll_per_region <- aggregate(Enrollment ~ Region, #switch out private 
+                                                           #for Region
+                                      
+          data = colleges,
+          FUN = mean) #our FUNction is the mean this time
+
+my_ave_enroll_per_region
+
+
+```
+
+
+
+# Outliers for histograms and boxplots
+The following generates fake data from a normal distribution (bell shape) and then makes both a histogram and boxplot out of the data. NOTE: I'm using base plot instead of ggplot2 because, for this, it's simply faster
+```{r}
+my_fake_data <- rnorm(10000) #make 10,000 random normal observations
+
+hist(my_fake_data) #no outliers
+
+boxplot(my_fake_data) #many outliers
+
+```
