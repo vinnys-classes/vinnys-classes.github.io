@@ -118,12 +118,21 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 **Assignments and Deadlines**
 
 1) Second lab is due September 16th
-2) ggplot lab is due September 22nd
+2) ggplot lab is due September 23nd
+
+
+<hr style="border:2px solid grey">
+
+<br>
+
+
+### Module 5 (Numeric Summaries)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Monday 9/22 | [Correlation if time](lectures/correlation-2.pdf) | - | Finish Code Along |
+
 <hr style="border:3px solid black">
-
-
-
-
 
 # Coding 
 My goal is to include the R code that I use to make different graphs, expamples, etc..., for the course. Most of it will be more advanced than what I will teach you or that you need but I want you to have access to examples if you'd like.
