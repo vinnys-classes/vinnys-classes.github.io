@@ -1,10 +1,10 @@
 ---
-title: "code_along_115"
-output: pdf_document
+title: "Untitled"
+output: html_document
 date: "2025-09-22"
+editor_options: 
+  chunk_output_type: console
 ---
-
-# 
 
 This is to help 
 1. Reenforce the coding that we have gone over and 
@@ -14,5 +14,89 @@ This is to help
 ```{r}
 colleges <- read.csv("https://remiller1450.github.io/data/Colleges2019_Complete.csv")
 
-head(colleges)
+head(colleges) #look at the first few rows of data
+
+colnames(colleges) #and look at the column names
+```
+
+
+```{r}
+library(ggplot2) #load ggplot2
+
+ggplot(data = colleges, #data is colleges
+       aes(x = PercentFemale)) + #and our x-axis is % female
+  geom_histogram() + #and I want a histogram
+  theme_bw() #with a black and white theme
+
+
+#summary summarizes information  about the thing fed to it
+summary(colleges$PercentFemale)
+#in particular the five number summary (plus the mean) 
+#for a numeric vector
+```
+
+
+
+```{r}
+#same battleplan as the above ones but now we switch
+#out PercentFemale with Enrollment
+ggplot(data = colleges,
+       aes(x = Enrollment)) +
+  geom_histogram() +
+  theme_bw()
+
+#and this time I swithced out geom_histogram for geom_boxplot
+ggplot(data = colleges,
+       aes(x = Enrollment)) +
+  geom_boxplot() +
+  theme_bw()
+
+#summary summarizes information  about the thing fed to it
+summary(colleges$Enrollment)
+```
+
+
+
+# Enrollment on Log base 10 Scale
+```{r}
+#Very little has to change for the graph!
+ggplot(data = colleges,
+       aes(x = Enrollment)) +
+  geom_histogram() +
+  theme_bw() +
+  scale_x_log10() #this is all we add, it says the x-axis is on
+                  #a log base 10 scale
+
+
+#################
+#Calculating the five number summary is a bit harder
+#We have to make a new variable via a transformation 
+
+
+#new variable time
+#We are creating a new column on our data set
+#called enrollment_log10. We are then assigning
+#the right hand side to that column.
+
+#The right hand side is the function log() applied
+#to our enrollment buuut we have changed the base 
+#of the log to base = 10 (instead of e)
+colleges$enrollment_log10 <- log(colleges$Enrollment,
+                                 base = 10)
+
+colnames(colleges) #glance at the column names to see
+#if our new variable is there
+
+#and now we look at the summary
+summary(colleges$enrollment_log10)
+```
+
+
+# Correcting the Wrong Axis
+Shout out to your mentor for figuring out which variable was used to make the graph. It's FourYearComp_Females it turns out. Hard to find the right variable but the code to make the graph isn't hard at all
+```{r}
+ggplot(data = colleges,
+       aes(x = FourYearComp_Females)) +
+  geom_histogram() +
+  theme_classic() 
 ```
