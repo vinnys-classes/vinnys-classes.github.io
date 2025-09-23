@@ -55,7 +55,7 @@ head(OrchardSprays)
 
 8. Add a (useful) main title and a subtitle which includes your name. Also give axis labels that look more professional (eg capitalize the first letter)
 
-9. As your graph stands, is the graph color-blind friendly? We are missing alt-text for the moment but that is not related to color blind friendliness; alt-text is more for people with poor vision or the blind
+9. As your graph stands, is the graph color-blind friendly? We are missing alt-text for the moment but that is not related to color blind friendliness; alt-text is more for people with poor vision or the blind. HINT: Don't overthink the question.
 
 10. Add alt-text. Be sure to mention the type of of graph, what your axis are, and major trends/takeaways you'd like your audience to know. You may assume the audience you are writing for has already read the help page for OrchardSprays in it's entirety.
 
