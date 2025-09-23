@@ -34,6 +34,7 @@ All homework is due at 9pm unless clearly specified otherwise.
 | Title | Author | Journal | Year | Quiz|
 |:-----|:-------|:-----|:-----|:-----|
 |Tidy Data| Hadley Wickham| Journal of Statistical Software|2014|9/15|
+|Principles of Effective Data Visualization| Stephen R. Midway | Patterns | 2020 | 10/6|
 
 
 Please note that you are fully allowed (encouraged even!) to visit during office hours to talk about the required reading if you'd like. I'm glad to chat about it and discuss any questions you might have. Also please note that I'd like you to understand the broad strokes of the paper/what the author is getting at. I will avoid quizzing you over the nitty-gritty details.
