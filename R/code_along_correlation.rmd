@@ -11,7 +11,7 @@ The main point of this is to introduce you to correlation matrices and heatmaps 
 ```{r}
 #load libraries
 library(ggplot2)
-library(reshape2)
+library(reshape2) #install.packages('reshape2)
 
 #read in the data
 colleges <- read.csv("https://remiller1450.github.io/data/Colleges2019_Complete.csv")
@@ -24,6 +24,35 @@ head(colleges)
 
 ```{r}
 
-#geom_tile() will be the trick
+cor(colleges$Debt_median,   #this is pearson's correaltion (the default)
+    colleges$Salary10yr_median)
 
+
+cor(colleges$Debt_median,  
+    colleges$Salary10yr_median,
+    method = "spearman")  #this is spearman's correaltion
+
+
+ggplot(data = colleges,  #standard scatter plot from previous labs
+       aes(x = Debt_median,
+           y = Salary10yr_median)) +
+  geom_point()
+```
+
+
+
+# more advanced coding
+We can find a matrix of correlations for multiple variables at once. Note that a variable will be perfectly correlated with itself (correlation = 1)
+```{r}
+univ <- colleges[, c(19:23)] #grab a subset of the data made up of numeric vars.
+head(univ) #and look at the first few rows
+
+cor(univ) #calculate the correlation MATRIX. Note the code changed only in that
+          #we fed it a data frame from the beginning and not two seperate
+          #numeric vectors (like we did in the previous example)
+
+round(cor(univ),
+      digits = 3) #the table is hard to read so let's use the round() function
+                    #to make it a bit more manageble. I like either 2 or 3 
+                    #decimal places myself, purely personal taste thing
 ```
