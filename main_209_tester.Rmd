@@ -15,13 +15,14 @@ Last updated: `r format(Sys.time(), "%a %b %e %Y, %H:%M")`
 <hr style="border:3px solid black">
     
 
-# Syllabus
 
-Welcome to the course website for SAT 209, Applied Statistics. To begin, you can find the course syllabus linked below:
 
-- [Click here](syl_209_tester.html) to view the course syllabus
+# Homework
+All homework is due at 9pm unless clearly specified otherwise. 
 
-You can locate course content by scrolling, or by using the outline in the upper left. Please note: material will not be posted until we've reached that point in the course.
+| Rmd | Due Date | Helpful Things | 
+|:-----|:-------|:-----|
+|[ Homework 1 ](homework/homework_1.Rmd)| October 1st |[ Examples of the graphs you'll be remaking ](homework/hw_1_example_graphs.pdf)|
 
 <hr style="border:3px solid black">
 
@@ -33,6 +34,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Title | Author | Journal | Year | Quiz|
 |:-----|:-------|:-----|:-----|:-----|
 |Tidy Data| Hadley Wickham| Journal of Statistical Software|2014|9/15|
+|Principles of Effective Data Visualization| Stephen R. Midway | Patterns | 2020 | 10/6|
 
 Please note that you are fully allowed (encouraged even!) to visit during office hours to talk about the required reading if you'd like. I'm glad to chat about it and discuss any questions you might have. Also please note that I'd like you to understand the broad strokes of the paper/what the author is getting at. I will avoid quizzing you over the nitty-gritty details.
 
@@ -131,8 +133,26 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Monday 9/22 | [Correlation if time](lectures/correlation-2.pdf) | - | [Finished Code Along](R/Code_Along.Rmd) |
+|Wednesday 9/24 | [Correlation](lectures/correlation-2.pdf) | - | [Correlation Code Along](R/code_along_correlation.rmd) |
+
 
 <hr style="border:3px solid black">
+
+<br>
+
+# Syllabus
+
+Welcome to the course website for SAT 209, Applied Statistics. To begin, you can find the course syllabus linked below:
+
+- [Click here](syl_209_tester.html) to view the course syllabus
+
+You can locate course content by scrolling, or by using the outline in the upper left. Please note: material will not be posted until we've reached that point in the course.
+
+<hr style="border:3px solid black">
+
+
+
+<br>
 
 # Coding 
 My goal is to include the R code that I use to make different graphs, expamples, etc..., for the course. Most of it will be more advanced than what I will teach you or that you need but I want you to have access to examples if you'd like.
