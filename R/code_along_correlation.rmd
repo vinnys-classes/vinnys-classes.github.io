@@ -1,0 +1,29 @@
+---
+title: "code_along_correlation"
+output:
+  pdf_document: default
+  html_document: default
+date: "2025-09-24"
+---
+
+The main point of this is to introduce you to correlation matrices and heatmaps in R
+
+```{r}
+#load libraries
+library(ggplot2)
+library(reshape2)
+
+#read in the data
+colleges <- read.csv("https://remiller1450.github.io/data/Colleges2019_Complete.csv")
+
+#and look at the first few rows
+head(colleges)
+```
+
+
+
+```{r}
+
+#geom_tile() will be the trick
+
+```
