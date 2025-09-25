@@ -8,6 +8,8 @@ This is to help
 1. Reenforce the coding that we have gone over and 
 2. Help make a boring lecture slightly less boring
 
+I go into more detail on some of the functions like subset() and aggregate() towards the end of the file
+
 
 ```{r}
 colleges <- read.csv("https://remiller1450.github.io/data/Colleges2019_Complete.csv")
@@ -131,7 +133,7 @@ aggregate(Debt_median ~ Private,
 ```
 
 
-#Finding Grinnell COllege
+#Finding Grinnell College
 ```{r}
 subset(colleges,
        Name == "Grinnell College") #Q1 and Q3 are the same....
