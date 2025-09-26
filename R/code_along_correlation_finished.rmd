@@ -1,0 +1,107 @@
+---
+title: "code_along_correlation"
+output:
+  pdf_document: default
+  html_document: default
+date: "2025-09-24"
+---
+
+The main point of this is to introduce you to correlation matrices and heatmaps in R
+
+```{r}
+#load libraries
+library(ggplot2)
+library(reshape2) #install.packages('reshape2)
+
+#read in the data
+colleges <- read.csv("https://remiller1450.github.io/data/Colleges2019_Complete.csv")
+
+#and look at the first few rows
+head(colleges)
+```
+
+
+
+```{r}
+
+cor(colleges$Debt_median,   #this is pearson's correaltion (the default)
+    colleges$Salary10yr_median)
+
+
+cor(colleges$Debt_median,  
+    colleges$Salary10yr_median,
+    method = "spearman")  #this is spearman's correaltion
+
+
+ggplot(data = colleges,  #standard scatter plot from previous labs
+       aes(x = Debt_median,
+           y = Salary10yr_median)) +
+  geom_point()
+```
+
+
+
+# more advanced coding
+We can find a matrix of correlations for multiple variables at once. Note that a variable will be perfectly correlated with itself (correlation = 1)
+```{r}
+univ <- colleges[, c(19:23)] #grab a subset of the data made up of numeric vars.
+head(univ) #and look at the first few rows
+
+my_cor <- cor(univ) #calculate the correlation MATRIX. Note the code changed only in that
+          #we fed it a data frame from the beginning and not two seperate
+          #numeric vectors (like we did in the previous example)
+
+round(cor(univ),
+      digits = 2) #the table is hard to read so let's use the round() function
+                    #to make it a bit more manageble. I like either 2 or 3 
+                    #decimal places myself, purely personal taste thing
+
+
+
+#same as above but for spearman's correaltion
+cor(univ, method = 'spearman') 
+
+round(cor(univ, method = 'spearman'),
+      digits = 2) 
+
+#and a scatter plot to figure out which of
+#the two correlations is better to use
+ggplot(data = univ,
+       aes(x = PercentAsian,
+           y = Salary10yr_median)) +
+  geom_point() +
+  theme_bw()
+```
+
+
+# Graphing correlation matrices
+
+```{r}
+#You may need to install the reshape2 package
+#install.packages('reshape2')
+library(reshape2)
+
+
+#the melt() functon makes a table into long format
+#and then we look at the first few rows of the data
+tidy_cor <- melt(my_cor)
+head(tidy_cor)
+
+#column names.....melt does weird things
+colnames(tidy_cor) #look at the names
+colnames(tidy_cor) <- c('demographics_1', 'demographics_2', 'correlations') 
+#the above line let's us overwrite the names
+head(tidy_cor)
+
+#beginning of the ggplot is pretty standard
+ggplot(data = tidy_cor,
+       aes(x = demographics_1,
+           y = demographics_2)) +
+  
+  #this geom_ is new to you guys. It makes a 
+  #series of tiles that then can be filled in
+  #by the value of correlations
+  geom_tile(aes(fill = correlations))
+#NOTE: we cannot use color as it'll do something else
+#Go ahead and run the coee to see what happens!
+```
