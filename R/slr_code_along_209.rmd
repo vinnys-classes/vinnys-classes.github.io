@@ -1,0 +1,26 @@
+---
+title: "Linear Regression Example"
+output: pdf_document
+date: "2025-09-26"
+---
+
+Goal for this is to help you see how we code a linear model in R before we actually get to the lab section. First, we load up the data and any libraries we think we will need.
+
+NOTE: most (all?) of you will need to install ggResidpanel. It's best to install it using the console (the command line down below) and not the markdown document itself. You only ever have to download a package once so keeping the code in the markdown is just asking for trouble/bugs/annoying output
+
+```{r}
+library(ggplot2)
+library(ggResidpanel) 
+
+
+colleges <- read.csv("https://remiller1450.github.io/data/Colleges2019_Complete.csv")
+
+head(colleges) #look at the first few rows of data
+colnames(colleges) #and look at the column names
+```
+
+
+
+```{r}
+
+```
