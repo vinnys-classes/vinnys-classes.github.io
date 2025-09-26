@@ -148,10 +148,10 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| Monday 9/22 |  [Numeric Summaries Cont.](lectures/numeric_summaries.pdf)  | |[Code Along](R/Code_Along_115.Rmd) 
-| Wednesday 9/24 |  [Correlations](lectures/correlation-2.pdf)  | |[Code along finished](lectures/Code_Along_115_completed.Rmd)
+| Monday 9/22 |  [Numeric Summaries Cont.](lectures/numeric_summaries.pdf)  | |[NumericCode Along](R/Code_Along_115.Rmd) 
+| Wednesday 9/24 |  [Correlations](lectures/correlation-2.pdf)  | |[Numeric Code along finished](lectures/Code_Along_115_completed.Rmd)
 | Friday 9/26 |  [Finish Correlations](lectures/correlation-2.pdf)  | |[Correlation Code along](labs/cor_code_along_115.rmd)
-| |  [If time, linear regression](lectures/slr.pdf)  | |
+| | |  | [Correlation Code along finished](labs/cor_code_along_115_finished.rmd)
 **Assignments and Deadlines**
 
 1) ggplot2 lab is due September 24nd
