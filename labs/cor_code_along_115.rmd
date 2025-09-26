@@ -1,0 +1,16 @@
+---
+title: "correlation_code_along_115"
+output: pdf_document
+date: "2025-09-26"
+---
+
+Goal is to calculate and plot correlations
+
+```{r}
+colleges <- read.csv("https://remiller1450.github.io/data/Colleges2019_Complete.csv")
+
+library(ggplot2)
+library(reshape2)
+#if the library reshape2 can't be found use
+# install.packages('reshape2')
+```
