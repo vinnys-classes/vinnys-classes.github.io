@@ -1,0 +1,168 @@
+---
+title: Correlaton_code_along_115_finished
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+Goal is to calculate and plot correlations. Plotting is somewhat involved and plotted correlation matrices always seem to have limited use to me. Still, it's extra practice for making data tidy and another way to use ggplot
+
+Also, I think these code alongs help show you what the data exploration step of statistics looks like. Before we ever start in on modeling or hypothesis testing we just "get to know" our data. Plot different things, look at correlations, dig into things that seem weird/interesting, etc...
+
+It's a critical mistake to go from reading in your data to modeling/testing and many a good scientist have been led to terrible results due to it.
+
+```{r}
+colleges <- read.csv("https://remiller1450.github.io/data/Colleges2019_Complete.csv")
+
+library(ggplot2)
+library(reshape2)
+#if the library reshape2 can't be found use
+# install.packages('reshape2')
+```
+As a side note, I find that generally it's best to keep the libraries I load up near the top of the markdown file so they are all in one location and easy to find/see what is and is not going to be loaded up when I knit
+
+
+# Calculate Pearson's and Spearman's Correlation Coef.
+
+```{r}
+#look at the college data set's first few rows
+#and then remind ourselves of the column names
+#(makes it easier to know which column number
+#I want to grab for the next few lines of code)
+head(colleges)
+colnames(colleges)
+
+#take a subset of columns from the colleges data set
+#We went of the [,] notation in the intro to R lab.
+#Before the comma mark is the rows (blank means we
+#want all the rows); after the comma mark is which
+#columns we want (here we want 15,16,17,18, and 19)
+my_data <- colleges[,15:19]
+#and we look at the resulting data
+head(my_data)
+
+#using the cor() function for correaltions
+#default is pearson's correlation
+cor(my_data$PercentFemale,
+    my_data$PercentWhite)
+
+#how to run Spearman's. All we have to do
+#is add the parameter called "method" to the
+#function and say we want Spearman
+cor(my_data$PercentFemale,
+    my_data$PercentWhite,
+    method = 'spearman') #change the type of cor
+
+#Which is better? 
+#Have to look at the data to know
+ggplot(data = my_data,
+       aes(x = PercentFemale,
+           y = PercentWhite)) +
+  geom_point()
+
+#Neither correlation stands out as better
+#Data looks like a cloud of points/little 
+#rhyme or reason between them
+```
+
+
+
+# Correlation matrices (and bonus alt text)
+
+Calculating correlation matrices (which return all the correlation values between your variables) is actaully super easy. You just have to feed into the cor() function a data frame made up of numeric variables (which we have). To be clear, the intersection of a column and a row is the correlation between the two variables. The diagonal is always 1 because a variable is perfectly correlated to itself.
+
+The alt text is trying to give the idea of what the graph looks like to someone who doesn't get to see it. Imagine you have all the context of the graph but it's hidden from you. What would you like to know? I will admit I'm not an expert on this/never been formally trained but we can still do better than pretending people with poor sight don't exist.
+
+```{r}
+#create the correlation matrix
+cor_matrix <- cor(my_data)
+
+#without rounding it's hard to read
+cor_matrix
+
+#Print out the correlation matrix to
+#only two decimals so it's easier to read
+round(cor_matrix,
+      digits = 2)
+
+#Let's calculate Spearman's correlation matrix
+#as a comparison. Again, we just have to add
+#on the line saying which method we want and 
+#say we want Spearman
+cor_matrix_sp <- cor(my_data, 
+                  method = 'spearman')
+
+round(cor_matrix_sp,
+      digits = 2)
+#note that the % Asian and Hispanic changed 
+#dramatically from Pearson's correaltion to  
+#Spearman's correlation and that is a red flag
+#that something might be wrong sooooo... let's
+#plot the data and see what's up
+
+ggplot(data = my_data,
+       aes(x = PercentAsian,
+           y = PercentHispanic)) +
+  geom_point() +
+  theme_bw() +
+  labs(alt = "This is a scatterplot between % of student who is Asian and who is Hispanic. It's postitive in the lower left and weakly correlated. The data spreads out as you go right/up. There are extreme outliers for both percent of Asian students (eg 40% Asian, 12% Hispanic and 2% Asian and 85% hispanic). No real overaching pattern although most of the data is concentrated in the lower left hand side starting near (0,0) and balloons outwards vaguely like a megaphone") 
+
+#The data has extreme outliers in both directions and
+#doesn't follow a nice patter outside of rapidly 
+#ballooning as it get's further from (0,0) in the 
+#bottom left
+```
+
+# Graphing a correlation matrix
+
+First the data has to be made tidy which the correlation matrix is not. The problem is that you have variables as both columns and as rows which is a no-no. Variables are columns and individual observations are rows. 
+
+To make this data tidy we have to "melt" it into long format. This is a place where human readability and computer readability diverge. Most people are happy enough reading a correlation table but computers struggle to understand how it is suppose to be plotted (at least with the tools I am teaching you....there is almost certainly an R package that'll do it but there is almost always an R package that will do something. Eg there's a package to make the scatterplot have emojis instead of points)
+```{r}
+#we use the package reshape2's function melt() to
+#make the correaltion matrix long. I love reshape2
+#because it only has like two functions but those
+#functions do their job really really well
+tidy_cor <- melt(cor_matrix)
+head(tidy_cor)
+#and now we have tidy data. melt() vaguley feels
+#magical to me in how quick/easy it makes things
+#like correlations matrices tidy
+
+#change column names. We can use colnames() to
+#fetch the names of our columns OR we can use
+#it to set the name of our columns by overwriting
+#what is already there. 
+colnames(tidy_cor)
+colnames(tidy_cor) <- c('demographics_1',
+                        'demographics_2',
+                        'correlation')
+
+#and now we have our new names
+head(tidy_cor)
+
+#first part of the graph you've seen before.
+#we say our data and our x and y variables
+ggplot(data = tidy_cor,
+       aes(x = demographics_1,
+           y = demographics_2)) +
+  
+  geom_tile(aes(fill = correlation))
+#geom_tile is the one you haven't seen before. It
+#makes the graph into a series of squares and will
+#color the squares based on the "fill" parameter
+#because we want to fill up the square with the
+#correlation value
+
+
+#Why not use color = correlation?
+#Let's test it out!!
+ggplot(data = tidy_cor,
+       aes(x = demographics_1,
+           y = demographics_2)) +
+  
+  geom_tile(aes(color = correlation))
+#Color is making the border colored by the 
+#correlation value and leaving the squares a
+#shade of black. This isn't easy to read nor 
+#what we want
+```
