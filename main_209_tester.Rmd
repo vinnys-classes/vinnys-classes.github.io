@@ -137,6 +137,19 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Friday 9/26 | [Simple Linear Regression Part 1](lectures/slr_209.pdf) | | [Finished correlation code along](R/code_along_correlation_finished.rmd)
 
 
+<hr style="border:2px solid grey">
+
+<br>
+
+
+### Module 6 (Linear Regression)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Monday 9/29|Finish Simple Linear Regression||[Example Code](./slr.rmd)|
+
+<br>
+
 <hr style="border:3px solid black">
 
 <br>

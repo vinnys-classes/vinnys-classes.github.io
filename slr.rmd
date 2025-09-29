@@ -1,0 +1,91 @@
+---
+title: "Example Code"
+output: html_document
+date: "2025-09-29"
+---
+
+Basic linear regression code
+
+
+```{r}
+#load the library and the data set and look at the first few rows
+library(ggplot2)
+data(trees)
+head(trees)
+```
+
+
+# plot the data
+
+Make sure the linear assumption is met
+
+```{r}
+ggplot(data = trees,
+       aes(x = Girth,
+           y = Volume)) +
+  geom_point()
+
+
+#We can use geom_smooth() to fit a best-fit-line
+#by tweaking a parameter
+ggplot(data = trees,
+       aes(x = Girth,
+           y = Volume)) +
+  geom_point() +
+  geom_smooth(method = 'lm') #lm for linear model
+#Linear assumption seems fine
+```
+
+
+
+# Run the model 
+
+Left side of the tilda is the response, the right side is the explanatory variable (similar to aggregate)
+
+```{r}
+#The lm() function is for linear models. Response is
+#on the left hand, explanatory on the right side.
+mod <- lm(Volume ~ Girth,
+          data = trees) #and say your data
+
+#Here's how to look at the model (more later)
+summary(mod)
+#NOTE: the summary() function has made a second
+#appearance and does something completely different.
+#What we feed into the summary() function dictates
+#what will be spat out
+
+
+#collect the  predictions and residuals from the mod
+trees$preds <- predict(mod)
+trees$resid <- resid(mod)
+
+#Residual by predicted plot
+ggplot(trees,
+       aes(x = preds,
+           y = resid)) +
+  geom_point()
+
+
+#QQ plot
+ggplot(trees,
+       aes(x = preds,
+           y = Volume)) +
+  geom_point()
+
+
+#here's what ggResidpanel can do...basically it
+#gives more graphs that carry different info
+library(ggResidpanel)
+resid_panel(mod)
+
+
+#You can call a qqplot directly with base R
+qqplot(trees$preds, trees$Volume)
+```
+
+
+
+
+
+
