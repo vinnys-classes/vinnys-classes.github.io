@@ -160,7 +160,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Wednesday 9/24 |  [Correlations](lectures/correlation-2.pdf)  | |[Numeric Code along finished](lectures/Code_Along_115_completed.Rmd)
 | Friday 9/26 |  [Finish Correlations](lectures/correlation-2.pdf)  | |[Correlation Code along](labs/cor_code_along_115.rmd)
 | | |  | [Correlation Code along finished](labs/cor_code_along_115_finished.rmd)
-| Monday 9/28 |[Simple Linear Regression](lectures/slr_115_extended.pdf) |  | 
+
 
 
 
@@ -172,6 +172,32 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 2) Homework 1 is due October 1st
 3) Second required reading quize is October 6th
 
+
+<hr style="border:2px solid grey">
+    
+
+<br>
+
+
+
+### Week 6 (Linear Regression)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Monday 9/28 |[Simple Linear Regression (SLR)](lectures/slr_115_extended.pdf) |  | 
+| Wednesday 10/01 |[Simple Linear Regression Cont.](lectures/slr_115_extended.pdf) |  | 
+| Friday 10/03 | | [Cor., SLR, and R$^2$ Lab](labs/correlation_linear_regression_lab.rmd)  |
+
+
+
+**Assignments and Deadlines**
+
+2) Homework 1 is due October 1st
+3) Second required reading quiz is October 6th
+
+
+
+<br>
 
 
 <hr style="border:3px solid black">
