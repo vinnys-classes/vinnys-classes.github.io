@@ -17,7 +17,19 @@ Last updated: `r format(Sys.time(), "%a %b %e %Y, %H:%M")`
 
 
 
+# Midterm
+[Midterm Instructions](lectures/Description_of_the_Assignment.pdf)
+
+
+| Step | Due Date | 
+|:-----|:-------|
+| Data Selection/Project Proposal| October 10|
+| Data Reading/Check In| October 31|
+| Presentations | November 14 |
+
+
 # Homework
+
 All homework is due at 9pm unless clearly specified otherwise. 
 
 | Rmd | Due Date | Helpful Things | 
@@ -147,6 +159,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Monday 9/29|Finish Simple Linear Regression||[Example Code](./slr.rmd)|
+|Wednesday 10/01 | |[Linear Regression Lab](./labs/correlation_linear_regression_lab.rmd)| |
 
 <br>
 

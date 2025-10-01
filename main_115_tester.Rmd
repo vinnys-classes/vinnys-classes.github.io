@@ -17,11 +17,16 @@ Last updated: `r format(Sys.time(), "%a %b %e %Y, %H:%M")`
 
 
 
-# Midterm
 
-| Pdf  | 
-|:-----|:-------|:-----|
-|[ Midterm Project](lectures/Description_of_the_Assignment.pdf)| 
+# Midterm
+[Midterm Instructions](lectures/Description_of_the_Assignment.pdf)
+
+
+| Step | Due Date | 
+|:-----|:-------|
+| Data Selection/Project Proposal| October 10|
+| Data Reading/Check In| October 31|
+| Presentations | November 14 |
 
 <hr style="border:3px solid black">
 
