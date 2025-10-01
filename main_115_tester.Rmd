@@ -17,6 +17,14 @@ Last updated: `r format(Sys.time(), "%a %b %e %Y, %H:%M")`
 
 
 
+# Midterm
+
+| Pdf  | 
+|:-----|:-------|:-----|
+|[ Midterm Project](lectures/Description_of_the_Assignment.pdf)| 
+
+<hr style="border:3px solid black">
+
 # Homework
 All homework is due at 9pm unless clearly specified otherwise. 
 
@@ -152,7 +160,10 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Wednesday 9/24 |  [Correlations](lectures/correlation-2.pdf)  | |[Numeric Code along finished](lectures/Code_Along_115_completed.Rmd)
 | Friday 9/26 |  [Finish Correlations](lectures/correlation-2.pdf)  | |[Correlation Code along](labs/cor_code_along_115.rmd)
 | | |  | [Correlation Code along finished](labs/cor_code_along_115_finished.rmd)
-| Monday 9/28 |[Simple Linear Regression](lectures/slr_115.pdf) |  | 
+| Monday 9/28 |[Simple Linear Regression](lectures/slr_115_extended.pdf) |  | 
+
+
+
 
 
 **Assignments and Deadlines**
