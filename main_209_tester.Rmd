@@ -158,7 +158,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Monday 9/29|Finish Simple Linear Regression||[Example Code](./slr.rmd)|
+|Monday 9/29|Finish Simple Linear Regression||[Linear Regression Code Along](./slr.rmd)|
 |Wednesday 10/01 | |[Linear Regression Lab](./labs/correlation_linear_regression_lab.rmd)| |
 
 <br>
