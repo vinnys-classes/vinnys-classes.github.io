@@ -202,6 +202,17 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 
 
+
+
+
+
+### Week 7 (Linear Regression Continued)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Monday 9/28 |[Regression: Transformations](lectures/transforms-3.pdf) |  | 
+
+
 <br>
 
 
