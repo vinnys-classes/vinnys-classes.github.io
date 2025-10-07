@@ -161,15 +161,21 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Monday 9/29|Finish Simple Linear Regression||[Linear Regression Code Along](./slr.rmd)|
 |Wednesday 10/01 | |[Linear Regression Lab](./labs/correlation_linear_regression_lab.rmd)| |
 |Wednesday 10/01 | |Finish Lab| |
+
+
+<hr style="border:2px solid grey">
+
 <br>
+
 
 
 ### Module 7 (Linear Regression Topics)
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Monday 10/06|[Transformations](lectures/transforms-209.pdf)|||
-|Monday 10/06|[If time categorical predictors](lectures/regression_with_indicators.pdf)|||
+|Monday 10/06|[Transformations](lectures/transforms_updated.pdf)|||
+
+<br>
 
 <hr style="border:3px solid black">
 
