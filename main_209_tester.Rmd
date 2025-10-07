@@ -173,7 +173,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Monday 10/06|[Transformations](lectures/transforms_updated.pdf)|||
+|Monday 10/06|[Transformations ](lectures/transforms_updated.pdf)||Slide 29 corrected|
 
 <br>
 
