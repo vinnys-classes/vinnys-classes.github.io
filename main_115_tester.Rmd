@@ -210,7 +210,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| Monday 9/28 |[Regression: Transformations](lectures/transforms-3.pdf) |  | 
+| Monday 9/28 |[Regression: Transformations](lectures/transforms_updated.pdf) | | Slide 29 corrected 
 
 
 <br>
