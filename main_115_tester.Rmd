@@ -210,8 +210,16 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| Monday 9/28 |[Regression: Transformations](lectures/transforms_updated.pdf) | | Slide 29 corrected |
-| Monday 9/28 |[Trans. continued, indicators possible](lectures/regression_with_indicators.pdf) | | [code along](R/legos_code_along.rmd) |
+| Monday 10/6 |[Regression: Transformations](lectures/transforms_updated.pdf) | | Slide 29 corrected |
+| Wednesday 10/8 |[Trans. continued, indicators possible](lectures/regression_with_indicators.pdf) | | [code along (not done)](R/legos_code_along.rmd) |
+|  Wednesday 10/8  |[Indicators Alternative Slide Deck](lectures/regression_with_indicators_alternative_deck.pdf) | | Same material, presented differently |
+
+
+
+**Assignments and Deadlines**
+
+1) Regression Lab is due October 10th
+2) Exam is October 15th
 
 
 <br>
