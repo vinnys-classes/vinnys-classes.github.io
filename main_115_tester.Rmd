@@ -190,7 +190,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Monday 9/28 |[Simple Linear Regression (SLR)](lectures/slr_115_extended.pdf) |  | 
-| Wednesday 10/01 |[Simple Linear Regression Cont.](lectures/slr_115_extended.pdf) |  | 
+| Wednesday 10/01 |[Simple Linear Regression Cont.](lectures/slr_209-3.pdf) |  | 
 | Friday 10/03 | | [Cor., SLR, and R$^2$ Lab](labs/correlation_linear_regression_lab.rmd)  |
 
 
