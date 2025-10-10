@@ -146,7 +146,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 |Monday 9/22 | [Correlation if time](lectures/correlation-2.pdf) | - | [Finished Code Along](R/Code_Along.Rmd) |
 |Wednesday 9/24 | [Correlation](lectures/correlation-2.pdf) | - | [Correlation Code Along](R/code_along_correlation.rmd) |
-|Friday 9/26 | [Simple Linear Regression Part 1](lectures/slr_209.pdf) | | [Finished correlation code along](R/code_along_correlation_finished.rmd)
+|Friday 9/26 | [Simple Linear Regression Part 1](lectures/slr_209-3.pdf) | | [Finished correlation code along](R/code_along_correlation_finished.rmd)
 
 
 <hr style="border:2px solid grey">
