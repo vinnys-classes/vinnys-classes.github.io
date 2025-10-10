@@ -1,0 +1,87 @@
+---
+title: "Lego_code_along_transformations"
+output: pdf_document
+date: "2025-10-08"
+---
+
+# Log-Log Model Practice
+
+We will use pages to predict amazon price
+
+```{r}
+library(ggplot2)
+legos <- read.csv('https://vinnys-classes.github.io/data/legos_data.csv')
+head(legos)
+```
+
+# Look at the graph
+
+```{r}
+ggplot(legos, 
+       aes(x = Pages,
+           y = amazon_price)) +
+  geom_point()
+
+
+ggplot(legos, 
+       aes(x = log(Pages),
+           y = log(amazon_price))) +
+  geom_point()
+
+ggplot(legos, 
+       aes(x = sqrt(Pages),
+           y = sqrt(amazon_price))) +
+  geom_point()
+```
+
+
+
+# Fit a log-log Model
+
+```{r}
+log_mod <- lm(log(amazon_price) ~ log(Pages),
+              data = legos)
+
+summary(log_mod)
+
+legos$log_mod_resids <- resid(log_mod)
+legos$log_mod_predict <- predict(log_mod)
+
+ggplot(legos,
+       aes(x = log_mod_predict,
+           y = log_mod_resids)) +
+  geom_point()
+
+```
+
+# Making a prediction for 32 pages and residual
+```{r}
+log_y <- 2.17  + .33*log(32) #predicted value on log scale
+
+exp(log_y) #predicted value on linear scale
+
+legos[71,] #obs with 32 pages
+
+8.99 - exp(log_y) # residual
+
+```
+
+
+
+
+# Interpretations for $\beta$'s 
+
+```{r}
+#B0 first
+ exp(2.17) #e raised to our b_0 value
+```
+
+B0: If pages = 1 (such that log(pages) = 0) then we believe the median price of lego sets with 32 pages will be 8.76
+
+
+```{r}
+#B0 first
+ 1.1^.33  #1.1 raised to B1
+```
+
+B1: If the number of pages increase by 10\% we expect the median price of the lego sets to increase by 3.2\%

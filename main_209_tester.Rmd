@@ -35,7 +35,7 @@ All homework is due at 9pm unless clearly specified otherwise.
 | Rmd | Due Date | Helpful Things | 
 |:-----|:-------|:-----|
 |[ Homework 1 ](homework/homework_1.Rmd)| October 1st |[ Examples of the graphs you'll be remaking ](homework/hw_1_example_graphs.pdf)|
-|[ Homework 2 ](labs/homework_2.rmd)| October 10th ||
+|[ Homework 2 ](labs/homework_2.rmd)| October 15th ||
 
 <hr style="border:3px solid black">
 
@@ -177,11 +177,13 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Monday 10/06|[Transformations ](lectures/transforms_updated.pdf)||Slide 29 corrected|
 |Wednesday 10/08|Transformations Finished, [Categorical Predictors ](lectures/regression_with_indicators_new.pdf)||[Lego code_along](R/legos_code_along.rmd)|
 |Wednesday 10/08|||[Lego code_along_finished](R/legos_code_along_filled.rmd)|
-|Friday 10/10|||[Lego Code Along for Transforms](R/legos_code_along_transforms.rmd)|
-
+|Friday 10/10|||[Lego Code Along for Transforms ](R/legos_code_along_transforms.rmd)|
+|Friday 10/10|||[Lego Code Along for Transforms Done](legos_code_along_transforms_done.rmd)|
+**Assignments and Deadlines**
 **Assignments and Deadlines**
 
 1) Exam Friday October 17
+2) Homework 2 due October 15th
 
 
 
