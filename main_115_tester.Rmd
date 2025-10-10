@@ -30,6 +30,13 @@ Last updated: `r format(Sys.time(), "%a %b %e %Y, %H:%M")`
 
 <hr style="border:3px solid black">
 
+# Exam
+It'll be the full 80 minutes
+
+| Study Guide | Date | 
+|:-----|:-------|
+|[Exam 1 Study Guide](lectures/Exam_1_Study_Guide_115-3.pdf)| Wednesday October 15th|
+
 # Homework
 All homework is due at 9pm unless clearly specified otherwise. 
 
