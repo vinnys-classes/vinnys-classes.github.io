@@ -176,6 +176,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Monday 10/06|[Transformations ](lectures/transforms_updated.pdf)||Slide 29 corrected|
 |Wednesday 10/08|Transformations Finished, [Categorical Predictors ](lectures/regression_with_indicators_new.pdf)||[Lego code_along](R/legos_code_along.rmd)|
 |Wednesday 10/08|||[Lego code_along_finished](R/legos_code_along_filled.rmd)|
+|Friday 10/10|||[Lego Code Along for Transforms](R/legos_code_along_transforms.rmd)|
 
 **Assignments and Deadlines**
 

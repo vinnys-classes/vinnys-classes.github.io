@@ -1,0 +1,15 @@
+---
+title: "Lego_code_along_transformations"
+output: pdf_document
+date: "2025-10-08"
+---
+
+# Log-Log Model Practice
+
+We will use pages to predict amazon price
+
+```{r}
+legos <- read.csv('https://vinnys-classes.github.io/data/legos_data.csv')
+head(legos)
+```
+
