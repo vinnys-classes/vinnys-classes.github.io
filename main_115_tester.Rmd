@@ -220,7 +220,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Monday 10/6 |[Regression: Transformations](lectures/transforms_updated.pdf) | | Slide 29 corrected |
 | Wednesday 10/8 |[Trans. continued, indicators possible](lectures/regression_with_indicators.pdf) | | [code along (not done)](R/legos_code_along.rmd) |
 |  Wednesday 10/8  |[Indicators Alternative Slide Deck](lectures/regression_with_indicators_alternative_deck.pdf) | | Same material, presented differently |
-| Friday 10/10 || [Transform and Indicator (Non-graded) Lab](transform_lab.rmd)||
+| Friday 10/10 || [Transform and Indicator (Non-graded) Lab](transform_lab.rmd)|[Solutions to Transform and Indicator lab](transform_lab_sol.rmd)|
 
 
 **Assignments and Deadlines**
