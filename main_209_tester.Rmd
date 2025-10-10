@@ -177,6 +177,12 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Wednesday 10/08|Transformations Finished, [Categorical Predictors ](lectures/regression_with_indicators_new.pdf)||[Lego code_along](R/legos_code_along.rmd)|
 |Wednesday 10/08|||[Lego code_along_finished](R/legos_code_along_filled.rmd)|
 
+**Assignments and Deadlines**
+
+1) Exam Friday October 17
+
+
+
 <br>
 
 <hr style="border:3px solid black">
