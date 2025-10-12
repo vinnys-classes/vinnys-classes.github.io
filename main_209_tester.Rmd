@@ -28,6 +28,15 @@ Last updated: `r format(Sys.time(), "%a %b %e %Y, %H:%M")`
 | Presentations | November 14 |
 
 
+# Exam
+It'll be the full 80 minutes. You may bring a notecard and a calculator. If you do not have a calculator you may leave your answer unsimplified. Eg predicted price = \$ e^2.19.
+
+| Study Guide | Date | 
+|:-----|:-------|
+|[Exam 1 Study Guide](exam/Exam_1_Study_Guide_209.pdf)| Friday October 17th|
+
+
+
 # Homework
 
 All homework is due at 9pm unless clearly specified otherwise. 
