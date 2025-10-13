@@ -196,6 +196,25 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 
 
+
+<hr style="border:2px solid grey">
+
+<br>
+
+
+
+
+### Module 8 (Simulations and Review)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Monday 10/06|[Simulations ](lectures/Randomization_test-2.pdf)|||
+
+**Assignments and Deadlines**
+
+1) Exam Friday October 17
+2) Homework 2 due October 15th
+
 <br>
 
 <hr style="border:3px solid black">
