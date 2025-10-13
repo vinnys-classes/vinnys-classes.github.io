@@ -23,6 +23,7 @@ First, let's read in the data and look at the first few rows
 ```{r}
 legos <- read.csv('https://vinnys-classes.github.io/data/legos_data.csv')
 head(legos)
+legos$Year <- as.factor(legos$Year)
 ```
 
 The variables are...
