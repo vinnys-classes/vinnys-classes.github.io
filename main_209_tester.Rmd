@@ -44,7 +44,8 @@ All homework is due at 9pm unless clearly specified otherwise.
 | Rmd | Due Date | Helpful Things | 
 |:-----|:-------|:-----|
 |[ Homework 1 ](homework/homework_1.Rmd)| October 1st |[ Examples of the graphs you'll be remaking ](homework/hw_1_example_graphs.pdf)|
-|[ Homework 2 ](labs/homework_2.rmd)| October 15th | CODE NEEDED RIGHT AFTER YOU READ IN THE DATA: legos\$Year <- as.factor(legos\$Year) |
+|[ Homework 2 ](labs/homework_2.rmd)| October 15th | CODE NEEDED RIGHT AFTER YOU READ IN: legos\$Year <- as.factor(legos\$Year) |
+|[ Homework 2  SOLUTIONS](hw_2_sol_209.pdf)|||
 
 <hr style="border:3px solid black">
 

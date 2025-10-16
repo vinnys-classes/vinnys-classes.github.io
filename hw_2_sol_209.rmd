@@ -1,12 +1,23 @@
 ---
-title: "transform_lab_sol"
-output: pdf_document
+title: "hw_2_sol_209"
+output:
+  pdf_document: default
+  html_document: default
 date: "2025-10-10"
 ---
 
-This non-graded lab will focus heavily on linear regression with linear-linear, log-linear, and log-log all making an appearance. The last section is dedicated to indicators. 
 
-NOTE: I want you to go through Question 1-13 first. You may then either do the transformation section next or jump directly to the indicators section (starting at Q24). Do whichever you feel like you'd like the most in-class lab help with. 
+This homework will focus heavily on regression with linear-linear, log-linear, and log-log all making an appearance and indicators as well. My advice is to use the class time to focus on either the log-log models (Q18-25) or indicators (Q26 onwards). The first section is a regular linear model like you explored in the last lab. 
+
+HINT: you will make four models (one for linear, one for log-linear, one for log-log and one that deals with indicators) and I suggest you save all four models. My naming scheme is usually along the lines of 
+
+mod_line <- LINEAR MODEL CODE
+
+mod_log_line <- LOG-LINEAR MODEL CODE
+
+mod_log_log <- LOG-LOG MODEL CODE
+
+mod_ind <- INDICATOR MODEL CODE
 
 The data set we will be using today is actually a super fun one an old mentor of mine collected on.....LEGOs! I use to love LEGOs growing up so now you get to play with LEGOs (...data set).
 
@@ -72,6 +83,12 @@ ggplot(data = legos,
 ```
 
 ### Q2
+Spearman's as there are outliers in the y-direction
+
+### Q3
+As one variable increases the other, generally, decreases. Try to not sound definitive where the other variable *has* to decrease
+
+### Q4
 Using geom_smooth(), please plot a best-fit-line (by using the 'lm' method of geom_smooth) to the scatterplot of amazon price by number of pieces. Describe the scatterplot by noting it's direction, form, outliers, and strength please.
 
 
@@ -83,7 +100,9 @@ ggplot(data = legos,
   geom_smooth(method = 'lm')
 ```
 
-### Q3
+
+
+### Q5
 Using the lm() function, please fit a linear model with amazon price as the response variable and the number of pieces as the explanatory variable. Print out the summary of the model using the summary() function
 
 ```{r}
@@ -91,7 +110,7 @@ my_line_mod <- lm(amazon_price ~ Pieces,
                   data = legos)
 ```
 
-### Q4
+### Q6
 Please save your residuals and your predictions from this model as columns in the data set "legos". The resid() and predict() functions are useful for this. 
 
 ```{r}
@@ -102,7 +121,7 @@ legos$my_preds <- predict(my_line_mod)
 
 ```
 
-### Q5
+### Q7
 Make a residual scatterplot by having the residuals of your model on the y-axis and the predicted price on the x-axis. 
 
 ```{r}
@@ -113,58 +132,59 @@ ggplot(legos,
 ```
 
 
-### Q6
+### Q8
 Please comment on if the homoskedasticity and normality assumptions are met for our linear model by using the graph made in question 10.
 
 Neither are met by a long shot. Too many outliers in the y direction near the left and right hands of the graphs but not in the middle. That either implies normality fails as it's not nearly symmetric around the 0 line (eg look at the far left of the graph, negatives are right below 0 but the positives stretch waaaay out). Homoskedasticity also probably fails as the middle section of the graph seems to have less spread (but that could be just a lack of data in that section...not enough data -> we don't pick up a couple outliers)
 
 
 
-### Q7
+### Q9
 Regardless of your answer to question 6, please write down the estimated linear regression equation. Be sure to use the name of the y and x variables in the equation and to indicate y is predicted (and not observed).
 
 pred. amazon price = 18.96 + .104 * Pieces
 
-### Q8
+### Q10
 Interpret your intercept from the above equation
 
 If there are 0 pieces in the set, we predict the price to be $18.96
 
-### Q9
+### Q11
 Interpret your slope from the above equation
 
-If the number of pieces in the set increase by one, we expect the mean price to increase by 10 cents
+If the number of pieces in the sets increase by one, we expect the mean price to increase by 10 cents
 
-### Q10
+### Q12
 Predict the cost a lego set containing 55 pieces.
 
 $24.67
 
 
-### Q11
+### Q13
 The Monster Truck lego set actually has 55 pieces. Using Q15 and the lego set's actual amazon price please calculate the residual. HINT: Monster Truck is the 71st row of our data set.
 
 ```{r}
  8.99 - 24.67
 ```
 
-### Q12
+### Q14
 Find R$^2$. There are several ways to do this including using the summary() output for the model earlier or using pearson's correlation coefficient.
 
 .4466
 
 
-### Q13
+### Q15
 All said and done, do you think this model explains the relationship well?
 
 No, the assumptions failed too hard and our best-fit-line is off
 
 # Transformation
+
 What I dislike about the residual graph I made is that there seemed to be some really outstretched values along the y-axis. That can indicate that the response variable should be transformed via a log() fucntion (but not always!!).
 
 ## Log-Linear Model 
 
-### Q14
+### Q16
 As such, please make a scatterplot with the log of the amazon price as the y-axis and leave the x-axis as the number of pieces used. Comment on whether you think this graph is sufficently linear.
 
 ```{r}
@@ -174,15 +194,23 @@ ggplot(legos,
   geom_point()
 ```
 
-### Q15
-Using log(amazon_price) as the response variable and pieces as the x-axis, plot a best-fit-line using geom_smooth. Does the best fit line look good?
+### Q17
+
+Homoskedasticity fails as the left side is waaaay more spread out than the right side. Normality is actually probably okay as there is a roughly equal spread of points both above and below the line at all points in the graph
 
 ```{r}
+mod_log_line <- lm(log(amazon_price) ~ Pieces, 
+                   data = legos)
+
+legos$log_lin_resid <- resid(mod_log_line)
+legos$log_lin_pred <- predict(mod_log_line)
+
+
 ggplot(legos,
-       aes(x = Pieces,
-           y = log(amazon_price))) +
-  geom_point() +
-  geom_smooth(method = 'lm')
+       aes(y = log_lin_resid,
+           x = log_lin_pred)) +
+  geom_point()
+
 ```
 
 
@@ -191,7 +219,7 @@ Let's try one more transformation to see if we can get something closer to what 
 
 ## Log-Log Model
 
-### Q16
+### Q18
 
 As such, please make a scatterplot with the log of the amazon price as the y-axis and the log of the number of pieces used as the x-axis. Use geom_smooth to fit a best-fit-line similar to question 2.
 
@@ -203,7 +231,7 @@ ggplot(legos,
   geom_smooth(method = 'lm')
 ```
 
-### Q17
+### Q19
 
 Fit a linear model using log(amazon_price) as your response and log(Pieces) as your explanatory variable. 
 
@@ -219,7 +247,7 @@ my_log_mod <- lm(log(amazon_price) ~ log(Pieces),
                  data = legos)
 ```
 
-### Q18
+### Q20
 
 Create a residual graph for the model created in Q22 and comment on whether the normality and homoskedasiticity assumptions are met.
 
@@ -239,7 +267,7 @@ ggplot(legos,
 
 ```
 
-### Q19
+### Q21
 
 Write down your estimated equation. Be sure to indicate what the y and x variables are and that the response is estimated. Also note that in your model both variables are transformed to log()'s. You do not need to back transform for this question.
 
@@ -254,19 +282,19 @@ summary(my_log_mod)
 NOTE: Compare the predicted equation against the R output to get comfortable reading it
 
 
-### Q20
+### Q22
 
 Interpret your value for $\hat{\beta_0}$, the intercept of your model. Be careful to differentiate between predicting the mean vs predicting the median.
 
 If the number of pieces is set to 1 (such that the log(pieces) is 0), then we expect the median price of the lego sets to be exp(1.69) = $5.45
 
-### Q21
+### Q23
 
 Interpret your value for $\hat{\beta_1}$, the slope of your model. Be careful to differentiate between predicting the mean vs predicting the median.
 
-For a 10% increase in the number of pieces we expect the median price of the lego set to increase by a multiplicative factor 1.1^.3681 = 1.0357 (ie the median increases by 3.5%, we believe)
+For a 10% increase in the number of pieces we expect the median price of the lego sets to increase by a multiplicative factor 1.1^.3681 = 1.0357 (ie the median increases by 3.5%, we believe)
 
-### Q22
+### Q24
 
 Again, please find the predicted price for a lego set with 55 pieces using the model you just created. Be sure that the prediction is reported on the linear scale (ie I want the prediction listed in dollars). You will want to back transform for this problem.
 
@@ -280,7 +308,7 @@ log_y_hat #This is the log scale!!!!!
 exp(log_y_hat) #This is on the linear scale
 ```
 
-### Q23
+### Q25
 
 Using Q22's prediction, calculate the residual for the Monster Truck lego set in the data. Be sure that the residual is reported on the linear scale (ie I want the residual listed in dollars).
 
@@ -295,7 +323,7 @@ For this we are going to do something a little odd. We are going to treat Year a
 
 NOTE: This is a common strategy when you have very few numbers (eg only three years)
 
-### Q24
+### Q26
 Make a plot similar to the one in the class notes. Your x-axis should be Year and your y-axis shoudl be amazon sales price
 
 HINT: Use geom_jitter() and not geom_point(). If the points are spread out too wide, play around with the "width" parameter in geom_jitter()
@@ -307,7 +335,7 @@ ggplot(legos,
   geom_jitter(width = .2)
 ```
 
-### Q25 
+### Q27
 Make a linear model using Year as an explanatory variable and amazon price as the response variable. 
 
 ```{r}
@@ -315,7 +343,7 @@ my_year_mod <- lm(amazon_price ~ Year,
               data = legos)
 ```
 
-### Q26 
+### Q28
 Make a scatterplot with your residuals on the y-axis and the x-axis being Year. 
 
 ```{r}
@@ -328,14 +356,14 @@ ggplot(legos,
   geom_jitter(width = .2)
 ```
 
-### Q27 
+### Q29 
 Comment on if the three categories (years) have heteroskedasticity or if the residuals are not normal.
 
 HINT: Use geom_jitter() and not geom_point(). If the points are spread out too wide, play around with the "widths" parameter in geom_jitter()
 
 Possibly heteroskedastic and only the year 2019 looks really normal...2020 and 2018 look like they have a right tails
 
-### Q28
+### Q30
 Write down your best-fit-line equation. Please use the model form which uses $\beta$'s, and not the one that uses $\alpha$'s. 
 
 NOTE: Keep the negative on the coefficients!!!
@@ -352,7 +380,7 @@ summary(my_year_mod)
 
 
 
-### Q29 
+### Q31 
 Predict the cost of a lego set that was made in the 2020. 
 
 37.53
@@ -363,7 +391,7 @@ Predict the cost of a lego set that was made in the 2020.
 ```
 
 
-### Q30
+### Q32
 Find the residual (again) for the Monster Truck data set
 28.54
 
@@ -371,24 +399,24 @@ Find the residual (again) for the Monster Truck data set
 37.53 - 8.99
 ```
 
-### Q31
+### Q33
 Interpret your $\hat{\beta_0}$ value
 
 We predict the mean price of lego sets made in 2018 to be $52.64
 
-### Q32 
+### Q34
 Interpret your $\hat{\beta_1}$ value
 
 We predict the change in mean price of lego sets made in 2018 to 2019 to be -$23.42
 
-### Q33
+### Q35
 Interpret your $\hat{\beta_2}$ value
 
 We predict the change in mean price of lego sets made in 2018 to 2020 to be -$15.11
 
 
 
-### Q34
-Find the difference between $\hat{\beta_2}$ and $\hat{\beta_1}$. What *is* this difference? What does it represent?
+### Q36
+Find the different between $\hat{\beta_2}$ and $\hat{\beta_1}$. What *is* this difference? What does it represent?
 
-$8.31, this is the estimated increase in the mean of price of lego sets going from those made in 2019 to those made in 2020
+$8.31, this is the increase in the mean of price of lego sets going from those made in 2019 to those made in 2020, estimated
