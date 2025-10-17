@@ -210,6 +210,11 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 
 
+<hr style="border:2px solid grey">
+    
+
+<br>
+
 
 
 
@@ -230,6 +235,10 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 3) Exam is October 15th
 
 
+
+<hr style="border:2px solid grey">
+    
+
 <br>
 
 
@@ -238,6 +247,12 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Friday 10/17 ||[multiple regression lab](labs/lego_land_lab.rmd) ||
+
+**Assignments and Deadlines**
+
+1) Multiple regression lab is due October 28th
+
+<br>
 
 <hr style="border:3px solid black">
 
