@@ -233,6 +233,12 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 <br>
 
 
+### Week 8 (Exam)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Friday 10/17 ||[multiple regression lab](labs/lego_land_lab.rmd) ||
+
 <hr style="border:3px solid black">
 
 
