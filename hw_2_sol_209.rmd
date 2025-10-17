@@ -312,9 +312,9 @@ exp(log_y_hat) #This is on the linear scale
 
 Using Q22's prediction, calculate the residual for the Monster Truck lego set in the data. Be sure that the residual is reported on the linear scale (ie I want the residual listed in dollars).
 
-23.81 - 8.99 = 
+8.99 - 23.81  = 
 
-14.82
+-$14.82
 
 
 # Indicators
@@ -396,7 +396,7 @@ Find the residual (again) for the Monster Truck data set
 28.54
 
 ```{r}
-37.53 - 8.99
+8.99 - 37.53 
 ```
 
 ### Q33
