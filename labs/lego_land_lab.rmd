@@ -178,7 +178,7 @@ Write out the estimated linear equation
 
 
 ### Question 21
-Predict the price for a lego set with 55 pieces using your above equation
+Predict the price for a lego set with 55 pieces using your above equation that has small bricks
 
 ### Question 22
 Locate the Monster Truck lego set in the data (row 71, you can use the function tail(legos) to see it actually). Using your rpediction in question 21 and the price of this lego set calculate a residual.
