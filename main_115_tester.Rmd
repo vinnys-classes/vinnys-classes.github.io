@@ -261,7 +261,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 <br>
 
 
-### Week 8 (Exam)
+### Week 9 (Probability and Permutation Tests)
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
