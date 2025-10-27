@@ -246,7 +246,26 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
+|Monday 10/13|review day|||
+|Wednesday 10/15|exam day|||
 | Friday 10/17 ||[multiple regression lab](labs/lego_land_lab.rmd) ||
+
+**Assignments and Deadlines**
+
+1) Multiple regression lab is due Wednesday, October 29th
+
+
+<hr style="border:2px solid grey">
+    
+
+<br>
+
+
+### Week 8 (Exam)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Monday 10/27| [Probability](lectures/probability.pdf)| | |
 
 **Assignments and Deadlines**
 
