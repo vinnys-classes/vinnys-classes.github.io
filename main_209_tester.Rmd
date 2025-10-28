@@ -209,7 +209,9 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Monday 10/06|[Simulations ](lectures/Randomization_test-2.pdf)|||
+|Monday 10/13|[Simulations ](lectures/Randomization_test-2.pdf)|||
+|Wednesday 10/15| Review Day| | | 
+|Friday 10/17 | Exam |||
 
 **Assignments and Deadlines**
 
@@ -231,7 +233,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Oct 27 | [probability](lectures/probability_209.pdf)
+|Monday Oct 27 | [probability](lectures/probability_209.pdf) 
 
 <hr style="border:3px solid black">
 
