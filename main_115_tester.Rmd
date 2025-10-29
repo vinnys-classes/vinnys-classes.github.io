@@ -266,6 +266,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Monday 10/27| [Probability](lectures/probability.pdf)| | |
+|Wednesday 10/29| [Permutation Tests](lectures/Permutation_Test.pdf) |||
 
 **Assignments and Deadlines**
 
