@@ -1,0 +1,46 @@
+---
+title: "how_to_make_a_csv"
+output: html_document
+date: "2025-10-29"
+---
+
+
+### Step 1
+
+1) make a vector for each variable
+
+For this we use c() and seperate each value but a comma. Effectively, we are trying to build the data one column at a time; each column is one variable.
+
+```{r}
+gpa <- c(3, 4, 2.8,3,1.3)
+out_of_country <- c(1,0,0,1,0)
+```
+
+### Step 2
+
+2) Collect into a data frame
+
+The function data.frame() will let you put multiple variables into a single data frame. We just seperate each variable with a comma when we type it in
+
+```{r}
+my_data <- data.frame(gpa, out_of_country)
+my_data
+```
+
+
+### Step 3 (final)
+
+3) write the csv
+
+The function write.csv() is what we want. The two critical parameters you need to give the function is what data you want to save and what name you'd like to give the file. A third parameter that I like to set is to tell R I want row.names = FALSE which means that it shouldn't label the rows (1 through N) which makes our file have one more column than we'd expect.
+
+Also, we can check to see where R is going to save the file by running the function getwd() immediately before writing the csv. The wd in getwd() stands for "working directory" and it's where R will default to saving/writing files. If we don't like the location we can either set the working directory to something else by using setwd() or when we write the file name we can give the file path instead of just the file name. I'm skipping both of these but please talk to me if you have questions on it.
+
+```{r}
+
+getwd()
+
+write.csv(x = my_data, #saving the my_data data set
+          file = 'my_exp_data_example.csv', #saving it under this name
+          row.names = FALSE) #and I don't want R to label each row
+```
