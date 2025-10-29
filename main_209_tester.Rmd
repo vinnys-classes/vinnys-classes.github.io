@@ -233,8 +233,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Monday Oct 27 | [probability](lectures/probability_209.pdf) 
-
+|Monday Oct 27 | [probability](lectures/probability_209.pdf)  ||
+|Wednesday Oct 29 | [Permutation Test](lectures/Permutation_Test_209.pdf)  ||
 <hr style="border:3px solid black">
 
 <br>
