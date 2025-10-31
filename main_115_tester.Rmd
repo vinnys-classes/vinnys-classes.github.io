@@ -268,8 +268,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 |Monday 10/27| [Probability](lectures/probability.pdf)| | |
 |Wednesday 10/29| [Permutation Tests](lectures/Permutation_Test.pdf) |[How to Write a CSV](write_a_csv.Rmd)|
-
-|Wednesday 10/29| [Permutation Tests Updated](Permutation_Test_115.pdf) |[How to Write a CSV](write_a_csv.Rmd)|
+|Halloween| [Permutation Tests Updated](Permutation_Test_115.pdf) ||
 
 **Assignments and Deadlines**
 
