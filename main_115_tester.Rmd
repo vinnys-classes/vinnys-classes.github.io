@@ -276,6 +276,13 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 <br>
 
+
+### Week 10 (Normality)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Nov 3| [Normal Distribution](lectures/Normal.pdf) ||
+
 <hr style="border:3px solid black">
 
 
