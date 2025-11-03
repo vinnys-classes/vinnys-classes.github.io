@@ -243,6 +243,14 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 <br>
 
+### Module 10 (Sampling Distributions and T tests)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Nov 3| [Sampling Distributions](lectures/Normality_Now_What_.pdf)|
+
+<br>
+
 
 <hr style="border:3px solid black">
 
