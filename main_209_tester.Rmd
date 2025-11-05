@@ -247,7 +247,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Nov 3| [Sampling Distributions](lectures/Normality_Now_What_.pdf)|
+|Nov 3| [Sampling Distributions](lectures/Normality_Now_What_209.pdf)|
 |Nov 5| [Z-tests if time](graphics/z_tests_209.pdf) | [Dice Lab](graphics/permutation_lab-3.pdf)|
 
 <br>
