@@ -248,9 +248,16 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Nov 3| [Sampling Distributions](lectures/Normality_Now_What_.pdf)|
+|Nov 5| [Z-tests if time](lectures/z_tests.pdf) | [Dice Lab](graphics/permutation_lab-3.pdf)|
 
 <br>
 
+**Assignments and Deadlines**
+1) Reading Quiz Friday Nov 7th
+2) Dice rolling lab Due: TBD (check after wednesday's class)
+
+
+<br>
 
 <hr style="border:3px solid black">
 
