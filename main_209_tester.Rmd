@@ -46,6 +46,7 @@ All homework is due at 9pm unless clearly specified otherwise.
 |[ Homework 1 ](homework/homework_1.Rmd)| October 1st |[ Examples of the graphs you'll be remaking ](homework/hw_1_example_graphs.pdf)|
 |[ Homework 2 ](labs/homework_2.rmd)| October 15th | CODE NEEDED RIGHT AFTER YOU READ IN: legos\$Year <- as.factor(legos\$Year) |
 |[ Homework 2  SOLUTIONS](hw_2_sol_209.pdf)|||
+|[Homework 3](homework/Probability_homework3_209.pdf)|Nov 12||
 
 <hr style="border:3px solid black">
 
@@ -253,8 +254,12 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 <br>
 
 **Assignments and Deadlines**
+
 1) Reading Quiz Friday Nov 7th
-2) Dice rolling lab Due: TBD (check after wednesday's class)
+
+2) Dice rolling lab Due: Nov 10th
+
+3) Homework 3: Nov 12th
 
 
 <br>

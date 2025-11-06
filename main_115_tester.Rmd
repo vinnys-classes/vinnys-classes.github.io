@@ -43,6 +43,7 @@ All homework is due at 9pm unless clearly specified otherwise.
 | Rmd | Due Date | Helpful Things | 
 |:-----|:-------|:-----|
 |[ Homework 1 ](homework/homework_1.Rmd)| October 1st |[ Examples of the graphs you'll be remaking ](homework/hw_1_example_graphs.pdf)|
+|[Homework 2 (Probability)](homework/Probability_homework3_115.pdf) |Nov 12||
 
 <hr style="border:3px solid black">
 
@@ -282,6 +283,12 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Nov 3| [Normal Distribution](lectures/Normal.pdf) |[Probability Distribution Lab](labs/permutation_lab_115.pdf)|
+
+**Assignments and Deadlines**
+
+1) Dice lab due Nov 12th
+
+2) Homework 2 due Nov 12th
 
 <hr style="border:3px solid black">
 
