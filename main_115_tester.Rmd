@@ -283,6 +283,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Nov 3| [Normal Distribution](lectures/Normal.pdf) |[Probability Distribution Lab](labs/permutation_lab_115.pdf)|
+|Nov 5| Continue Normal|||
+|Nov 7|  [Sampling Distributions](lectures/Normality_Now_What_209.pdf) |||
 
 **Assignments and Deadlines**
 
