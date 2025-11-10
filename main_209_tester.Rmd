@@ -266,6 +266,13 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 3) Homework 3: Nov 12th
 
 
+
+### Module 12 (Confidence Intervals and Testing)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Nov 10 | [Confidence Intervals](lectures/confidence_intervals.pdf)|[Z-test lab](lab_z.Rmd)||
+
 <br>
 
 <hr style="border:3px solid black">

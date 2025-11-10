@@ -1,0 +1,85 @@
+---
+title: "Lab Z-tests"
+output: pdf_document
+date: "2025-11-10"
+---
+
+For this lab we will be using our RANDOMLY COLLECTED lego set again because everyone loves legos.
+
+
+First we will read in the data set and subset (filter) to have just Duplo lego blocks
+
+```{r}
+library(ggplot2)
+legos <- read.csv('https://vinnys-classes.github.io/data/legos_data.csv')
+duplo <- subset(legos, Theme == 'Duplo')
+head(duplo)
+
+```
+
+
+
+
+## Hypothesis Test 1
+
+Assume I love legs enough that I'm prepared to inundate my niece with Duplo themed lego sets but only if the mean amazon price is less than $30. Assume the population has a variance of 900. We will run a hypothesis for this....
+
+#### Question 1
+
+Please state the hypothesis statements; that is both the null hypothesis and the alternative hypothesis
+
+
+#### Question 2
+
+Please check the three assumptions which are (randomly collected sample), (independent and identically distributed), and (the population is normal or the sample size is large). Two of them really can't be checked easily but instead require critical thinking. 
+
+NOTE: For plotting you are using the "duplo" data set and not the "lego" data set (which has all the legos in it)
+
+
+
+
+#### Question 3
+
+Despite failing our assumptions, write down the sampling distribution for the mean of our sample. NOTE: You'll need to find sample size.
+
+
+#### Question 4
+
+Find the test statistic. That is, standardize our sample mean given the normal distribution calculated above
+
+#### Question 5
+
+Find the p-value. That is, find the probability we'd see something this extreme if the null hypothesis is true.
+
+```{r}
+#pnorm(TEST_STATISTIC,
+#      mean = 0,
+#      sd = 1,
+#      lower.tail = TRUE)
+```
+
+
+#### Question 6
+
+State your decision.
+
+
+#### Question 7
+
+Do you have much faith in this test? Why or why not? 
+
+
+
+## Hypothesis 2
+
+It's critical when you have a young child to practice self care when you do have the few seconds to yourself (I've been told). Let's assume I'm also willing to buy my brother-in-law a few lego sets too but only if the mean number of pieces is more than 200. Assume the population variance 50000 (yes, it's massive).
+
+NOTE you will but using "small_bricks" instead of "legos" or "duplo".
+
+```{r}
+small_bricks <- subset(legos, Size == 'Small')
+```
+
+
+NOTE: When calculating your p-value think about if you want the lower/left hand tail  (lower.tail = TRUE) or if you want the upper/right hand tail (lower.tail = FALSE).
+
