@@ -292,6 +292,15 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 2) Homework 2 due Nov 12th
 
+
+
+
+### Week 11 (Testing)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Nov 3| [Z-test](z_tests-115.pdf)
+
 <hr style="border:3px solid black">
 
 
