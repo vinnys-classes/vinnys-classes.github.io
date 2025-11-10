@@ -1,0 +1,105 @@
+---
+title: "data_problems"
+output: pdf_document
+date: "2025-11-10"
+---
+
+Briefly this markdown is to help you with reading in the data and making sure it's in the correct format when you try to use R on things. Two main issues that have been brough to my attention is (characters vs factors) and dealing with time.
+
+## Nominal Variables
+
+By default R assumes that variables that are written with words are in the class "character". The $class$ of a variable is how R "thinks" about variable and changes what R does with it. For example the summary() function changes if the input is numeric (which gives the five number summary plus the mean) or if the input is a linear model (which gives coefficent values and R^2 and all that stuff)
+
+
+The easiest way to check the class of a variable is the class() function. For example...
+
+```{r}
+legos <- read.csv('https://vinnys-classes.github.io/data/legos_data.csv')
+
+head(legos$amazon_price)
+class(legos$amazon_price)
+```
+
+Numeric is one of the main classes R uses. Others include "logical" which is TRUE or FALSE....
+
+```{r}
+expensive_legos <- legos$amazon_price > 30
+head(legos$amazon_price)
+head(expensive_legos)
+class(expensive_legos)
+```
+
+Usually R does really really well in knowing/guessing what class a variable is suppose to be (eg it already knew amazon price was numeric) or R changes the class when it makes a variable (eg when we asked if prices were greater than $30 the resulting variable was logical). 
+
+Importantly for us is the character and factor classes which is where R does something kind of annoying since version 4.0.0 (I remember the change and being annoyed then and still am). 
+
+The character class is the most broad class R can use. Character class to R means the variable is made up of text that has no statistical meaning. If I were to write a haiku to have printed in a markdown I'd save it as a character (why would I do this is beyond me but apparently my betters at R headquarters are convinced it's needed). 
+
+The three most often cases character class comes up is...
+
+   1) The data file has a notes written in a column (eg the researcher commented that some participants were obstinate; or commenting that a green onion in the experiment died midway through due to a fungal infection). These are suppose to be character class
+   
+   2) There is a mispelling/typo in a column that is suppose to be logical or numeric. Eg TRUE FALSE FASLE TRUE would be character because the second false is mispelled.
+    
+  3) Factors (nominal variables) are read in as characters. This is what I dislike. To make the variables nominal (and useful) you'll need the as.factor() fucntion after reading/typing your data. For example... (note how summary changes)
+  
+```{r}
+head(legos$Theme)
+class(legos$Theme)
+summary(legos$Theme)
+
+legos$Theme <- as.factor(legos$Theme)
+class(legos$Theme)
+summary(legos$Theme)
+```
+
+
+The above is how you convert a character variable to a factor variable. Once that is done you can color by your factor variable in ggplot2 (which it won't do with a character string).
+
+
+
+## Time
+
+My advice is that, when you collect the data, you record it in the units that is most useful for your goals. For example average screen time over a week probably does best measured in hours (eg 2 hrs and 30 minutes becomes 2.5 hours).
+
+If you already have the data recorded in hours:minutes:seconds (eg 2:30:05 for 2 hours, 30 minutes, 5 seconds) then we will probably need to convert it to something more useful (some functions in r will actually recognize the above as time and will do the right thing but it's somewhat rare)
+
+To change a time variable into numeric (so you can do something like average over multiple people) you need to use the package lubridate followed by running two (yes 2!) functions. The first function tells R that the variable is in fact time and gives the units (hours:minutes vs minutes:seconds vs hours:minutes:seconds). The second function converts the time object into seconds.
+
+```{r}
+library(lubridate) #may need to install
+#with the function install.packages('lubridate')
+
+#Lets assume it's saved as hours:minutes
+my_time <- c('2:30', '4:14', '8:32')
+
+class(my_time)
+
+
+######################
+#First Function
+
+#since it's hours:minutes I use hm()
+#For minutes:seconds I'd use ms()
+#and for hours:minutes:seconds I'd use hms()
+
+my_time_as_time <- hm(my_time)
+
+#######################
+# Second function
+
+my_time_seconds <- period_to_seconds(my_time_as_time)
+class(my_time_seconds)
+my_time_seconds
+
+#If you want minutes divide by 60, hrs divide by (60^2)
+my_time_minutes <- my_time_seconds/60
+my_time_minutes
+
+my_time_hours <- my_time_seconds/(60^2)
+my_time_hours
+```
+
+A good use of this would be something like screen time where you want to be able to average the total minutes of screen time in a week ober mulitple people. Alternatively, it's also useful if you want to talk about the time of day people do something (eg wake up time). Instead of time notation it'd be better (probably) to write it in hours (so 0-24 hours) or to record it in a day (0-1; 1 being the full day, .25 being 8 hours, etc...)
+
+

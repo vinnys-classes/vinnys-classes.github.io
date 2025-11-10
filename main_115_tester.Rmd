@@ -21,6 +21,8 @@ Last updated: `r format(Sys.time(), "%a %b %e %Y, %H:%M")`
 # Midterm
 [Midterm Instructions](lectures/Description_of_the_Assignment.pdf)
 
+[Helpful Hints on Getting Data Ready](midterm_help.Rmd)
+
 
 | Step | Due Date | 
 |:-----|:-------|
@@ -277,6 +279,11 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 <br>
 
+<hr style="border:2px solid grey">
+    
+
+<br>
+
 
 ### Week 10 (Normality)
 
@@ -294,12 +301,18 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 
 
+<br>
+
+<hr style="border:2px solid grey">
+    
+
+<br>
 
 ### Week 11 (Testing)
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Nov 3| [Z-test](z_tests-115.pdf)
+|Nov 3| [Z-test](z_tests-115.pdf) |||
 
 <hr style="border:3px solid black">
 
