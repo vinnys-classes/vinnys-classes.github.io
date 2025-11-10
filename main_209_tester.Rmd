@@ -254,7 +254,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 |Nov 3| [Sampling Distributions](lectures/Normality_Now_What_209.pdf)|
 |Nov 5| [Z-tests if time](graphics/z_tests_209.pdf) | [Dice Lab](graphics/permutation_lab-3.pdf)|
-|Nov 7| [Z-tests finished](z_tests-2.pdf) || [hypothesis statement practice](graphics/ht_practice.pdf) |
+|Nov 7| [Z-tests finished](z_tests-115.pdf) || [hypothesis statement practice](graphics/ht_practice.pdf) |
 <br>
 
 **Assignments and Deadlines**
@@ -267,7 +267,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 
 
-### Module 12 (Confidence Intervals and Testing)
+### Module 11 (Confidence Intervals and Testing)
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
