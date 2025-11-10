@@ -21,6 +21,10 @@ Last updated: `r format(Sys.time(), "%a %b %e %Y, %H:%M")`
 [Midterm Instructions](lectures/Description_of_the_Assignment.pdf)
 
 
+[Helpful Hints on Getting Data Ready](midterm_help.Rmd)
+
+
+
 | Step | Due Date | 
 |:-----|:-------|
 | Data Selection/Project Proposal| October 10|
