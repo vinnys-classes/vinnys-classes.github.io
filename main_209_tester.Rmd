@@ -51,6 +51,7 @@ All homework is due at 9pm unless clearly specified otherwise.
 |[ Homework 2 ](labs/homework_2.rmd)| October 15th | CODE NEEDED RIGHT AFTER YOU READ IN: legos\$Year <- as.factor(legos\$Year) |
 |[ Homework 2  SOLUTIONS](hw_2_sol_209.pdf)|||
 |[Homework 3](homework/Probability_homework3_209.pdf)|Nov 12||
+|[Homework 4](conf_int_hw.Rmd)|Nov 19|
 
 <hr style="border:3px solid black">
 
@@ -272,6 +273,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Nov 10 | [Confidence Intervals](lectures/confidence_intervals.pdf)|[Z-test lab](lab_z.Rmd)||
+|Nov 12| [t-tests](lectures/t_tests.pdf)||
 
 <br>
 

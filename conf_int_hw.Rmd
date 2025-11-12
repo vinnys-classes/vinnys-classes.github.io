@@ -1,0 +1,199 @@
+---
+title: "Confidence Interval Homework"
+output: pdf_document
+date: "2025-11-12"
+---
+
+This lab will be built to be verrrry similar to your Z-test lab (actually same problems tweaked). Part of this is I want you to get use to seeing the similarities between them and understand that hypothesis testing and confidence intervals are the two main branches of statistical inference (in my opinion).
+
+First we will read in the data set and subset (filter) to have just Duplo lego blocks
+
+```{r}
+library(ggplot2)
+legos <- read.csv('https://vinnys-classes.github.io/data/legos_data.csv')
+duplo <- subset(legos, Theme == 'Duplo')
+head(duplo)
+
+```
+
+
+
+# Confidence Interval 1
+
+Assume I love legs enough that I'm prepared to inundate my niece with Duplo themed lego sets. Assume the population has a variance of 900. I want to know the average price of Duplo legos. 
+
+
+
+#### Question 1
+ 
+Please visualize the distribution of Duplo lego set's amazon price by using a histogram. 
+
+NOTE: Please note that you need to use the "Duplo" data set and not the "legos" data set.
+
+#### Question 2
+
+Please visualize the relationship of Duplo lego's amazon price (y-axis) and the number of pieces (x-axis)
+
+
+
+#### Question 3
+
+Please check your assumptions. In particular you want to check if it's a (random sample), (independent and identically distributed), and (the population to be normal or the sample size is large). 
+
+HINT: Be verrrry careful on the independent and IDENTICALLY DISTRIBUTED assumption
+
+
+#### Question 4
+
+Regardless of your answer to question 3 state your sampling distribution. Note that the mean of your sampling distribution is no longer a hypothesized value and instead we are just going to use our sample mean (ie our best guess) which will need to be calculated.
+
+
+#### Question 5
+
+Please calculate a 95% confidence interval for the mean price of Duplo lego sets. The relevant distribution value (z) for the formula is 1.96 
+
+
+#### Question 6
+
+Please formally interpret your confidence interval.
+
+
+#### Question 7
+
+Do you have much faith in your above confidence interval? Why or why not?
+
+
+#### Question 8
+
+Do you think this confidence interval will be helpful predicting the price of a randomly grabbed lego set? Why or why not?
+
+
+#### Question 9
+
+We check the above somewhat. We will run the below code to randomly grab a few lego sets from our sample. Please comment on how many lego sets are within the confidence interval.
+
+```{r}
+my_random_sample <- sample(x = 1:25, #1 through the total
+                                     #number of observations (25)
+       
+       size = 5, #grab 5 lego sets in total
+       
+       replace = FALSE) #and we don't have the option to grab
+                        #the same lego set twice
+
+duplo[my_random_sample,]
+```
+
+
+
+
+# Confidence Interval 2
+
+It's critical when you have a young child to practice self care when you do have the few seconds to yourself (I've been told). Let's assume I'm also willing to buy my brother-in-law a few lego sets too but I want to know roughly how many pieces are in a set. As such, please calculate an 80% confidence interval and interpret it. Assume the population variance is 50000 (yes, it's massive). If you fail the assumptions, please continue with the rest of the problem.
+
+HINT 1: Follow the same steps as the above example.
+
+HINT 2: You'll need to find the z value for 80% confidence (see slide 22 in the confidence interval notes)
+
+NOTE: You will but using "small_bricks" instead of "legos" or "duplo".
+
+```{r}
+small_bricks <- subset(legos, Size == 'Small')
+```
+
+
+
+
+
+
+# Confidence Deep Dive
+
+The formula for a confidence interval is $\bar{x}$ $\pm$ (z$_{1 - \alpha/2}$)($\sqrt{\sigma^2/n}$)   We will change each piece to see what happens.
+
+Working with the penguin example from the notes......
+
+sample mean = 200 = $\bar{x}$
+
+pop variance = 180 = $\sigma^2$
+
+sample size = 340 = n
+
+confidence level = 1 - $\alpha$
+
+
+#### Question 1
+
+Calculate a confidence interval at 90% confidence. The relevant z value for the formula is 1.645
+
+
+
+#### Question 2
+
+Calculate a confidence interval at 99% confidence. The relevant z value for the formula is 2.58. 
+
+HINT: I strongly recommend copying and pasting your code for from the first question to this question and each question that asks for a confidence interval to be calculated. It'll save time.
+
+
+#### Question 3
+
+Comment on the difference between the above two confidence intervals. What happened to their widths as the confidence increase?
+
+
+#### Question 4
+
+Calculate a confidence interval at 90% confidence but this time assume our sample doubled to 680. 
+
+
+#### Question 5
+
+How does the width of the confidence interval in Question 4 compare to Question 1? 
+
+#### Question 6
+
+Calculate a confidence interval at 90% confidence but this time assume our sample quadrupled to 1360
+
+
+#### Question 7
+
+How does the width of the confidence interval in Question 6 compare to Questions 1 and 4?
+
+
+#### Question 8
+
+Calculate a confidence interval at 90% confidence but this time assume the sample mean is 180. 
+
+#### Question 9
+
+Comment on the difference in widths between question 1 and question 8. Also comment on where the confidence intervals are located.
+
+#### Question 10
+
+Calculate a confidence interval at 90% confidence but this time let the population variance increase to 250.
+
+#### Question 11
+
+Calculate a confidence interval at 90% confidence but this time let the population variance increase to 100.
+
+#### Question 12
+
+Comment on the differences in the intervals calculated in questions 1, 10, and 11.
+
+#### Question 13
+
+What is the disadvantage of using a very small confidence level (like 80% or even 50%)?
+
+#### Question 14
+
+Finish the sentences below based on your solutions above.
+
+"If the confidence level increases, the width of the confidence interval will ....."
+
+"If the population variance increases, the width of the confidence interval will ....."
+
+"If the sample size increases, the width of the confidence interval will ....."
+
+"If the sample size increases by a factor of 4, the width of the confidence interval will ....."
+
+"If the sample mean increases, the width of the confidence interval will ....."
+
+"If the sample mean increases, the *location* (middle) of the confidence interval will ....."
