@@ -1,0 +1,151 @@
+---
+title: "Lab Z-tests"
+output: pdf_document
+date: "2025-11-10"
+---
+
+The lab is broken into two sections. The first four questions just want you to write our what is the null and alternative hypothesis statements. This is to give you some extra practice identifying the HT statements which is usually a bit of a struggle for students. The second half has you run two hypothesis tests on your own. If you want you may jump directly to the second section to work on the hypothesis testing in class and to get help on it. 
+
+# Hypothesis Statements
+
+For the following four questions please write down the correct null hypothesis, H_0, and the correct alternative hypothesis, H_A. The general form is...
+
+H_0: mu (=, >=, <=) (hypothesized value)
+H_A: mu (not equal, <, >) (hypothesized value)
+
+#### Question 1
+
+An interesting(-ish) project I was once a part of dealt, in part, with the time it takes someone in a self-driving car to go from not driving to hands on the wheel after the car says to take over. The current theory is that if the display center is too dim on average the drivers will have slower reaction time. The average delay time is .4 seconds under the older, dim display with the hope the newer, brighter display will be able to reduce that time.
+
+#### Question 2
+
+I happen to drink a lot of green tea. About 5 cups in a day actually and usually some matcha to top it off (experiments run on green tea). I get a lot of my tea down in the East Village of Des Moines at Gung Fu Tea. Because of the amount of tea I buy from them I was once concerned they were underfilling the packages of tea. So over the course of a year I recorded the amount of tea in each package I bought (40 bags in total, each supposedly 2oz) on my own scales at home. After the year was over I found the average package was 2.05 oz. Please state the Null Hypothesis and Alternative Hypothesis. (NOTE: I never actually did this and just trust them)
+
+#### Question 3
+
+There is a professor at the University of Maine (Go Black Bears!!!) who is infamous for having his classes run over time. In any given semester an average professor would run over time by an average of 30 seconds. Students in his class, after being taught hypothesis testing, recorded the time he ran over and then preformed a hypothesis test. It was found that after 22 classes the professor let the class out late by an average of 210 seconds with a variance of 64. Please state the Null Hypothesis and Alternative Hypothesis.
+
+
+#### Question 4
+
+(An example of where my research comes up). In 2015 Hyundai and Kia were pegged with a $210 million fine because they claimed their vehicles would get great milage. Specifically Hyundai claimed it could get 40 mpg. Anecdotal evidence suggested this was incorrect so an experiment was ran to test if the vehicle fleet milage was in fact less than 40 mpg. Please state the Null Hypothesis and Alternative Hypothesis.
+
+NOTE: The disparity was caused by the fact that Kia and Hyundai tested their vehicles in unreasonably favorable conditions (eg driving 30mpg and calling it "highway speeds" or something like that) which boosted their fuel economy.
+
+# Hypothesis Testing 
+
+
+For the remainder of lab we will be using our RANDOMLY COLLECTED lego set again because everyone loves legos. Using this data, you will run two Z-tests.
+
+
+First we will read in the data set and subset (filter) to have just Duplo lego blocks
+
+```{r}
+library(ggplot2)
+legos <- read.csv('https://vinnys-classes.github.io/data/legos_data.csv')
+duplo <- subset(legos, Theme == 'Duplo')
+head(duplo)
+
+```
+
+
+
+
+## Hypothesis Test 1
+
+Assume I love legs enough that I'm prepared to inundate my niece with Duplo themed lego sets but only if the mean amazon price is less than $30. Assume the population has a variance of 900. We will run a hypothesis for this....
+
+#### Question 1
+
+Please state the hypothesis statements; that is both the null hypothesis and the alternative hypothesis
+
+#### Question 2
+
+Please plot the amazon price for duplo blocks as a histogram. Then make a scatterplot with duplo blocks' amazon price as the y-axis and number of pieces as the x-axis.
+
+
+HINT: For plotting you are using the "duplo" data set and not the "lego" data set (which has all the legos in it)
+
+
+#### Question 3
+
+Please check the three assumptions which are (randomly collected sample), (observations are independent and identically distributed), and (the population is normal or the sample size is large). At least one of them can't be checked easily but instead requires critical thinking. 
+
+
+HINT: Be very careful with the assumption about "independent and IDENTICALLY DISTRIBUTED"......think the above two graphs.
+
+
+
+
+#### Question 4
+
+Despite failing our assumptions we will carry on. Please write down the sampling distribution for the mean of our sample. NOTE: You'll need to find sample size, which will be the same as the number of rows in the data set.
+
+
+#### Question 5
+
+Find the test statistic. That is, standardize our sample mean given the normal distribution calculated above.
+
+#### Question 6
+
+Find the p-value. That is, find the probability we'd see something this extreme if the null hypothesis is true. The code you'll need is hast-tagged out below. Another example is in the notes.
+
+```{r}
+#pnorm(TEST_STATISTIC,
+#      mean = 0,
+#      sd = 1,
+#      lower.tail = TRUE)
+```
+
+
+#### Question 7
+
+State your decision. Be sure to state your strength of evidence.
+
+
+#### Question 8
+
+Do you have much faith in this test? Why or why not? 
+
+
+
+## Hypothesis Test 2
+
+It's critical when you have a young child to practice self care every couple months when you actually have the few seconds to yourself (I've been told). As such, let's assume I'm also willing to buy my brother-in-law a few lego sets too but only if the mean number of pieces is more than 200. Assume the population variance is 50000 (yes, it's massive).
+
+NOTE you will but using "small_bricks" instead of "legos" or "duplo" for your data set. Please be careful with this.
+
+```{r}
+small_bricks <- subset(legos, Size == 'Small')
+```
+
+
+#### Question 1 
+
+Please state your two hypothesis
+
+
+
+#### Question 2 
+
+Please graph the number of pieces for the small_bricks data set using a histogram
+
+#### Question 3
+
+Please check your three assumptions again. 
+
+#### Question 4
+
+Please calculate your test statistic
+
+#### Question 5
+
+Please calculate your p-value
+
+HINT: When calculating your p-value think about if you want the lower/left hand tail  (lower.tail = TRUE) or if you want the upper/right hand tail (lower.tail = FALSE). It'll depend on your alternative hypothesis.
+
+
+#### Question 6
+
+Please state your decision.
+
