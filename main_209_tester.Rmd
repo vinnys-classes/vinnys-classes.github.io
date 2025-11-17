@@ -267,6 +267,9 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 3) Homework 3: Nov 12th
 
 
+<hr style="border:2px solid grey">
+
+<br>
 
 ### Module 11 (Confidence Intervals and Testing)
 
@@ -274,6 +277,21 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 |Nov 10 | [Confidence Intervals](lectures/confidence_intervals.pdf)|[Z-test lab](lab_z.Rmd)||
 |Nov 12| [t-tests](lectures/t_tests.pdf)||
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 12 (Intervals and Sampling)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Nov 17 | [t-tests and confidence intervals](lectures/t_tests_and_intervals.pdf)||[Confidence Interval Simulator](R/conf_builder.Rmd)|
+| Nov 17| [Sampling Methods](lectures/sampling.pdf)
+<hr style="border:3px solid black">
+
+
+<br>
 
 <br>
 
