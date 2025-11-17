@@ -314,7 +314,22 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 |Nov 11| [Z-test](z_tests-115.pdf) |||
 | Nov 14| [Confidence Intervals](lectures/confidence_intervals-2.pdf) |[Z-test Lab](lab_z_115.Rmd)||
+| Nov 16| Presentations ||
 
+
+<br>
+
+<hr style="border:2px solid grey">
+    
+
+<br>
+
+### Week 12 (Intervals and Sampling)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Nov 17 | [Confidence Intervals](lectures/confidence_intervals_115.pdf)||[Confidence Interval Simulator](R/conf_builder.Rmd)|
+| Nov 17| [Sampling Methods](lectures/sampling.pdf)
 <hr style="border:3px solid black">
 
 

@@ -1,0 +1,112 @@
+---
+title: "confidence_builder"
+output: pdf_document
+date: "2025-11-16"
+---
+
+
+
+# I did a thing
+
+You *might* need to run the code install.packages('ggthemes') to install the ggthemes package (which gives you more theme options). I advise against including install.packages() functions inside your Rmd file as you only ever need to run it once (as such, I always do it in the console below the rmd file)
+
+```{r}
+library(ggthemes)
+library(reshape2)
+library(ggplot2)
+
+conf_builder <- function(sample_size,
+                         confidence_proportion,
+                         num_of_intervals = 20,
+                         mean = 0,
+                         pop_variance = 1){
+  
+        confidence <- confidence_proportion
+        my_int_count <- 1:num_of_intervals
+        
+        my_ints <- lapply(my_int_count, FUN = function(x){
+          my_sample <- rnorm(n = sample_size,
+                             mean = mean,
+                             sd = sqrt(pop_variance))
+          my_sample_mean <- mean(my_sample)
+          my_sample_se <- sqrt(pop_variance)/sqrt(sample_size)
+          my_z <-  abs(qnorm(p = (1-confidence)/2))
+          uu <- my_sample_mean + my_z*my_sample_se
+          ll <- my_sample_mean - my_z*my_sample_se
+          my_sample_mod <- data.frame( lower = ll,upper = uu)
+          return(my_sample_mod)
+        })
+        
+        my_ints2 <- do.call(rbind, my_ints)
+        my_ints2 <- data.frame(my_ints2)
+        
+        row.names(my_ints2) <- NULL
+        
+        
+        colnames(my_ints2) <- c('lower', 'upper')
+        
+        if(mean(my_ints2$upper) < mean(my_ints2$lower)){
+          colnames(my_ints2) <- c('upper', 'lower')
+        }
+               
+        
+        my_ints2$contains <- (my_ints2$lower < mean) + (my_ints2$upper > mean) == 2
+        
+        my_ints2$conf_num <- 1:num_of_intervals
+        
+        my_ints3 <- melt(my_ints2,
+                        id.vars = c('contains', 'conf_num'))
+        
+        colnames(my_ints3)[3:4] <- c('tail','point')
+        
+        k <- ggplot(my_ints3, 
+                    aes(x = conf_num,
+                               y = point,
+                               group = conf_num,
+                               col = contains,
+                               shape = contains,
+                               linetype = contains)) +
+          geom_point(size = 2,
+                             show.legend = FALSE) +
+          geom_line(linewidth = 1.5,
+                             show.legend = FALSE) +
+          theme_base() +
+          scale_color_manual(limits = c(FALSE, TRUE), 
+                             values = c('green3', 'purple3')) +
+          scale_linetype_manual(values = c(1,4),
+                                limits = c(FALSE, TRUE)) +
+          theme(legend.position = 'none') +
+          xlab('Interval Number') +
+          ylab('Simulated Values') +
+          labs(title = 'Conf. Interval Simulations')
+        
+        
+        
+        
+       # return(head(my_ints2))
+        return(k)
+}
+```
+
+
+# We can now play with the function
+
+There are five parameters that can be played with
+
+1) sample_size
+
+2) confidence_proportion which is your confidence level expressed as a proportion from 0 to 1 (eg .95)
+ 
+3) num_of_intervals is how many intervals to show. Defaults to 20 
+                        
+4) mean which sets the mean of the population. Defaults to 0
+
+5) pop_variance which sets the population's variance. Defaults to 1.
+
+```{r}
+conf_builder(sample_size = 20,
+             confidence_proportion = .95,
+             num_of_intervals = 20,
+             mean = 0,
+             pop_variance = 1)
+```
