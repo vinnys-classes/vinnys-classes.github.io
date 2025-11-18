@@ -328,8 +328,12 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| Nov 17 | [Confidence Intervals](lectures/confidence_intervals_115.pdf)||[Confidence Interval Simulator](R/conf_builder.Rmd)|
-| Nov 17| [Sampling Methods](lectures/sampling.pdf)
+| Nov 17 | [Confidence Intervals](lectures/confidence_intervals_115.pdf)|Slide 37 Answers are in CI Simulatior Solutons Rmd file|[Confidence Interval Simulator](R/conf_builder.Rmd)|
+| Nov 17| [Sampling Methods](lectures/sampling.pdf) ||[Confidence Interval Simulator Solutions](R/conf_builder_solutions.Rmd)|
+
+
+<br>
+
 <hr style="border:3px solid black">
 
 
