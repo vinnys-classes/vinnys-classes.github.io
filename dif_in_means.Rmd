@@ -1,0 +1,61 @@
+---
+title: "penguins"
+output: pdf_document
+date: "2025-11-18"
+---
+
+# Notes Example
+
+```{r}
+data("penguins")
+
+
+dream_pen <- subset(penguins, island == 'Dream')
+tor_pen <- subset(penguins, island == 'Torgersen')
+
+hist(dream_pen$flipper_len)
+hist(tor_pen$flipper_len)
+
+t.test(dream_pen$flipper_len,
+       tor_pen$flipper_len,
+       alternative = 'two.sided',
+       mu = 0,
+       conf.level = .95)
+
+```
+
+
+# Example to try on your own
+
+We are ignoring tension for the moment if you are wondering. 
+
+```{r}
+data("warpbreaks")
+
+yarn_a <- subset(warpbreaks, wool == 'A')
+yarn_b <- subset(warpbreaks, wool == 'B')
+
+```
+
+1) State you null and alternative hypothesis
+
+2) Visualize your data
+
+
+```{r}
+library(ggplot2)
+
+ggplot(warpbreaks,
+       aes(breaks)) + 
+  geom_histogram() +
+  facet_grid(~wool) +
+  theme_bw()
+```
+
+3) Check your assumptions (random, independent and identically distributed)
+
+4) Regardless if we fail our assumptions, let's continue. Using R, calculate the test-statistic and the p-value
+
+5) Give a decision for your test
+
+6) State and interpret a 95\% confidence interval for the difference in their means
