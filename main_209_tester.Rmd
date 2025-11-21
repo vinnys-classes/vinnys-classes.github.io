@@ -38,7 +38,7 @@ It'll be the full 80 minutes. You may bring a notecard and a calculator. If you 
 | Study Guide | Date | 
 |:-----|:-------|
 |[Exam 1 Study Guide](exam/Exam_1_Study_Guide_209.pdf)| Friday October 17th|
-
+|Exam 2 (Study Guide Coming Soon)|Monday Dec 1st|
 
 
 # Homework
@@ -288,7 +288,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 | Nov 17 | [t-tests and confidence intervals](lectures/t_tests_and_intervals.pdf)||[Confidence Interval Simulator](R/conf_builder.Rmd)|
 | Nov 17| [Sampling Methods](lectures/sampling.pdf)
-| Nov 19| [More Inferences](lectures/inference_extend.pdf) |[practice](dif_in_means.Rmd)  | [practice finished](dif_in_means_finished.Rmd)|
+| Nov 19| [More Inferences](lectures/inference_extend.pdf) |[practice](dif_in_means.Rmd)  | [practice finished](R/dif_in_means_finished.Rmd)|
+|Nov 21|[More Inferences Final](lectures/Inference_extended_full.pdf)|||
 
 
 <hr style="border:3px solid black">
