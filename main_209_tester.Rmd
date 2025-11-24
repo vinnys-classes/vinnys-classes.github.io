@@ -278,6 +278,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Nov 10 | [Confidence Intervals](lectures/confidence_intervals.pdf)|[Z-test lab](lab_z.Rmd)||
 |Nov 12| [t-tests](lectures/t_tests.pdf)||
 
+<br>
+
 <hr style="border:2px solid grey">
 
 <br>
@@ -292,6 +294,18 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Nov 21|[More Inferences Final](lectures/Inference_extended_full.pdf)|||
 
 
+
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 13 (Thanksgiving)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Nov 24| [Errors](lectures/errors.pdf)|[Linear Regression: I'm BACK](labs/lego_land_lab.rmd)|
 <hr style="border:3px solid black">
 
 

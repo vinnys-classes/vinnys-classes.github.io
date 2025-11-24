@@ -6,7 +6,6 @@ date: "2025-10-17"
 
 Today's lab is going to be a little frustrating most likely. The point of this lab is to let you explore the concepts on your own and try to understand what is happening before being formally taught it. 
 
-And actually, I don't plan to teach this material in class nor test over it. I want to give you some introduction to MLR just so you are aware it exists. 
 
 ##############################################
 
@@ -50,7 +49,15 @@ Fit a linear model using the lm() function with amazon_price as the response and
 
 ### Question 5
 
-Plot the residuals from question 3. Color and shape the points by Theme. 
+Plot the residuals from question 3 using a scatterplot with predicted price as your x-axis. Color and shape the points by Theme. 
+```{r}
+#blocks$my_predictions <- predict(YOUR_MODEL)
+#blocks$my_residuals <- resid(YOUR_MODEL)
+
+#ggplot(blocks, aes(x = my_predicitons,
+ #                   y = my_residuals)) + geom_point(aes(color = Theme,
+  #                                                      shape = Theme))
+```
 
 
 ### Question 6
