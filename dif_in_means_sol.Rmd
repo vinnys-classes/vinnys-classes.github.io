@@ -39,6 +39,9 @@ yarn_b <- subset(warpbreaks, wool == 'B')
 
 1) State you null and alternative hypothesis
 
+H_0: mu_A - mu_B = 0
+H_A: mu_A - mu_B $\neq$ 0 (not equal to)
+
 2) Visualize your data
 
 
@@ -54,10 +57,25 @@ ggplot(warpbreaks,
 
 3) Check your assumptions (random, independent and identically distributed, large n)
 
+i) Random: Sure
+ii) IID: Yes to both of these as there isn't a reason why one bundle of yarn would affect another. Also, there isn't an a priori belief some yarn might be different so there isn't lurking variables so they should be identically distributed
+iii) Large n or the pop is normal: Given the sample distributions above it looks like the data is approximately normal for both groups; at least normal enough that the sample size (n = 27 for both groups) should kick in
 
 4) Regardless if we fail our assumptions, let's continue. Using R, calculate the test-statistic and the p-value
 
+```{r}
+
+t.test(yarn_a$breaks,
+       yarn_b$breaks,
+       conf.level = .95)
+```
+
 5) Give a decision for your test
 
+We have little to no evidence that the true difference in the mean number of breaks is different between the two yarns.
 
 6) State and interpret a 95\% confidence interval for the difference in their means
+
+From the R output above: (-1.36, 12.92) so....
+
+We are 95\% confident the true difference in mean breaks between yarn A and B is between -1.36 and 12.92 breaksw.
