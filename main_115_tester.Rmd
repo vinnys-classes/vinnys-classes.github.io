@@ -334,6 +334,22 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Nov 19 | [t-tests and confidence intervals](lectures/t_tests_and_intervals.pdf)||
 | Nov 21| [More Inferences](lectures/inference_extend.pdf) |[practice](dif_in_means.Rmd)  |
 
+
+
+<br>
+
+<hr style="border:2px solid grey">
+    
+
+<br>
+
+### Week 13 (THANKSGIVING!!)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Nov 24|[More Inferences Final](lectures/Inference_extended_full.pdf)|[Hypothesis Statement Practice](lectures/Practice_Problems_For_Hypothesis.pdf)|[Solutions](lectures/Practice_Problems_For_Hypothesis_sol.pdf)|
+
+
 <br>
 
 <hr style="border:3px solid black">
