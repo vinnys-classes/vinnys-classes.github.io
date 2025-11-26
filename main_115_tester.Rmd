@@ -348,6 +348,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Nov 24|[More Inferences Final](lectures/Inference_extended_full.pdf)|[Hypothesis Statement Practice](lectures/Practice_Problems_For_Hypothesis.pdf)|[Solutions](lectures/Practice_Problems_For_Hypothesis_sol.pdf)|
+|Nov 26|[Adv Regression](regression_adv_topics.pdf)||
 
 
 <br>
