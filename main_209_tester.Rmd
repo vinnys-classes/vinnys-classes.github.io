@@ -306,6 +306,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Nov 24| [Errors](lectures/errors.pdf)|[Linear Regression: I'm BACK](labs/lego_land_lab.rmd)|
+|Nov 26|[Adv Regression](regression_adv_topics.pdf)||
+
 <hr style="border:3px solid black">
 
 
