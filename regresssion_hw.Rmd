@@ -1,0 +1,175 @@
+---
+title: "regression_test_hw"
+output: pdf_document
+date: "2025-12-05"
+---
+
+
+NOTE The data you will be using is called small_bricks unless you save it as something else in the code. It's not the full lego data set (which contains duplo/large bricks)
+
+
+The goal will be straight forward-ish. Your object is to rerun the analysis I did in the notes but using the log of amazon price and the log of the number of pieces instead. You will want to use the log() function for this
+
+NTOE: You may need to install the package ggthemes
+
+```{r}
+library(ggplot2)
+library(ggthemes)
+legos <- read.csv('https://vinnys-classes.github.io/data/legos_data.csv')
+
+small_bricks <- subset(legos, Size == 'Small')
+head(small_bricks)
+
+```
+
+
+
+#### Q1 
+
+Using ggplot2 and the skeleton code below, please create a scatterplot with the log of amazon price of legos as the y-axis and the log number of pieces as the x-axis. Right now the graph has both the number of pieces and the price on the linear scale
+
+```{r}
+
+ggplot(small_bricks,
+       aes(x = Pieces,
+           y = amazon_price)) + 
+  
+  geom_point(aes(color = Theme, #make points
+                 shape = Theme))  +
+  
+  theme_base() + #choose my base theme
+  
+  scale_color_manual(values = c('green4', #pick my colors
+                                'purple')) 
+
+```
+
+
+
+
+
+
+#### Q2 
+
+Comment on if ther seems to be a difference between city and friends legos.
+
+
+#### Q3
+
+Below is the code I use to create the linear model for the notes. Please change it similarly to above so both amazon price and pieces are log'd (ie put them on the log scale). After that, save the predictions and residuals from the model (code set up to do this automatically as "preds" and "resid" respectively). Note that both the residuals and predicitons are still on the log scale.
+
+```{r}
+
+mod <- lm(amazon_price ~ Pieces + Theme, data = small_bricks)
+
+small_bricks$preds <- predict(mod)
+small_bricks$resid <- resid(mod)
+```
+
+
+
+#### Q4
+
+Write out the null and alternative hypothesis for your test. HINT: The $\beta$ you are after will be number $\beta_2$.
+
+
+#### Q5
+
+Check the assumptions for the model and test. First copy and paste the code to question 1 here. Then plot the predictions (the variable is saved as preds) on the x-axis and the residuals (saved as resid) on the y-axis. 
+
+
+#### Q6 
+
+Comment on if there is any pattern or concerning behavior in this graph. The ideal is that it looks like a random scattering of points and color/shapes. Based on this do we pass the assumptions (Random, IID, Normal or Large n)?
+
+NOTE: For normal we want an equal scattering of points above and below 0 that is roughly symmetrical around the y = 0 line.
+
+
+#### Q7
+
+Using the summary() function and your model, find your test statistic and p-value. Note you will have to put the name of your model into the function
+
+```{r}
+#summary(MY_MODEL)
+```
+
+
+#### Q8 
+
+Given this, please state your decision for the test
+
+
+
+
+
+#### Q9
+
+We have now "tested" the Theme variable three times. We used the t-test to see if the means of the two groups were the same. We also used a linear model and used the sampling distribution of the coefficent on the Theme indicator to test to see if estimated coefficient was statistically different from 0 after accounting for the effects of the number of Pieces. Finally, we have now redone that but this time using the log price and the log number of pieces. 
+
+ Which of these three do you have the most faith in? Why?
+
+
+
+NOTE: This is an important lesson in statistics: Most reasonable analysis should return the same or similar results. Even when we used models that didn't meet the assumptions (t-tests with lurking variables, not using a log-log model) we still come to the same conclusion. That is very reassuring as it suggests that minor decisions we are making aren't going to produce radically different results (heartburn to statisticians)
+
+
+
+
+#### Q10
+
+Using the confint() function, please find a 90\% confidence interval for the estimated coeffiecent for Theme.
+
+HINT: You'll need to go to the help page for confint to find out how to change your confidence level, which defaults to 95\%
+
+```{r}
+
+#confint(mod)
+
+```
+
+BONUS POINT (HARD..?): What is the best, super formal interpretation of this interval?
+
+
+
+
+#### Q11
+
+One last note as a cheers to one of my advisors in grad school (I ended up with three major profs on my dissertation lol). "You never know if there is a quadratic effect unless you check." This has two parts. The first should have already been done but we need to visually look at our graph to see if there might be a curve. Generally in statistics, if we can find a problem we can deal with it.
+
+1) Go look at the graph you made in Question 1. Does there appear to be a curve/bend in the graph? Is it the same for both themes? 
+
+2) We can test this using our tools! We need to run a new model which I have done for you. Using the output of the residual vs predicted graph and the summary output test to see if there is a quadratic effect for log(Pieces) which in R is denoted with I(log(Pieces)^2) in the output
+
+
+NOTE: R's kind of weird syntax of having to use I(EXPLANATORY_VAR^2) with the enclosing I() which I have never understood tbh. You don't need to know it but good for reference
+
+```{r}
+
+mod_sq <- lm(log(amazon_price) ~ log(Pieces) + 
+                           I(log(Pieces)^2) +
+                            Theme,
+              data = small_bricks)
+
+small_bricks$preds_sq <- predict(mod_sq)
+small_bricks$resid_sq <- resid(mod_sq)
+
+ggplot(small_bricks, aes(x = preds_sq,
+                         y = resid_sq)) +
+  geom_point(aes(color = Theme, shape = Theme)) +
+    
+  theme_base() + #choose my base theme
+  
+  scale_color_manual(values = c('green4', #pick my colors
+                                'purple')) +
+  
+  xlab('predictons') +
+  ylab('residuals')
+
+
+#and the summary outpput
+summary(mod_sq)
+
+```
+
+BONUS POINT 2 (Easy): Locate and compare the R^2 for the model with the quadratic term and the one without.
+

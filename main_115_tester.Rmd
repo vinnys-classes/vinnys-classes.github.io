@@ -350,6 +350,18 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Nov 24|[More Inferences Final](lectures/Inference_extended_full.pdf)|[Hypothesis Statement Practice](lectures/Practice_Problems_For_Hypothesis.pdf)|[Solutions](lectures/Practice_Problems_For_Hypothesis_sol.pdf)|
 |Nov 26|[Adv Regression](regression_adv_topics.pdf)||
 
+<br>
+
+<hr style="border:2px solid grey">
+    
+
+<br>
+
+### Week 14 (Almost Done!!)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Dec 5| [Regression Testing](lectures/Regression_testing.pdf)|[Regression Testing](regresssion_hw.Rmd)||
 
 <br>
 
