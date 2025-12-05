@@ -308,6 +308,22 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Nov 24| [Errors](lectures/errors.pdf)|[Linear Regression: I'm BACK](labs/lego_land_lab.rmd)|
 |Nov 26|[Adv Regression](regression_adv_topics.pdf)||
 
+
+
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 14 (Almost Done!!)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Dec 5| [Regression Testing](lectures/Regression_testing.pdf)|[Regression Testing Lab](regresssion_hw.Rmd)||
+
+
+
 <hr style="border:3px solid black">
 
 
