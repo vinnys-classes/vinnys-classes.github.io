@@ -16,6 +16,14 @@ Last updated: `r format(Sys.time(), "%a %b %e %Y, %H:%M")`
     
 
 
+# Final Project
+[Final Project Instructions](Final_Project.pdf)
+
+ | Due Date | 
+|:-------|
+|Wednesday December 17|
+
+<hr style="border:3px solid black">
 
 
 # Midterm
@@ -47,6 +55,7 @@ All homework is due at 9pm unless clearly specified otherwise.
 |:-----|:-------|:-----|
 |[ Homework 1 ](homework/homework_1.Rmd)| October 1st |[ Examples of the graphs you'll be remaking ](homework/hw_1_example_graphs.pdf)|
 |[Homework 2 (Probability)](homework/Probability_homework3_115.pdf) |Nov 12||
+|[Homework 3 (Regression Testing lab)](regresssion_hw.Rmd)| Dec 12|
 
 <hr style="border:3px solid black">
 
@@ -361,8 +370,23 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
+|Dec 1| SNOW DAY!!|||
+|Dec 3| Exam Day |||
 |Dec 5| [Regression Testing](lectures/Regression_testing.pdf)|[Regression Testing](regresssion_hw.Rmd)||
 
+
+<br>
+
+<hr style="border:2px solid grey">
+    
+
+<br>
+
+### Week 15 (Almost Done!!)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Dec 8| [Multiple Linear Regression](lectures/mulitple_regression.pdf)
 <br>
 
 <hr style="border:3px solid black">
