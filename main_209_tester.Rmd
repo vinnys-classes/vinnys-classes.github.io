@@ -14,6 +14,15 @@ Last updated: `r format(Sys.time(), "%a %b %e %Y, %H:%M")`
 
 <hr style="border:3px solid black">
     
+# Final Project
+[Final Project Instructions](Final_Project_209.pdf)
+
+ | Due Date | 
+|:-------|
+|Thursday December 18|
+
+<hr style="border:3px solid black">
+
 
 
 
@@ -316,12 +325,32 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 <br>
 
+
+
 ### Week 14 (Almost Done!!)
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Dec 5| [Regression Testing](lectures/Regression_testing.pdf)|[Regression Testing Lab](regresssion_hw.Rmd)||
+|Dec 1| SNOW DAY!!|||
+|Dec 3| Exam Day |||
+|Dec 5| [Regression Testing](lectures/Regression_testing.pdf)|[Regression Testing](regresssion_hw.Rmd)||
 
+
+<br>
+
+<hr style="border:2px solid grey">
+    
+
+<br>
+
+### Week 15 (Almost Done!!)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Dec 8| [Multiple Linear Regression](lectures/mulitple_regression.pdf)
+<br>
+
+<hr style="border:3px solid black">
 
 
 <hr style="border:3px solid black">
