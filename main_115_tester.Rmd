@@ -41,7 +41,7 @@ Last updated: `r format(Sys.time(), "%a %b %e %Y, %H:%M")`
 <hr style="border:3px solid black">
 
 # Exam
-It'll be the full 80 minutes. You may bring a notecard and a calculator. If you do not have a calculator you may leave your answer unsimplified. Eg predicted price = \$ e^2.19.
+Your final will be roughly as long as a normal exam but I will give you 2 hours to do the exam (not the full 3 hours the final's schedule gives me). You may bring a notecard and a calculator. If you do not have a calculator you may leave your answer unsimplified. Eg predicted price = \$ e^2.19.
 
 | Study Guide | Date | 
 |:-----|:-------|
