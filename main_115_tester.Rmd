@@ -388,6 +388,9 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Dec 8| [Multiple Linear Regression](lectures/mulitple_regression.pdf)
+|Dec 10| [ANOVA](lectures/ANOVA.pdf)||
+|Dec 10| [Regression Errors](lectures/errors.pdf)||
+
 <br>
 
 <hr style="border:3px solid black">
