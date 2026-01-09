@@ -10,7 +10,6 @@ output:
 
 $~$
 
-Last updated: `r format(Sys.time(), "%a %b %e %Y, %H:%M")`
 
 <hr style="border:3px solid black">
     
@@ -40,6 +39,11 @@ Last updated: `r format(Sys.time(), "%a %b %e %Y, %H:%M")`
 | Data Reading/Check In| October 31|
 | Presentations | November 14 |
 
+<br>
+
+<hr style="border:3px solid black">
+
+<br>
 
 # Exam
 It'll be the full 80 minutes. You may bring a notecard and a calculator. If you do not have a calculator you may leave your answer unsimplified. Eg predicted price = \$ e^2.19.
@@ -50,6 +54,13 @@ It'll be the full 80 minutes. You may bring a notecard and a calculator. If you 
 |[Exam 2 Study Guide](exam/exam_2_overview-4.pdf)|Monday Dec 1st|
 |[Final Exam Study Guide](exam/final_exam_209.pdf)|Thursday Dec 18th|
 
+<br>
+
+<hr style="border:3px solid black">
+
+<br>
+
+
 # Homework
 
 All homework is due at 9pm unless clearly specified otherwise. 
@@ -57,7 +68,7 @@ All homework is due at 9pm unless clearly specified otherwise.
 | Rmd | Due Date | Helpful Things | 
 |:-----|:-------|:-----|
 |[ Homework 1 ](homework/homework_1.Rmd)| October 1st |[ Examples of the graphs you'll be remaking ](homework/hw_1_example_graphs.pdf)|
-|[ Homework 2 ](labs/homework_2.rmd)| October 15th | CODE NEEDED RIGHT AFTER YOU READ IN: legos\$Year <- as.factor(legos\$Year) |
+|[ Homework 2 ](labs/homework_2.rmd)| October 15th ||
 |[ Homework 2  SOLUTIONS](hw_2_sol_209.pdf)|||
 |[Homework 3](homework/Probability_homework3_209.pdf)|Nov 12||
 |[Homework 4](conf_int_hw.Rmd)|Nov 19|
@@ -97,13 +108,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Fri 8/28 | [Syllabus](syl_209_tester.html) | - | - |
 |          | [Introduction](lectures/intro_115-2.pdf)  | - |IMS Sections 1.2.1-1.2.3 |
 
-**Assignments and Deadlines**
 
-1) Install R (https://cran.r-project.org/)
-
-2) Install RStudio (https://posit.co/download/rstudio-desktop/)
-
-3) Begin thinking of interesting data sources for you midterm projects
 
 <hr style="border:2px solid grey">
 
@@ -117,10 +122,6 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | -|-| [lab 1 Helpful Hints](labs/Lab_1_hints.html)| [H. Wickham discussing enviroments in R](https://adv-r.hadley.nz/environments.html)|
 | Friday 9/5 | [Visualizations in R](lectures/data_vis_update.pdf)|  [Continue lab 1](labs/01_introR.html)|- | 
 
-**Assignments and Deadlines**
-
-1) First lab is due Septmber 9th
-2) Hadley Wickham's Tidy Data published in Journal of Statistical Software in 2014 with a quiz on September 15th
 
 <hr style="border:2px solid grey">
 
@@ -135,11 +136,6 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Wednesday 9/10 | [Data Visualization III (Accessibility)](lectures/accessible_graphics-3.pdf) | [data vis lab](labs/DataVisualizationLab.Rmd) |- 
 | Friday 9/12 | - | Finish lab 2  |-  |
 
-
-**Assignments and Deadlines**
-
-1) First lab is due Septmber 9th
-2) Hadley Wickham's Tidy Data published in Journal of Statistical Software in 2014 with a quiz on September 15th
 
 
 
@@ -156,11 +152,6 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Wednesday 9/17 | |Finish ggplot2 lab| -  |
 | | | [ggplot2 helpful hints](labs/ggplot2_lab_help.html)
 | Friday 9/19 | [Numeric Summaries](lectures/numeric_summaries.pdf) | | [Code Along](R/Code_Along.Rmd)
-**Assignments and Deadlines**
-
-1) Second lab is due September 16th
-2) ggplot lab is due September 23nd
-
 
 <hr style="border:2px solid grey">
 
@@ -205,11 +196,6 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Wednesday 10/08|||[Lego code_along_finished](R/legos_code_along_filled.rmd)|
 |Friday 10/10|||[Lego Code Along for Transforms ](R/legos_code_along_transforms.rmd)|
 |Friday 10/10|||[Lego Code Along for Transforms Done](legos_code_along_transforms_done.rmd)|
-**Assignments and Deadlines**
-**Assignments and Deadlines**
-
-1) Exam Friday October 17
-2) Homework 2 due October 15th
 
 
 
@@ -228,11 +214,6 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Monday 10/13|[Simulations ](lectures/Randomization_test-2.pdf)|||
 |Wednesday 10/15| Review Day| | | 
 |Friday 10/17 | Exam |||
-
-**Assignments and Deadlines**
-
-1) Exam Friday October 17
-2) Homework 2 due October 15th
 
 <br>
 
@@ -267,13 +248,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Nov 7| [Z-tests finished](z_tests-115.pdf) || [hypothesis statement practice](graphics/ht_practice.pdf) |
 <br>
 
-**Assignments and Deadlines**
 
-1) Reading Quiz Friday Nov 7th
-
-2) Dice rolling lab Due: Nov 10th
-
-3) Homework 3: Nov 12th
 
 
 <hr style="border:2px solid grey">
@@ -349,15 +324,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 |Dec 8| [Multiple Linear Regression](lectures/mulitple_regression.pdf)
 |Dec 10| [ANOVA](lectures/ANOVA_209.pdf)
-<br>
 
-<hr style="border:3px solid black">
-
-
-<hr style="border:3px solid black">
-
-
-<br>
 
 <br>
 
