@@ -62,7 +62,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| Fri 8/28 | [Syllabus](./syl_115.html) |  [Start of Class R Stuff](./r_prep.html) | - |
+| Fri 8/28 | [Syllabus](./syl_115.html) |   [Start of Class R Stuff](../applied_5/r_prep.html) | - |
 |          | [Introduction](../lectures/intro_spring.pdf)  | - |IMS Sections 1.2.1-1.2.3 |
 |          | [Basics of R (Time allowing)](../lectures/r-spring.pdf) | | |
 
