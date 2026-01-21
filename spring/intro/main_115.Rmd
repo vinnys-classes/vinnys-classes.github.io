@@ -1,0 +1,88 @@
+---
+title: "SST-115 Introduction to Statistics (Spring 2025)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+---
+
+$~$
+
+
+<hr style="border:3px solid black">
+    
+
+
+
+
+
+<br>
+
+
+
+
+# Assignments
+
+All homework is due at 9pm unless clearly specified otherwise. (Table will be filled out later)
+
+
+
+
+<br>
+
+
+<hr style="border:3px solid black">
+
+
+
+<br>
+
+# Required Readings
+
+Please note that you are fully allowed (encouraged even!) to visit during office hours to talk about the required reading if you'd like. I'm glad to chat about it and discuss any questions you might have. Also please note that I'd like you to understand the broad strokes of the paper/what the author is getting at. I will avoid quizzing you over the nitty-gritty details.
+
+<br>
+
+
+<hr style="border:3px solid black">
+
+
+
+<br>
+
+# Notes
+
+<hr style="border:2px solid grey">
+    
+
+
+### Module 1 (Introduction)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Fri 8/28 | [Syllabus](./syl_115.html) | - | - |
+|          | [Introduction](../lectures/intro_115-2.pdf)  | - |IMS Sections 1.2.1-1.2.3 |
+
+
+
+<br> 
+
+<hr style="border:3px solid black">
+
+
+
+<br>
+
+# Syllabus
+
+Welcome to the course website for SST 115, Introduction to Statistics. To begin, you can find the course syllabus linked below:
+
+- [Click here](./syl_115.html) to view the course syllabus
+
+You can locate course content by scrolling, or by using the outline in the upper left. Please note: material will not be posted until we've reached that point in the course.
+
+<hr style="border:3px solid black">
+
+
