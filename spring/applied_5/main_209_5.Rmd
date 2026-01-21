@@ -64,6 +64,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 | Fri 8/28 | [Syllabus](./syl_209_5.html) | - | - |
 |          | [Introduction](../lectures/intro_115-2.pdf)  | - |IMS Sections 1.2.1-1.2.3 |
+|          | [Basics of R (Time allowing)](../lectures/r-spring.pdf) | | |
+
 
 
 
