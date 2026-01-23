@@ -2,8 +2,8 @@
 author: "Vinny Paris"
 date: "2025-08-13"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 # Syllabus \- SST-115 (Spring 2026\)
 
