@@ -58,7 +58,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
     
 
 
-### Module 1 (Introduction)
+### Week 1 (Introduction)
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
@@ -68,7 +68,21 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 
 
+
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 2 (Visualizations)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Mon 1/25| [Data Visualization](../lectures/data_vis_spring.pdf) | | |
+
 <br> 
+ 
 
 <hr style="border:3px solid black">
 
