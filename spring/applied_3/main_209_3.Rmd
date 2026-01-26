@@ -41,6 +41,10 @@ All homework is due at 9pm unless clearly specified otherwise. (Table will be fi
 
 # Required Readings
 
+| Title | Author | Journal | Year | Quiz Date|
+|:-----|:-------|:-----|:-----|:-----|
+|Tidy Data| Hadley Wickham| Journal of Statistical Software|2014|2/04|
+
 Please note that you are fully allowed (encouraged even!) to visit during office hours to talk about the required reading if you'd like. I'm glad to chat about it and discuss any questions you might have. Also please note that I'd like you to understand the broad strokes of the paper/what the author is getting at. I will avoid quizzing you over the nitty-gritty details.
 
 <br>
@@ -79,6 +83,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Mon 1/25| [Data Visualization](../lectures/data_vis_spring.pdf) | | |
+
 <br> 
 
 <hr style="border:3px solid black">
