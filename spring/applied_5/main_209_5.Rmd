@@ -66,7 +66,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| Fri 8/28 | [Syllabus](./syl_209_5.html) |  [Start of Class R Stuff](./r_prep.html) | - |
+| Wed 1/21 | [Syllabus](./syl_209_5.html) |  [Start of Class R Stuff](./r_prep.html) | - |
 |          | [Introduction](../lectures/intro_spring.pdf)  | - |IMS Sections 1.2.1-1.2.3 |
 |    Friday 1/23      | [Basics of R ](../lectures/r-3.pdf) | [Lab 1](../labs/01_introR.Rmd)| |
 
