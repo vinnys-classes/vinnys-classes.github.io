@@ -86,6 +86,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Wednesday 1/28 | [ggplot2](../lectures/ggplot2-4.pdf) | [ggplot2 lab](../labs/ggplot2_lab.Rmd) | |
 || [critique 2](../lectures/data_critique_2-2.pdf) | | |
 || [accessibility in graphics](../lectures/accessible_graphics-7.pdf)
+| Friday 1/30 | [Numeric Summaries](../lectures/numeric_summaries_spring_class.pdf) |See Canvas for Video|
 
 <br> 
 
