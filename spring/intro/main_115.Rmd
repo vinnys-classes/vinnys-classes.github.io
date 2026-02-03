@@ -27,7 +27,10 @@ $~$
 
 All homework is due at 9pm unless clearly specified otherwise. (Table will be filled out later)
 
-
+| Assignment | Due Duate | 
+|:-----|:-------|
+| Lab 1 | 01/29 |
+| ggplot2 Lab | 02/05 |
 
 
 <br>
@@ -112,11 +115,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 <br> 
 
 
-<br>
 
-<hr style="border:2px solid grey">
-
-<br>
  
 
 <hr style="border:3px solid black">

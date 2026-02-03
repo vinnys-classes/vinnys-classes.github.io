@@ -28,6 +28,10 @@ $~$
 All homework is due at 9pm unless clearly specified otherwise. (Table will be filled out later)
 
 
+| Assignment | Due Duate | 
+|:-----|:-------|
+| Lab 1 | 01/29 |
+| ggplot2 Lab | 02/05 |
 
 
 <br>
