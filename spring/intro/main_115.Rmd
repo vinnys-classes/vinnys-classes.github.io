@@ -104,6 +104,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Monday 2/2 | [Correlation](../lectures/correlation-2.pdf) | | 
+| Wednesday 2/4 | [Simple Linear Regression](../lectures/slr_209-3.pdf) | | 
+
 
 
 <br>
