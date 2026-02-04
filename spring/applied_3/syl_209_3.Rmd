@@ -32,7 +32,7 @@ output:
 
 * Liza	Malyk
 * Email: malykliz @ gr...
-* Mentor sessions TBD
+* Mentor sessions: Thursday 7-8 in Noyce 2402
 
 
 <hr style="border:2px solid grey">

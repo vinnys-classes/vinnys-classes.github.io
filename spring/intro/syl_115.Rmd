@@ -32,7 +32,7 @@ output:
 
 * Kate Moon
 * Email: moonkate @ gr...
-* Mentor sessions TBD
+* Mentor sessions: Wednesday 7:30 - 8:30 in Noyce 2401
 
 
 <hr style="border:2px solid grey">
