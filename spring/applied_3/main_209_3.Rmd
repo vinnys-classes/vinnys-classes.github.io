@@ -104,7 +104,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Monday 2/2 | [Correlation](../lectures/correlation-2.pdf) | | 
-| Wednesday 2/4 | [Simple Linear Regression](../lectures/slr_209-3.pdf) | | 
+| Wednesday 2/4 | [Simple Linear Regression](../lectures/slr_spring.pdf) | | 
 | Friday 2/6 | Finish Simple Linear Regression |  [SLR Lab](../labs/correlation_linear_regression_lab.rmd) | 
 | | | | [Code Along Finished](../../R/slr_code_along_209.rmd)   |
 <br>
