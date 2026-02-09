@@ -113,6 +113,19 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 <br>
 
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 4 (Linear Regression: Topics)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Monday 2/2 | [SLR: Transformations](../lectures/transforms_spring.pdf) | | 
+
+
 <br> 
 
 <hr style="border:3px solid black">
