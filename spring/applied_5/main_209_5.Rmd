@@ -106,7 +106,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Monday 2/2 | [Correlation](../lectures/correlation-2.pdf) | | 
 | Wednesday 2/4 | [Simple Linear Regression](../lectures/slr_spring.pdf) | | 
 | Friday 2/6 | Finish Simple Linear Regression |  [SLR Lab](../labs/correlation_linear_regression_lab.rmd) | 
-| | | | [Code Along Finished](../../R/slr_code_along_209.rmd)   |
+| | | | [Code Along Finished](../../R/code_along_correlation_finished.rmd)   |
+| | | | [Code Along Finished for Simple Linear Regression](../../slr.rmd)   |
 
 <br>
 
@@ -116,17 +117,26 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 
 
-<br>
-
-<hr style="border:2px solid grey">
-
-<br>
 
 ### Week 3 (Numeric Summaries and Linear Regression)
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Monday 2/2 | [Correlation](../lectures/correlation-2.pdf) | | 
+
+
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 4 (Linear Regression: Topics)
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Monday 2/2 | [SLR: Transformations](../lectures/transforms_spring.pdf) | | 
+
 
 <br> 
 
