@@ -22,6 +22,28 @@ $~$
 
 
 
+# Midterm
+[Midterm Instructions](../labs/Description_of_the_Assignment_spring.pdf)
+
+
+[Helpful Hints on Getting Data Ready](../../midterm_help.Rmd)
+
+
+
+| Step | Due Date | 
+|:-----|:-------|
+| Data Selection/Project Proposal| Feburary 16|
+| Data Reading/Check In| March 2nd|
+| Presentations | Mach 25th |
+
+<br>
+
+<hr style="border:3px solid black">
+
+<br>
+
+
+
 
 # Assignments
 
