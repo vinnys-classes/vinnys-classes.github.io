@@ -68,6 +68,7 @@ All homework is due at 9pm unless clearly specified otherwise. (Table will be fi
 | Title | Author | Journal | Year | Quiz Date|
 |:-----|:-------|:-----|:-----|:-----|
 |Tidy Data| Hadley Wickham| Journal of Statistical Software|2014|2/04|
+|Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps| Yang Liu & Jeffrey Heer | Conference on Human Factors in Computing Systems Proceedings | 2018 | 2/20 |
 
 Please note that you are fully allowed (encouraged even!) to visit during office hours to talk about the required reading if you'd like. I'm glad to chat about it and discuss any questions you might have. Also please note that I'd like you to understand the broad strokes of the paper/what the author is getting at. I will avoid quizzing you over the nitty-gritty details.
 
@@ -156,7 +157,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Monday 2/2 | [SLR: Transformations](../lectures/transforms_spring.pdf) | | 
-
+|Wednesday 2/4|||[Lego Code Along for Transforms ](../../R/legos_code_along_transforms.rmd)|
 
 <br> 
 
