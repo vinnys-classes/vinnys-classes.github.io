@@ -1,0 +1,75 @@
+---
+title: "residual_graphs"
+output: pdf_document
+date: "2026-02-10"
+---
+
+
+```{r, echo = FALSE}
+pdf(file = 'resid_mess_up.pdf', height = 11,
+    width = 8.5)
+par(mfrow = c(3,2),
+    cex.lab = 1.25)
+
+x <- 1:100
+y <- x + rnorm(100, sd = 5)
+mod_cloud <- lm(y ~ x)
+plot(mod_cloud, 1, add.smooth = FALSE)
+
+
+x <- 1:100
+y <- x + exp(rnorm(100, sd = 1))
+mod_skew <- lm(y~x)
+plot(mod_skew, 1, add.smooth = FALSE)
+
+x <- 1:100
+y <- (x + rnorm(100, sd = 1))/100
+y <- exp(y)
+mod_homo <- lm(y~x)
+plot(mod_homo, 1, add.smooth = FALSE)
+
+
+x <- 1:100
+y <- (x + rnorm(100, sd = x/10))
+mod_homo <- lm(y~x)
+plot(mod_homo, 1)
+
+
+x <- seq(0, 5*pi, .1)
+y <- cos(x) + rnorm(158,sd = .25)
+mod_wave <- lm(y ~ x)
+plot(mod_wave, 1, add.smooth = FALSE)
+
+
+x <- 1:100
+z <- c(rep(4,20), rep(0, 80))
+y <-  z + rnorm(100)
+mod_hidden <- lm(y ~ x)
+plot(mod_hidden, 1, add.smooth = FALSE)
+
+
+
+x <- 1:100
+y <- x + c(rnorm(75, sd = 1),
+           rnorm(25, sd = 3))
+mod_loud <- lm(y ~ x)
+plot(mod_loud, 1, add.smooth = FALSE)
+
+
+
+x <- seq(0, 1, .01)
+y <- rbinom(101, 1, prob = x)
+mod_bern <- lm(y ~ x)
+plot(mod_bern, 1, add.smooth = FALSE)
+
+
+x <- seq(0, 1, .01)
+y <- rbinom(101, 10, prob = x)
+mod_binom <- lm(y ~ x)
+plot(mod_binom, 1, add.smooth = FALSE)
+
+dev.off()
+```
+
+
+
