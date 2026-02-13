@@ -142,8 +142,9 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| Monday 2/2 | Finish Linear Models | | 
-|Wednesday 2/4| [Regression with Indicators](../lectures/regression_with_indicators_spring.pdf)||
+| Monday 2/9 | Finish Linear Models | | 
+|Wednesday 2/11| [Regression with Indicators](../lectures/regression_with_indicators_spring.pdf)||
+|Friday 2/13| | [Indicator Code Along](../labs/categorical_code_along.Rmd)  | |
 
 <br> 
 
