@@ -7,6 +7,87 @@ date: "2025-10-08"
 # Categorical Inputs Practice
 
 ```{r}
+library(ggplot2)
+
 legos <- read.csv('https://vinnys-classes.github.io/data/legos_data.csv')
 head(legos)
+
+legos$Theme <- as.factor(legos$Theme)
+
+
+ggplot(data = legos,
+       aes(x = Theme,
+           y = amazon_price)) +
+  geom_point() +
+  theme_classic()
+
+ggplot(data = legos,
+       aes(x = Theme,
+           y = amazon_price)) +
+  geom_jitter(height = 0,
+              width = .2) +
+  theme_classic()
 ```
+
+
+
+Fit the model
+
+```{r}
+mod <- lm(amazon_price ~ Theme, 
+          data = legos)
+
+
+legos$resid <- resid(mod)
+legos$pred <- predict(mod)
+
+
+ggplot(data = legos,
+       aes(x = pred,
+           y = resid)) +
+  geom_jitter(height = 0,
+              width = .2)
+
+
+
+ggplot(data = legos,
+       aes(x = Theme,
+           y = resid)) +
+  geom_jitter(height = 0,
+              width = .2)
+```
+
+
+
+Model Summary Stuff
+
+```{r}
+summary(mod)
+
+```
+
+R^2: .01871
+
+
+
+
+
+Find the outlier
+```{r}
+friends <- subset(legos, Theme == 'Friends')
+head(friends)
+
+which.max(friends$amazon_price)
+```
+
+
+
+
+
+
+
+
+
+
+
+
