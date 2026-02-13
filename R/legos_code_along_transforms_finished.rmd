@@ -1,0 +1,100 @@
+---
+title: "Lego_code_along_transformations_finished"
+output: pdf_document
+date: "2025-10-08"
+---
+
+# Log-Log Model Practice
+
+We will use pages to predict amazon price
+
+```{r}
+library(ggplot2)
+
+legos <- read.csv('https://vinnys-classes.github.io/data/legos_data.csv')
+head(legos)
+```
+
+
+
+```{r}
+ggplot(legos, 
+       aes(y = amazon_price,
+           x = Pages)) +
+  geom_point()
+
+
+ggplot(legos, 
+       aes(y = amazon_price,
+           x = Pages)) +
+  geom_point() +
+  geom_smooth(method = "lm")
+
+```
+
+
+
+
+```{r}
+my_mod <- lm(amazon_price ~ Pages,
+             data = legos)
+
+legos$line_pred <- predict(my_mod)
+legos$line_resid <- resid(my_mod)
+
+ggplot(legos, 
+       aes(y = line_resid,
+           x = line_pred)) +
+  geom_point()
+```
+
+
+
+
+```{r}
+legos$log_price <- log(legos$amazon_price)
+legos$log_pages <- log(legos$Pages)
+
+ggplot(legos, 
+       aes(y = log_price,
+           x = log_pages)) +
+  geom_point()
+
+
+
+ggplot(legos, 
+       aes(y = log_price,
+           x = log_pages)) +
+  geom_point() +
+  geom_smooth(method = 'lm')
+```
+
+
+
+
+```{r}
+log_mod <- lm(log_price ~ log_pages, 
+              data = legos)
+
+legos$log_pred <- predict(log_mod)
+legos$log_resid <- resid(log_mod)
+
+
+ggplot(legos, 
+       aes(y = log_resid,
+           x = log_pred)) +
+  geom_point()
+
+
+summary(log_mod)
+```
+
+
+Estimated log-log model:
+
+Est log price = 2.17 + .3349 log(pages)
+
+
+Interpretation of est B_0: If we sample lego sets with 1 page, we predict the MEDIAN price to be e ^ 2.17  = 8.75 dollars
+
+Interpretation of est B_1: If a lego set increases the number of pages by 10% we expect the median price to increase by a multiplicative factor of 1.1^(.3349)  = 1.032 
