@@ -154,6 +154,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 
 ### Week 5 (Linear Regression: Topics 2)
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
 |Monday 2/16| [Regression with Indicators ](../lectures/regression_with_indicators_spring.pdf)| [Linear Regression Exploration](../../labs/lego_land_lab.rmd) | |
 <br> 
 
