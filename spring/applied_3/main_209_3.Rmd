@@ -144,6 +144,17 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Monday 2/2 | [SLR: Transformations](../lectures/transforms_spring.pdf) | | 
 |Wednesday 2/4|||[Lego Code Along for Transforms ](../../R/legos_code_along_transforms.rmd)|
 |Friday 2/6| [Regression with Indicators if time ](../lectures/regression_with_indicators_spring.pdf)| | [Lego Code Along for Transforms Finished](../../R/legos_code_along_transforms_finished.rmd)|
+
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+
+
+### Week 5 (Linear Regression: Topics 2)
+|Monday 2/16| [Regression with Indicators ](../lectures/regression_with_indicators_spring.pdf)| [Linear Regression Exploration](../../labs/lego_land_lab.rmd) | |
 <br> 
 
 <hr style="border:3px solid black">
