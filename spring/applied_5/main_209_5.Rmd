@@ -145,6 +145,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 | Monday 2/2 | [SLR: Transformations](../lectures/transforms_spring.pdf) | | 
 |Wednesday 2/4|||[Lego Code Along for Transforms ](../../R/legos_code_along_transforms.rmd)|
+||||[Lego Code Along for Transforms Finished ](../../R/legos_code_along_transforms_finished.rmd)|
 |Friday 2/6| [Regression with Indicators if time ](../lectures/regression_with_indicators_spring.pdf)| | |
 
 
