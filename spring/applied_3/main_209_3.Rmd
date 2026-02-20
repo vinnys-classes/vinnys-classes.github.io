@@ -157,6 +157,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Monday 2/16| [Regression with Indicators ](../lectures/regression_with_indicators_spring.pdf)| [Linear Regression Exploration](../../labs/lego_land_lab.rmd) | |
+|Wednesday 2/18| Practice worksheet and continue lab|||
+|Friday 2/20 | [Multiple Regression](../lectures/mulitple_regression_spring.pdf)
 <br> 
 
 <hr style="border:3px solid black">
