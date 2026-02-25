@@ -163,7 +163,20 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Wednesday 2/18| Practice worksheet and continue lab|||
 |Friday 2/20 | [Multiple Regression](../lectures/mulitple_regression_spring.pdf)
 
-<br> 
+
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+
+
+### Week 6 (Exam and Unit 2)
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Monday Feb 23| Review and Practice | ||
+|Wednesday Feb  25 | [probability](../../lectures/probability_209.pdf)  ||
 
  <br>
 
