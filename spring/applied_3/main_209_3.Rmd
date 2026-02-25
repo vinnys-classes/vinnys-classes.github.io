@@ -161,6 +161,19 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Friday 2/20 | [Multiple Regression](../lectures/mulitple_regression_spring.pdf)
 <br> 
 
+
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+
+
+### Week 5 (Linear Regression: Topics 2)
+| Date | Lecture | Lab | Suggested Reading |
+|Feb  25 | [probability](../../lectures/probability_209.pdf)  ||
+
 <hr style="border:3px solid black">
 
 
