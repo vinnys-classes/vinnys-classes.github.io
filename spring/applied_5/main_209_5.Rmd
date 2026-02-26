@@ -43,15 +43,10 @@ $~$
 
 
 
-# Assignments
-
-All homework is due at 9pm unless clearly specified otherwise. (Table will be filled out later)
-
-
-| Assignment | Due Duate | 
-|:-----|:-------|
-| Lab 1 | 01/29 |
-| ggplot2 Lab | 02/05 |
+# Exams
+| Unit | Date | Review | 
+|:-----|:-------|:-----|
+| 1 | Feb 27th | [Review Sheet](../exams/Exam_1_Study_Guide_115.pdf) | 
 
 
 <br>
