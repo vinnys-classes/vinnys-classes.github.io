@@ -177,6 +177,20 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Monday Feb 23| Review and Practice | ||
 |Wednesday Feb  25 | [probability](../../lectures/probability_209.pdf)  ||
 
+
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 7 (Probability and Permutation Tests)
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+ |Monday March 2|[Permutation Tests](../../lectures/Permutation_Test.pdf) |[How to Write a CSV](../../write_a_csv.Rmd)|
+ 
+ 
+
  <br>
 
 <hr style="border:3px solid black">
