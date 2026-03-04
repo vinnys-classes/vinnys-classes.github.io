@@ -179,10 +179,13 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 <br>
 
+
+
 ### Week 7 (Probability and Permutation Tests)
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
- |Monday March 2|[Permutation Tests](../../lectures/Permutation_Test.pdf) |[How to Write a CSV](../../write_a_csv.Rmd)|
+ |Monday March 2|[Permutation Tests](../../lectures/Permutation_Test_115.pdf) |[How to Write a CSV](write_a_csv.Rmd)|
+ | Wednesday March 4 | [Normal Distribution](../lectures/Probability_two-2.pdf) ||
  
  
 <hr style="border:3px solid black">
