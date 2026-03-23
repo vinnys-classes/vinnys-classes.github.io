@@ -182,6 +182,20 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 
 
+
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 8 (Sampling Distributions and Testing)
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+ |Monday March 23|[Sampling Distributions](../lectures/sampling_dist.pdf)|||
+ 
+<hr style="border:3px solid black">
+
 <br>
 
 # Syllabus
