@@ -192,6 +192,21 @@ Please note that you are fully allowed (encouraged even!) to visit during office
  |Monday March 2|[Permutation Tests](../../lectures/Permutation_Test_115.pdf) |[How to Write a CSV](write_a_csv.Rmd)|
  | Wednesday March 4 | [Normal Distribution](../lectures/Probability_two-2.pdf) ||
  
+ 
+
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 8 (Sampling Distributions and Testing)
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+ |Monday March 23|[Sampling Distributions](../lectures/sampling_dist.pdf)|||
+ 
+ <br>
+ 
 
  <br>
 
