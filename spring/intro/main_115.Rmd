@@ -204,7 +204,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
  |Monday March 23|[Sampling Distributions](../lectures/sampling_dist.pdf)|||
- 
+  | Wednesday March 25| [Experiments](../lectures/experiments_only.pdf)|[Probability Homework](../lectures/Probability_homework_115-2.pdf)|
  <br>
  
 
