@@ -200,7 +200,25 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
  |Monday March 23|[Sampling Distributions](../lectures/sampling_dist.pdf)|||
   | Wednesday March 25| [Experiments](../lectures/experiments_only.pdf)|[Probability Homework](../lectures/Probability_homework_209-3.pdf)|
+  | Friday March 27| Presentation Day |||
+ 
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 9 (Sampling and Testing)
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+ |Monday March 23|[Sampling for Observational Studies](../lectures/sampling_only-2.pdf)|||
+ 
  <br>
+ 
+<hr style="border:3px solid black">
+
+<br>
+
  
 
 
