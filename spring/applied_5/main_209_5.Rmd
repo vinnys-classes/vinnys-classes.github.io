@@ -213,7 +213,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
  |Monday March 23|[Sampling for Observational Studies](../lectures/sampling_only-2.pdf)|||
-|Wednesday April 1|[Z-tests](../lectures/z_tests_spring.pdf)|||
+|Wednesday April 1|[Z-tests](../lectures/z_tests_spring.pdf)||[Bias worksheet](../labs/Biases_and_Improper_Sampling__2-3.pdf)|
  <br>
  
  <br>
