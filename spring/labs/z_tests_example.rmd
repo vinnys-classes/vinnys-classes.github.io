@@ -1,0 +1,98 @@
+---
+title: "z_tests_examples"
+output: pdf_document
+date: "2026-04-02"
+---
+
+
+Let's do some z-tests!! You should have been assigned one of X numbers. Please focus on doing that problem. Be sure to run the code immediately below the instructions (line 15-ish)
+
+NOTE: You'll need to check the assumptions including...
+1) Data was randomly selected
+2) Data is independent and identically distributed
+3) The population is approximately normal or the sample size is large
+
+```{r}
+library(ggplot2)
+library(reshape2)
+```
+
+# Question 1
+
+Did you you know there are earthquakes near Fiji? Over 5000 were recorded since 1964. Using the data set below, test the claim that the average magnitude of the earthquakes are below 5. Assume the variance is .15 unites. 
+
+The data set "quakes" have a help page that you can read to learn about the data set proper.
+
+This team has a secondardy objective. Report to the class what a magnitude 4 earthquake is vs a magnitude 5 earthquake in a way people will understand.
+
+```{r}
+
+data("quakes")
+
+summary(quakes$mag)
+
+```
+
+
+# Question 2
+
+Below is the quarterly earnings for the Johnson and Johnson company from 1960 to 1980. Please run a z-test to see if the average quarterly earnings per share is different than $10. Assume the variance is 20
+
+
+```{r}
+data("JohnsonJohnson")
+JohnsonJohnson
+
+profit <- melt(JohnsonJohnson)$value
+
+```
+
+
+
+# Question 3
+
+Below is the volume of 31 cherry trees. Your job is to.....
+
+1) find the mean girth and height of the cherry trees 
+  i) girth is measured in inches but the other two use feet
+  ii) girth is also actually the diameter and not circumference as per the help page for data set. It's weird I know
+  
+2) Using those two numbers, and the formula for the volume of a cylinder, calculate the predicted mean volume of cherry trees
+
+3) Run a z-test to see if the observed volume is the same as your estimated volume 
+
+4) Come up with a rational on why they are different
+
+```{r}
+data('trees')
+head(trees)
+```
+
+
+
+# Question 4
+
+I once had a friend claim that Farenheight was superior to celcius for humans because, in the midwest, 100 degrees F is about as hot as it'll get and 0 is about as low as it gets such that F gives a "percent hot" out of the year.
+
+Let's take my friends claim one step further: Is the mean temp over the years 50 degrees F?
+
+Below is data collected in New Haven Conn. (admittedly not midwestern) from 1912 to 1971 where each data point is the average temp in a year. Use this to run a z-test to test if the above. Assume the variance is 2
+
+```{r}
+data("nhtemp")
+nhtemp <- as.vector(nhtemp)
+
+```
+
+
+# Question 5
+
+Sunspots measured for each month. Please run a t-test to see if the mean is 100 or not 100 Assume a variance of 5000.
+
+When checking normality comment on how normal or not normal it looks
+
+```{r}
+data('sunspot.month')
+sunspot <- as.vector(sunspot.month)
+head(sunspot)
+```
