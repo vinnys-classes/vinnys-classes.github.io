@@ -213,9 +213,22 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
  |Monday March 23|[Sampling for Observational Studies](../lectures/sampling_only-2.pdf)|||
   |Wednesday April 1|[Z-tests](../lectures/z_tests_spring.pdf)|||
- <br>
  |Friday April 3| Finish Z-tests | [Practice Problems](../labs/z_tests_example.rmd)
  
+ 
+ 
+  
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 10 (Confidence Intervals and t-tests)
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Monday 4/6| [Confidence Intervals](../lectures/confidence_intervals_spring.pdf)| |[Confidence Interval Simulator](../../R/conf_builder.Rmd) |
+
 <hr style="border:3px solid black">
 
 <br>
