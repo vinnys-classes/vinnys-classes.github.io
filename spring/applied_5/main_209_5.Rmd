@@ -216,6 +216,18 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Wednesday April 1|[Z-tests](../lectures/z_tests_spring.pdf)||[Bias worksheet](../labs/Biases_and_Improper_Sampling__2-3.pdf)|
  |Friday April 3| Finish Z-tests | [Practice Problems](../labs/z_tests_example.rmd)
  
+ 
+ <br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 10 (Confidence Intervals and t-tests)
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Monday 4/6| [Confidence Intervals](../lectures/confidence_intervals_spring.pdf)| |[Confidence Interval Simulator](../../R/conf_builder.Rmd) |
+ 
  <br>
  
 <hr style="border:3px solid black">
