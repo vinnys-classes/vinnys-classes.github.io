@@ -228,7 +228,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Monday 4/6| [Confidence Intervals](../lectures/confidence_intervals_spring.pdf)| |[Confidence Interval Simulator](../../R/conf_builder.Rmd) |
-
+|Friday 4/10| Finish Confidence Intervals | | https://www.stat2games.sites.grinnell.edu/games/shapesplosion.html |
 <hr style="border:3px solid black">
 
 <br>
