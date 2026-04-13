@@ -234,7 +234,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 ### Week 11 (t-tests)
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| April 13 | [t-tests and confidence intervals](../../lectures/t_tests_and_intervals.pdf)||
+| April 13 | [t-tests and confidence intervals](../lectures/t_tests-4.pdf)||
 
 <hr style="border:3px solid black">
 
