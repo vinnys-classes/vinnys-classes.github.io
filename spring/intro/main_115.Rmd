@@ -237,9 +237,19 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
  | April 6`| Finish Z-tests | [Practice Problems](../labs/z_tests_example.rmd)
  |Friday 4/10| [Confidence Intervals](../lectures/confidence_intervals_spring.pdf)| |[Confidence Interval Simulator](../../R/conf_builder.Rmd) |
+
+
+ <br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 11 (Confidence Intervals and t-tests)
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| April 15 | [t-tests and confidence intervals](../lectures/t_tests_spring.pdf)||
  
-
-
  <br>
  
 <hr style="border:3px solid black">
