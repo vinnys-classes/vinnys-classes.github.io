@@ -191,7 +191,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 ### Week 7 (Probability and Permutation Tests)
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
- |Monday March 2|[Permutation Tests](../../lectures/Permutation_Test_115.pdf) |[How to Write a CSV](write_a_csv.Rmd)|
+ |Monday March 2|[Permutation Tests](../../lectures/Permutation_Test_209.pdf) |[How to Write a CSV](write_a_csv.Rmd)|
  | Wednesday March 4 | [Normal Distribution](../lectures/Probability_two-2.pdf) ||
  
  
@@ -249,12 +249,19 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | April 15 | [t-tests and confidence intervals](../lectures/t_tests_spring.pdf)||
+| April 17 | Tornado Drill | |
  
  <br>
  
-<hr style="border:3px solid black">
+<hr style="border:2px solid grey">
 
 <br>
+
+
+### Week 12 (t-tests extended)
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| April 20 |[3 More Inferences (if time)](../../lectures/Inference_extended_full.pdf) |  |
  
 
  <br>
