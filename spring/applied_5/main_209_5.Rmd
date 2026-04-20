@@ -186,7 +186,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 ### Week 7 (Probability and Permutation Tests)
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
- |Monday March 2|[Permutation Tests](../../lectures/Permutation_Test_115.pdf) |[How to Write a CSV](write_a_csv.Rmd)|
+ |Monday March 2|[Permutation Tests](../../lectures/Permutation_Test_209.pdf) |[How to Write a CSV](write_a_csv.Rmd)|
  | Wednesday March 4 | [Normal Distribution](../lectures/Probability_two-2.pdf) ||
  
  
@@ -230,16 +230,22 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Monday 4/6| [Confidence Intervals](../lectures/confidence_intervals_spring.pdf)| |[Confidence Interval Simulator](../../R/conf_builder.Rmd) |
  |Friday 4/10| Finish Confidence Intervals | | https://www.stat2games.sites.grinnell.edu/ |
  
- ### Week 11 (Confidence Intervals and t-tests)
+### Week 11 (Confidence Intervals and t-tests)
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
- | April 15 | [t-tests and confidence intervals](../lectures/t_tests_spring.pdf)||
+| April 15 | [t-tests and confidence intervals](../lectures/t_tests_spring.pdf)||
+| April 17 | [3 more inferences](../../lectures/Inference_extended_full.pdf)
  
  <br>
  
 <hr style="border:3px solid black">
 
 <br>
+
+### Week 11 (t-tests and regression testing)
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| April 20 |[3 More Inferences](../../lectures/Inference_extended_full.pdf) |  |
 
  
 
