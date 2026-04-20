@@ -230,6 +230,15 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Monday 4/6| [Confidence Intervals](../lectures/confidence_intervals_spring.pdf)| |[Confidence Interval Simulator](../../R/conf_builder.Rmd) |
  |Friday 4/10| Finish Confidence Intervals | | https://www.stat2games.sites.grinnell.edu/ |
  
+  
+ 
+ <br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+ 
 ### Week 11 (Confidence Intervals and t-tests)
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
@@ -238,11 +247,11 @@ Please note that you are fully allowed (encouraged even!) to visit during office
  
  <br>
  
-<hr style="border:3px solid black">
+<hr style="border:2px solid grey">
 
 <br>
 
-### Week 11 (t-tests and regression testing)
+### Week 12 (t-tests and regression testing)
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | April 20 |[3 More Inferences](../../lectures/Inference_extended_full.pdf) |  |

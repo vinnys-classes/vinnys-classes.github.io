@@ -236,8 +236,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | April 13 | [t-tests and confidence intervals](../lectures/t_tests_spring.pdf)||
-| April 15 | [3 more inferences](../../lectures/inference_extend.pdf)||
-| April 17 | [3 more inferences](../../lectures/inference_extend.pdf)||
+| April 15 | [3 more inferences](../../lectures/inference_extend_full.pdf)||
+| April 17 | [3 more inferences](../../lectures/inference_extend_full.pdf)||
 
 
 
