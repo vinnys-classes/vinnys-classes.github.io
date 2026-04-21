@@ -254,7 +254,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 ### Week 12 (t-tests and regression testing)
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| April 20 |[3 More Inferences](../../lectures/Inference_extended_full.pdf) |  |
+| April 20 |[3 More Inferences](../../lectures/Inference_extended_full.pdf) |  [t-test homework](../labs/t_test_hw.Rmd) |
 
  
 

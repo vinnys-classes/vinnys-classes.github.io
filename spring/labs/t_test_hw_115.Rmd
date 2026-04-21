@@ -1,0 +1,84 @@
+---
+title: "nfl_t_test"
+output: pdf_document
+date: "2026-04-21"
+---
+
+
+Please read in the data using the following code and load the relevant libraries. The data is all the football game results from the 2023-24 football season. 
+
+```{r}
+nfl <- read.csv('https://vinnys-classes.github.io/spring/labs/nfl.csv')
+
+head(nfl)
+```
+
+
+## Question 1
+
+Among the other parts of the data is a column called FavDiff that is for a variable that is the difference in scores of the favorite vs underdog (unfavored to win) team. I'm wondering if the difference in score for the favorite and underdog is actually greater than 0 (ie the favorites score more points on average than the underdogs). To do this please run a t-test for one mean (the mean of FavDiff, the difference in scores for the favorite and underdog teams) to test this hypothesis.
+
+#### Part 1 Please list your null and alternative hypothesis. 
+
+#### Part 2 Please check the assumptions. 
+
+Be sure to mention if the data was (randomly collect), if (the IID assumption holds), and if (the population is normal or n is large)
+
+
+#### Part 3 Visualize your data
+
+I advise using the hist() function which takes in a variable and creates a basic histogram. 
+
+```{r}
+#hist()
+```
+
+#### Part 4 Using R, please run the above t-test
+
+Be sure to report the sample mean, the test statistic (the t value), degrees of freedom, p-value, and your decision. See the help page for the t-test function by running ?t.test if needed for the coding
+
+```{r}
+
+#t.test(data$variable,
+#       mu = HYPOTHESIZED VALUE,
+#       alternative = "DIRECCTION OF YOUR ALTERNATIVE")
+          # choices are "greater", "less", or "two.sided"
+      
+
+```
+
+#### Part 5 Confidence Interval
+
+Report and interpret the 95% confidence interval from the above test
+
+
+
+
+# Question 2
+
+Let's try something else. Let's run a t-test where we will check to see if the mean "HomeDiff" (which is the point difference from the home team and the visitors) is greater than 0. 
+
+#### Part 1 Please list your null and alternative hypothesis. 
+
+#### Part 2 Please check the assumptions and visualize your data
+
+
+
+
+
+#### Part 3
+
+Using R, please run the above t-test.
+
+Be sure to report the sample mean, the test statistic (the t value), degrees of freedom, p-value, and your decision. See the help page for the t-test function by running ?t.test if needed for the coding
+
+
+
+
+#### Part 4
+
+Please report a 90 percent confidence interval for the difference in the two means and it's interpretation. 90% is what we are after, the t.test funciton normally gives 95 so you'll have to figure out how to tweak the function. Also note that you'll want to re-run the code with the alteranitve set to "two.sided". (otherwise your confidence intervals are also one sided which is trippy to think about)
+
+
+
+

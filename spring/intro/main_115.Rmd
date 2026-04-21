@@ -263,6 +263,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | April 20 |[3 More Inferences (if time)](../../lectures/Inference_extended_full.pdf) | [t-test examples](../labs/t_test_examples.Rmd) |
+|||[t-test homework](../labs/t_test_hw_115.Rmd)|
  
 
  <br>
