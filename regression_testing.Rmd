@@ -1,0 +1,69 @@
+---
+title: "regression_testing"
+output: pdf_document
+date: "2025-12-04"
+---
+
+
+```{r}
+library(ggplot2)
+library(ggthemes)
+legos <- read.csv('https://vinnys-classes.github.io/data/legos_data.csv')
+
+small_bricks <- subset(legos, Size == 'Small')
+head(small_bricks)
+```
+
+
+# So let's look at some plots
+
+```{r}
+ggplot(small_bricks,
+       aes(x = Pieces,
+           y = amazon_price)) + 
+  
+  geom_point(aes(color = Theme,
+                 shape = Theme),
+             size = 2)  +
+  
+  geom_smooth(method = 'lm',
+              aes(color = Theme),
+              se = FALSE,
+              linewidth = 2) +
+  
+  theme_base() +
+  scale_color_manual(values = c('green4', 'purple'))
+```
+
+
+
+```{r}
+mod <- lm(amazon_price ~ Pieces + Theme, data = small_bricks)
+small_bricks$preds <- predict(mod)
+small_bricks$resid <- resid(mod)
+
+ggplot(small_bricks, 
+       aes(x = preds,
+           y = resid,
+           color = Theme,
+           shape = Theme)) +
+  geom_point(size = 2) +
+  theme_base() +
+  scale_color_manual(values = c('green4', 'purple')) +
+  labs(x = 'prediction',
+       y = 'residual')
+
+```
+
+
+
+```{r}
+mod <- lm(amazon_price ~ Pieces + Theme, data = small_bricks)
+summary(mod)
+```
+
+
+
+```{r}
+t.test(subset(small_bricks, Theme == "City")$amazon_price, subset(small_bricks, Theme != "City")$amazon_price)
+```
