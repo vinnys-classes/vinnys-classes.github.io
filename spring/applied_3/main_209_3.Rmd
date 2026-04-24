@@ -236,7 +236,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | April 13 | [t-tests and confidence intervals](../lectures/t_tests_spring.pdf)||
-| April 15 | [3 more inferences](../../lectures/inference_extend_full.pdf)||
+| April 15 | [3 More Inferences](../../lectures/Inference_extended_full.pdf) ||
 | April 17 | [3 more inferences](../../lectures/inference_extend_full.pdf)||
 
 
@@ -245,9 +245,10 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 ### Week 12 (Coefficent tests)
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| April 20 | [coefficent testing](../../lectures/Inference_extended_full.pdf)|[t-test homework](../labs/t_test_hw.Rmd)|
-
-
+| April 20 | [coefficent testing](../lectures/Regression_testing_spring.pdf)|[t-test homework](../labs/t_test_hw.Rmd)|
+| April 23 | [coefficent testing plus practice](../lectures/Regression_testing_spring.pdf)||
+| April 25 | [coefficent testing](../lectures/Regression_testing_spring.pdf)|[coefficent testing code along](../../regression_testing.Rmd)|
+| April 25 | |[coefficent testing homework](../../regression_hw.Rmd)|
 <hr style="border:3px solid black">
 
 <br>
