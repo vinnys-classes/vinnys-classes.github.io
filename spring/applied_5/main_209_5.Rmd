@@ -47,7 +47,7 @@ $~$
 | Unit | Date | Review | 
 |:-----|:-------|:-----|
 | 1 | Feb 27th | [Review Sheet](../exams/Exam_1_Study_Guide_115.pdf) | 
-
+| 2 | April 27th | 
 
 <br>
 
@@ -60,12 +60,12 @@ $~$
 
 # Required Readings
 
-| Title | Author | Journal | Year | Quiz Date|
-|:-----|:-------|:-----|:-----|:-----|
-|Tidy Data| Hadley Wickham| Journal of Statistical Software|2014|2/04|
-|Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps| Yang Liu & Jeffrey Heer | Conference on Human Factors in Computing Systems Proceedings | 2018 | 2/20 |
-| Science and Statistics | George Box | Journal of the American Statistical Association | 1976 | 04/06 |
-|ASA Statement on P-Values| Wassertein et al | The American Statistician | 2016 | 04/20 |
+| Title | Author | Journal | Year | Quiz Date| Solutions | 
+|:-----|:-------|:-----|:-----|:-----|:----|
+|Tidy Data| Hadley Wickham| Journal of Statistical Software|2014|2/04| |
+|Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps| Yang Liu & Jeffrey Heer | Conference on Human Factors in Computing Systems Proceedings | 2018 | 2/20 | |
+| Science and Statistics | George Box | Journal of the American Statistical Association | 1976 | 04/06 | [Box quiz solutions](../exams/box_quiz_w_sol.pdf)|
+|ASA Statement on P-Values| Wassertein et al | The American Statistician | 2016 | 04/20 | [p-values quiz solutions](../exams/read_quiz_p_value_statement_with_sols.pdf) |
 
 Please note that you are fully allowed (encouraged even!) to visit during office hours to talk about the required reading if you'd like. I'm glad to chat about it and discuss any questions you might have. Also please note that I'd like you to understand the broad strokes of the paper/what the author is getting at. I will avoid quizzing you over the nitty-gritty details.
 
