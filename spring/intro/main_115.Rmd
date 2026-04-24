@@ -46,11 +46,10 @@ $~$
 
 
 # Exams
-| Unit | Date | Review | 
-|:-----|:-------|:-----|
-| 1 | Feb 27th | [Review Sheet](../exams/Exam_1_Study_Guide_115.pdf) | 
-| 2 | April 27th | [Review Sheet](../exams/exam_2_overview_115_spring.pdf) |
-
+| Unit | Date | Review |  Practice Exam | Solutions to Practice |
+|:-----|:-------|:-----|:-------|:-----|
+| 1 | Feb 27th | [Review Sheet](../exams/Exam_1_Study_Guide_115.pdf) |  ||
+| 2 | April 27th | [Review Sheet](../exams/exam_2_overview_115_spring.pdf) |[practice](../exams/exam_209_example_wout_sol.pdf)| [practice solutions](../exams/exam_209_example_with_sol.pdf)|
 
 
 
