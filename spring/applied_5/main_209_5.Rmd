@@ -257,7 +257,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | April 20 |[3 More Inferences](../../lectures/Inference_extended_full.pdf) |  [t-test homework](../labs/t_test_hw.Rmd) |
 | April 23 | [coefficent testing](../lectures/Regression_testing_spring.pdf) ||
 | April 25 | [coefficent testing](../lectures/Regression_testing_spring.pdf)|[coefficent testing code along](../../regression_testing.Rmd)|
-| April 25 | |[coefficent testing homework](../../regression_hw.Rmd)|
+| April 25 | |[coefficent testing homework](../labs/regression_hw_spring.Rmd))|
 
 
 <hr style="border:3px solid black">
