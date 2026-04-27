@@ -43,7 +43,7 @@ $~$
 | Unit | Date | Review |  Practice Exam | Solutions to Practice |
 |:-----|:-------|:-----|:-------|:-----|
 | 1 | Feb 27th | [Review Sheet](../exams/Exam_1_Study_Guide_209.pdf) |  ||
-| 2 | April 27th | [Review Sheet](../exams/exam_2_overview_209.pdf) | [practice](../exams/exam_209_example_wout_sol.pdf)| [practice solutions](../exams/exam_209_example_with_sol.pdf)|
+| 2 | April 27th | [Review Sheet](../exams/exam_2_overview_209.pdf) | [practice](../exams/exam_209_example_wout_sol.pdf)| [practice solutions](../exams/exam_209_example-2.pdf)|
 
 
 <br>
