@@ -254,6 +254,13 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 <br>
 
+### Week 13 (Inference and ANOVA)
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| April 29 | [3 more inferences ](../../lectures/Inference_extended_full.pdf)||
+
+
+
 # Syllabus
 
 Welcome to the course website for SAT 209, Applied Statistics. To begin, you can find the course syllabus linked below:
