@@ -19,7 +19,7 @@ $~$
 <hr style="border:3px solid black">
     
 # Final Project
-[Final Project Instructions](..exams/Final_Project_209.pdf)
+[Final Project Instructions](../exams/Final_Project_209.pdf)
 
  | Due Date | 
 |:-------|
