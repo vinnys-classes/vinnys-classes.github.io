@@ -11,10 +11,21 @@ output:
 $~$
 
 
-<hr style="border:3px solid black">
     
 
 
+
+
+<hr style="border:3px solid black">
+    
+# Final Project
+[Final Project Instructions](..exams/Final_Project_209.pdf)
+
+ | Due Date | 
+|:-------|
+|Thursday May 14th|
+
+<hr style="border:3px solid black">
 
 
 
