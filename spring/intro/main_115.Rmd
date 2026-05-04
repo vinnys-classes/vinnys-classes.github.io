@@ -291,6 +291,21 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 | April 20 |[3 More Inferences (if time)](../../lectures/Inference_extended_full.pdf) |  |
 
+
+
+<br>
+ 
+<hr style="border:2px solid grey">
+
+<br>
+
+
+### Week 14 (Almost Done!)
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|May 4th|  [coefficent testing](../lectures/Regression_testing_spring.pdf) | |
+
+
  <br>
 
 <hr style="border:3px solid black">

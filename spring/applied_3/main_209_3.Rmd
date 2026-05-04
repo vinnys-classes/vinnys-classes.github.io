@@ -242,6 +242,12 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |Monday 4/6| [Confidence Intervals](../lectures/confidence_intervals_spring.pdf)| |[Confidence Interval Simulator](../../R/conf_builder.Rmd) |
 |Friday 4/10| Finish Confidence Intervals | | https://www.stat2games.sites.grinnell.edu/games/shapesplosion.html |
 
+  
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
 
 ### Week 11 (t-tests)
 | Date | Lecture | Lab | Suggested Reading |
@@ -251,6 +257,12 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | April 17 | [3 more inferences](../../lectures/inference_extend_full.pdf)||
 
 
+  
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
 
 
 ### Week 12 (Coefficent tests)
@@ -261,15 +273,25 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | April 25 | [coefficent testing](../lectures/Regression_testing_spring.pdf)|[coefficent testing code along](../../regression_testing.Rmd)|
 | April 25 | |[coefficent testing homework](../labs/regresssion_hw_spring.Rmd)|
 
-<hr style="border:3px solid black">
+  
+<br>
+
+<hr style="border:2px solid grey">
 
 <br>
+
 
 ### Week 13 (Exam and ANOVA)
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |April 27| Exam |||
-| April 29| [Anaylsis of Variance (ANOVA)](../../lectures/ANOVA_209.pdf)
+| April 29| [Anaylsis of Variance (ANOVA)](../lectures/ANOVA_spring.pdf)
+
+  
+<br>
+
+
+
 
 <hr style="border:3px solid black">
 

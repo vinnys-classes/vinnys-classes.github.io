@@ -285,7 +285,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |April 27| Exam |||
-| April 29| [Anaylsis of Variance (ANOVA)](../../lectures/ANOVA_209.pdf)
+| April 29| [Anaylsis of Variance (ANOVA)](../lectures/ANOVA_spring.pdf)
+| May 4th | |[Testing Errors](../../lectures/errors.pdf)
 
 <hr style="border:3px solid black">
 
