@@ -265,10 +265,13 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 
 <br>
 
-### Week 13 (Inference and ANOVA)
+### Week 13 (Exam and ANOVA)
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| April 29 | [3 more inferences ](../../lectures/Inference_extended_full.pdf)||
+|April 27| Exam |||
+| April 29| [Anaylsis of Variance (ANOVA)](../../lectures/ANOVA_209.pdf)
+
+<hr style="border:3px solid black">
 
 
 
