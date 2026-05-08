@@ -64,6 +64,7 @@ $~$
 |:-----|:-------|:-----|:-------|:-----|
 | 1 | Feb 27th | [Review Sheet](../exams/Exam_1_Study_Guide_115.pdf) |  ||
 | 2 | April 27th | [Review Sheet](../exams/exam_2_overview_115_spring.pdf) |[practice](../exams/exam_209_example_wout_sol.pdf)| [practice solutions](../exams/exam_209_example-2.pdf)|
+| 3| May 15th (normal room) | [Review Sheet](../exams/final_exam_115_spring.pdf) |
 
 
 
