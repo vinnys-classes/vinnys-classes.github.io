@@ -304,7 +304,7 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |May 4th|  [coefficent testing](../lectures/Regression_testing_spring.pdf) | |
-
+|May 4th|  [coefficent testing cont.](../lectures/Regression_testing_spring.pdf) | [code-along](../labs/thooth_growth.R) |
 
  <br>
 
