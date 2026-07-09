@@ -277,7 +277,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 |:-----|:-------|:-----|:-----|
 | April 20 |[3 More Inferences (if time)](../../lectures/Inference_extended_full.pdf) | [t-test examples](../labs/t_test_examples.Rmd) |
 |||[t-test homework](../labs/t_test_hw_115.Rmd)|
- 
+| April 22 | Continued |||
+| APril 24 | Continued |||
 
 
 <br>
@@ -290,7 +291,8 @@ Please note that you are fully allowed (encouraged even!) to visit during office
 ### Week 13 (Exam and Inferences)
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-| April 20 |[3 More Inferences (if time)](../../lectures/Inference_extended_full.pdf) |  |
+| April 27 | Exam
+| April 29 |[3 More Inferences (if time)](../../lectures/Inference_extended_full.pdf) |  |
 
 
 
