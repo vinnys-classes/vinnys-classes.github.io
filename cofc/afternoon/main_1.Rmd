@@ -1,0 +1,35 @@
+---
+title: "Math 104 Elementary Statistics @ 1pm (Fall 2026)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+---
+
+$~$
+
+
+<hr style="border:3px solid black">
+  
+<br>
+
+# Schedule
+
+
+
+
+<br>
+
+<hr style="border:2px solid grey">
+
+<br>
+
+    
+
+### Week 1
+
+| Date | Lecture | Lab | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Aug 17| Basics of Statistics + 5 number summary (notes forthcoming)||
