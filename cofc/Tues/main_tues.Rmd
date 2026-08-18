@@ -32,4 +32,4 @@ $~$
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Aug 17| Basics of Statistics + 5 number summary (notes forthcoming)||
+|Aug 18| Basics of Statistics + 5 number summary + Boxplots (notes forthcoming)||
