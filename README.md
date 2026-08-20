@@ -11,7 +11,7 @@ A website for my courses
 
 [MATH 104 at 1pm MWF](https://vinnys-classes.github.io/cofc/afternoon/main_1.html)
 
-[MATH 104 at 1:40pm TTh](https://vinnys-classes.github.io/cofc/afternoon/main_tues.html)
+[MATH 104 at 1:40pm TTh](https://vinnys-classes.github.io/cofc/Tues/main_tues.html)
 ## Teaching (Grinnell)
 
 ### Spring 2026
