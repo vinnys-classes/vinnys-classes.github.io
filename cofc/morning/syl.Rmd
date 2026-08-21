@@ -17,7 +17,7 @@ output:
 
 **Class Meetings**:
 
-* Math 104 
+* Math 104  Section 08
 * 113 Maybank
 * MWF 9am
 
@@ -30,7 +30,9 @@ output:
 * If these times do not work for you, *please* message me and we will find a time to meet.
 
 
+**Prerequists**
 
+Placement or any 100 level math course
 <hr style="border:2px solid grey">
 
 **Course Description**:
@@ -40,7 +42,18 @@ This course covers the application of basic statistical methods such as univaria
 
 <hr style="border:2px solid grey">
 
+**Texts**:
 
+* [Introduction to Modern Statistics, 1st Edition](https://openintro-ims.netlify.app/) (Free online\!)
+* Beginning Statistics by Hawkes, published by Wiley. 
+
+All additional materials will be posted on the course website.
+
+There will be required readings from other sources which will be provided as necessary. Mostly these will be short papers.
+
+<br>
+
+<hr style="border:3px solid black">
 
 
 ## Aims and Objectives

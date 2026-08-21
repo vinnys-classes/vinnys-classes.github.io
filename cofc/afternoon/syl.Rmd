@@ -17,7 +17,7 @@ output:
 
 **Class Meetings**:
 
-* Math 104 
+* Math 104 Section 12
 * 219 Maybank
 * MWF 1am
 
@@ -43,6 +43,7 @@ This course covers the application of basic statistical methods such as univaria
 **Texts**:
 
 * [Introduction to Modern Statistics, 1st Edition](https://openintro-ims.netlify.app/) (Free online\!)
+* Beginning Statistics by Hawkes, published by Wiley. 
 
 All additional materials will be posted on the course website.
 

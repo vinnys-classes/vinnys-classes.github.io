@@ -17,7 +17,7 @@ output:
 
 **Class Meetings**:
 
-* Math 104 
+* Math 104 Section 07
 * 113 Maybank
 * MWF 9am
 
@@ -40,7 +40,18 @@ This course covers the application of basic statistical methods such as univaria
 
 <hr style="border:2px solid grey">
 
+**Texts**:
 
+* [Introduction to Modern Statistics, 1st Edition](https://openintro-ims.netlify.app/) (Free online\!)
+* Beginning Statistics by Hawkes, published by Wiley. 
+
+All additional materials will be posted on the course website.
+
+There will be required readings from other sources which will be provided as necessary. Mostly these will be short papers.
+
+<br>
+
+<hr style="border:3px solid black">
 
 
 ## Aims and Objectives
@@ -59,8 +70,6 @@ After completing this course, students should be able to:
 
 <hr style="border:3px solid black">
 
-
-<br>
 
 ## Grading
 
@@ -107,6 +116,9 @@ There will be an ongoing group project throughout the semester. The project will
 
 <br>
 
+
+The overall distribution of grading scores is slightly flexible but A's are 100-93, A- 92-20, B+ 89-88, B87-82, B- 81-80, C+ 79-78, C 77-72, C- 71-70, D+69-68, D 67 - 60, F <60
+
 <hr style="border:3px solid black">
 
 ## Policies
@@ -148,11 +160,13 @@ Failure to live up to this expectation constitutes academic dishonesty. Academic
 
 <hr style="border:2px solid grey">
 
-**Inclusive Classroom**
+**Inclusive Classroom and Digital Accessibility**
 
 The College of Charleston makes reasonable accommodations for students with documented disabilities. To receive accommodations, students must provide documentation to the college. If you plan on using accommodations in this course, you should speak with me as early as possible in the semester so that we can discuss ways to ensure your full participation in the course.
 
-<hr style="border:2px solid grey">
+I will do my best to make my notes accessible to my students. If for some reason a set of notes is insufficent or lacking accessibility for you please, please, please reach out to me and I will fix it. 
+
+Your accommodation is your right and I intend to respect it. 
 
 **Religious Holidays**
 
@@ -169,7 +183,3 @@ To be abundantly clear, simply copying and pasting the output from a LLM is not 
 
 *Note: My stance on LLM usage through the course may change, but you will be given notice and, if applied retroactively, won't lower your grade*
 
-
-<hr style="border:3px solid black">
-
-### Sketch of Schedule
