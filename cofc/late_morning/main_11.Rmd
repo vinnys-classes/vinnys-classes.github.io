@@ -10,8 +10,19 @@ output:
 
 $~$
 
+# Syllabus
+
+Welcome to the course website for Math 104! To begin, you can find the course syllabus linked below:
+
+- [Click here](syl.html) to view the course syllabus
+
+You can locate course content by scrolling, or by using the outline in the upper left. Please note: material will not be posted until we've reached that point in the course.
+  
+<br>
 
 <hr style="border:3px solid black">
+
+
   
 <br>
 
@@ -33,3 +44,5 @@ $~$
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Aug 17| Basics of Statistics + 5 number summary (notes forthcoming)||
+|Aug 19| 5 Num. Summary + Boxplots|||
+|Aug 21 | Boxplots and Histograms ||
