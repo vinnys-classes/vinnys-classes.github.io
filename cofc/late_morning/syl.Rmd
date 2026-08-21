@@ -18,7 +18,7 @@ output:
 **Class Meetings**:
 
 * Math 104 
-* 219 Maybank
+* 224 Maybank
 * MWF 11am
 
 **Office Hours**:
