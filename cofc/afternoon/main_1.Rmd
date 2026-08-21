@@ -10,6 +10,14 @@ output:
 
 $~$
 
+ 
+# Syllabus
+  
+  Welcome to the course website for Math 104! To begin, you can find the course syllabus linked below:
+  
+  - [Click here](syl.html) to view the course syllabus
+
+You can locate course content by scrolling, or by using the outline in the upper left. Please note: material will not be posted until we've reached that point in the course.
 
 <hr style="border:3px solid black">
   
