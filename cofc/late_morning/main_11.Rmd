@@ -10,6 +10,18 @@ output:
 
 $~$
 
+<hr style="border:3px solid black">
+
+# Required Readings
+| Title | Author | Journal | Year | Quiz|
+|:-----|:-------|:-----|:-----|:-----|
+|Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps| Yang Liu & Jeffrey Heer | Conference on Human Factors in Computing Systems Proceedings | 2018 | 08/31 |
+
+<hr style="border:3px solid black">
+
+  
+<br>
+
 # Syllabus
 
 Welcome to the course website for Math 104! To begin, you can find the course syllabus linked below:
@@ -31,11 +43,6 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 
 
-<br>
-
-<hr style="border:2px solid grey">
-
-<br>
 
     
 
