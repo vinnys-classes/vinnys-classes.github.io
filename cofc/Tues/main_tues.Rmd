@@ -49,10 +49,16 @@ You can locate course content by scrolling, or by using the outline in the upper
 <br>
 
 
-    
-
 ### Week 1
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Aug 18| Basics of Statistics + 5 number summary + Boxplots (notes forthcoming)||
+|Aug 18| [Basics of Statistics + 5 number summary](../notes/Boxplot_overviews.pdf)||
+|Aug 20| 5 Num. Summary, Boxplots, and Histograms |||
+
+
+### Week 2
+
+| Date | Lecture | HW Due | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Aug 25| [Histograms and Numeric Summaries](../notes/numeric_summaries_cofc.pdf)| HW 1 due 09/28|

@@ -51,8 +51,9 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Aug 18| [Basics of Statistics + 5 number summary](../notes/Boxplot_overviews.pdf)||
-|Aug 20| 5 Num. Summary, Boxplots, and Histograms |||
+|Aug 17| [Basics of Statistics + 5 number summary](../notes/Boxplot_overviews.pdf)||
+|Aug 19| 5 Num. Summary, Boxplots, and Histograms |||
+|Aug 21| 5 Num. Summary, Boxplots, and Histograms |||
 
 
 ### Week 2
