@@ -61,4 +61,4 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 |Aug 24| [Histograms and Numeric Summaries](../notes/numeric_summaries_cofc.pdf)|  HW 1 due 08/28 at 4:00pm at my office door (a drop off box/folder will be made for it) |
 |Aug 26| [Scatterplots and Correlation](../notes/correlation.pdf)| [Histogram Practice Worksheet](../../Rplots.pdf)|[Histogram Practice Solutons](../notes/histograms_worksheet_ans.pdf)|
-
+|Aug 28| [Scatterplots and Correlation](../notes/correlation.pdf)| [Histogram, Boxplot, Scatterplot Practice Worksheet](../../new_wkst.pdf)||
