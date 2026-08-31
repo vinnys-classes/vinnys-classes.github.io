@@ -12,7 +12,7 @@ output:
 **Instructor**:
 
 * Vinny Paris
-* 333 Small Hall
+* 333 RSS Hall
 * parisvv at cof...
 
 **Class Meetings**:
@@ -24,13 +24,16 @@ output:
 **Office Hours**:
 
 * Location: Small 333 (Vinny's Office)
-* Monday 3:10-4:30pm,
 * Tuesday 3:10-4:30pm
+* Wednesday 3:10-4:30pm,
 * Open door -> Feel free to pop your head in
 * If these times do not work for you, *please* message me and we will find a time to meet.
 
 
 
+**Prerequists**
+
+Placement or any 100 level math course
 <hr style="border:2px solid grey">
 
 **Course Description**:
@@ -66,9 +69,26 @@ After completing this course, students should be able to:
 * Communicate the methods and results of statistical analyses succinctly and accurately in both writing and speaking  
 * Read, identify, and critique the statistical concepts and choices of data presentation used in various media publications (newspaper articles, reports, blogs, etc.)
 
+
+
+#### General Education Learning Outcomes:
+
+In this course, we will provide evidence for the assessment of Problem Solving. Students will be able to apply appropriate methods to obtain conclusions. More specifically, students will be able to:
+
+* Clearly identify or define a problem.
+
+* Use a discipline-specific model to perform an analysis or procedure.
+
+* Draw a well-supported logical conclusion.
+
+These outcomes will be assessed on the final exam.
+
+
 <br>
 
 <hr style="border:3px solid black">
+
+<br>
 
 
 ## Grading
