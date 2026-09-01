@@ -23,7 +23,7 @@ output:
 
 **Office Hours**:
 
-* Location: Small 333 (Vinny's Office)
+* Location: RSS 333 (Vinny's Office)
 * Tuesday 3:10-4:30pm
 * Wednesday 3:10-4:30
 * Open door -> Feel free to pop your head in
