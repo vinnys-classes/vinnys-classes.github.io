@@ -70,3 +70,5 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 |Sept 1| [Finish Correlation and then bar plots](../notes/bar_lplots.pdf)| HW 2 due 09/05 at 4:00pm at my office door (a drop off box/folder will be made for it) |
+|Sept 3| [Finish Correlations and bar plots](../notes/bar_lplots.pdf) |
+|      | [If time, probability](../notes/probability_209.pdf)
