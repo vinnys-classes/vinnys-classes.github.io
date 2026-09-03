@@ -3,8 +3,8 @@ title: "Elementary Statistics Sylabus"
 author: "Vinny Paris"
 date: "2026-08-20"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 # Syllabus \- Math-104 (Fall 2026\)
@@ -167,11 +167,13 @@ Failure to live up to this expectation constitutes academic dishonesty. Academic
 
 <hr style="border:2px solid grey">
 
-**Inclusive Classroom**
+**Inclusive Classroom and Digital Accessibility**
 
 The College of Charleston makes reasonable accommodations for students with documented disabilities. To receive accommodations, students must provide documentation to the college. If you plan on using accommodations in this course, you should speak with me as early as possible in the semester so that we can discuss ways to ensure your full participation in the course.
 
-<hr style="border:2px solid grey">
+I will do my best to make my notes accessible to my students. If for some reason a set of notes is insufficent or lacking accessibility for you please, please, please reach out to me and I will fix it. 
+
+Your accommodation is your right and I intend to respect it. 
 
 **Religious Holidays**
 
