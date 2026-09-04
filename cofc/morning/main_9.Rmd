@@ -73,6 +73,6 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 | Date | Lecture | HW Due | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Aug 31| Quiz Day and Correlations |
+|Aug 31| Quiz Day and Correlations | HW 2 due at 4pm on Sept 4 at my office (RSS 333) |
 |Sept 2| [Barplots](../notes/bar_lplots.pdf) |
-|Sept 4| [If time, probability](../notes/probability_209.pdf) |
+|Sept 4| [Probability](../notes/probability_209.pdf) |
