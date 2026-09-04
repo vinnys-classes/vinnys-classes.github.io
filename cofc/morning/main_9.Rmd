@@ -67,3 +67,12 @@ You can locate course content by scrolling, or by using the outline in the upper
 |Aug 26| [Scatterplots and Correlation](../notes/correlation.pdf)| [Histogram Practice Worksheet](../../Rplots.pdf)|[Histogram Practice Solutons](../notes/histograms_worksheet_ans.pdf)|
 |Aug 28| [Scatterplots and Correlation](../notes/correlation.pdf)| [Histogram, Boxplot, Scatterplot Practice Worksheet](../../new_wkst.pdf)|[Solutions](../notes/hist_extra_sol.pdf)|
 
+
+
+### Week 3
+
+| Date | Lecture | HW Due | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Aug 31| Quiz Day and Correlations |
+|Sept 2| [Barplots](../notes/bar_lplots.pdf) |
+|Sept 4| [If time, probability](../notes/probability_209.pdf) |
