@@ -58,6 +58,9 @@ You can locate course content by scrolling, or by using the outline in the upper
 |Aug 21| Continuing ||
 
 
+<hr style="border:2px solid grey">
+
+<br>
 
 ### Week 2
 
@@ -68,6 +71,9 @@ You can locate course content by scrolling, or by using the outline in the upper
 |Aug 28| [Scatterplots and Correlation](../notes/correlation.pdf)| [Histogram, Boxplot, Scatterplot Practice Worksheet](../../new_wkst.pdf)|[Solutions](../notes/hist_extra_sol.pdf)|
 
 
+<hr style="border:2px solid grey">
+
+<br>
 
 ### Week 3
 
@@ -76,3 +82,14 @@ You can locate course content by scrolling, or by using the outline in the upper
 |Aug 31| Quiz Day and Correlations | HW 2 due at 4pm on Sept 4 at my office (RSS 333) |
 |Sept 2| [Barplots](../notes/bar_lplots.pdf) |
 |Sept 4| [Probability](../notes/probability_209.pdf) |
+
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 4
+
+| Date | Lecture | HW Due | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Sept 7| Finish Probability | HW due 4pm on Friday Sept 11|
