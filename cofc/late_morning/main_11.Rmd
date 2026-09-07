@@ -72,3 +72,10 @@ You can locate course content by scrolling, or by using the outline in the upper
 |Aug 31| Quiz Day and Correlations | HW 2 due at 4pm on Sept 4 at my office (RSS 333) |
 |Sept 2| [Barplots](../notes/bar_lplots.pdf) |
 |Sept 4| [Probability](../notes/probability_209.pdf) |
+
+
+### Week 4
+
+| Date | Lecture | HW Due | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+|Sept 7| Finish Probability | HW due 4pm on Friday Sept 11|
