@@ -80,5 +80,5 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 |Sept 7| Finish Probability | HW due 4pm on Friday Sept 11|
 |Sept 9| Probability Continued + Dice Activity| |
-|Sept 11| [Normality if time](../notes/Probability_two-2.pdf)|
+|Sept 11| [Normality if time](../notes/Probability_two-2.pdf)|[Probability Practice](../notes/probability_practice.pdf)|
 
