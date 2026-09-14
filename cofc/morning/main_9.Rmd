@@ -32,10 +32,6 @@ Exam 1 | [Study Guide](../notes/exam_1_study_guide_104.pdf) | Sept 18th |
 
 <hr style="border:3px solid black">
 
-
- 
-
-  
 <br>
 
 
@@ -110,3 +106,14 @@ You can locate course content by scrolling, or by using the outline in the upper
 |Sept 7| Finish Probability | HW due 4pm on Friday Sept 11|
 |Sept 9| Probability Continued + Dice Activity| |
 |Sept 11| [Normality if time](../notes/Probability_two-2.pdf)|[Probability Practice](../notes/probability_practice.pdf)|[Practice Solutions](../notes/probability_practice_sol.pdf)
+
+
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 5
+| Date | Lecture | HW Due | Suggested Reading |
+|:-----|:-------|:-----|:-----|
+| Sept 14th | Normality Continued | NA ||
