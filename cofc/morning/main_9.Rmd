@@ -90,7 +90,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 | Date | Lecture | HW Due | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Aug 31| Quiz Day and Correlations | HW 2 due at 4pm on Sept 4 at my office (RSS 333) |
+|Aug 31| Quiz Day and Correlations | HW 2 due at 4pm on Sept 4 at my office (RSS 333) | [HW 2 Solutionw](../notes/homework_lego_nummeric_summaries_sol.pdf)
 |Sept 2| [Barplots](../notes/bar_lplots.pdf) |
 |Sept 4| [Probability](../notes/probability_209.pdf) |
 
@@ -103,8 +103,8 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 | Date | Lecture | HW Due | Suggested Reading |
 |:-----|:-------|:-----|:-----|
-|Sept 7| Finish Probability | HW due 4pm on Friday Sept 11|
-|Sept 9| Probability Continued + Dice Activity| |
+|Sept 7| Finish Probability | HW due 4pm on Friday Sept 11| [HW 3 Solutions](../notes/homework_prob-2.pdf) |
+|Sept 9| Probability Continued + Dice Activity|
 |Sept 11| [Normality if time](../notes/Probability_two-2.pdf)|[Probability Practice](../notes/probability_practice.pdf)|[Practice Solutions](../notes/probability_practice_sol.pdf)
 
 
