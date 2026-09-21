@@ -59,7 +59,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 
     
 
-### Week 1
+### Week 1 (Introduction)
 
 | Date | Lecture | Lab | Suggested Reading |
 |:-----|:-------|:-----|:-----|
@@ -68,7 +68,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 |Aug 21 | Boxplots and Histograms ||
 
 
-### Week 2
+### Week 2 (Histograms and Numeric Summaries)
 
 | Date | Lecture | HW Due | Other |
 |:-----|:-------|:-----|:-----|
@@ -78,7 +78,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 
 
-### Week 3
+### Week 3 (Correlations and Barplots)
 
 | Date | Lecture | HW Due | Suggested Reading |
 |:-----|:-------|:-----|:-----|
@@ -87,7 +87,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 |Sept 4| [Probability](../notes/probability_209.pdf) |
 
 
-### Week 4
+### Week 4 (Probability and Normal)
 
 | Date | Lecture | HW Due | Suggested Reading |
 |:-----|:-------|:-----|:-----|
@@ -101,7 +101,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 <br>
 
-### Week 5
+### Week 5 (Normality and Exam)
 | Date | Lecture | HW Due | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Sept 14th | Normality Continued | NA ||
@@ -113,7 +113,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 <br>
 
-### Week 6
+### Week 6 (Sampling Distributions)
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 |Sept 21st | Practice Normal and Prep for [Sampling Dists](../notes/Normality_Now_What_.pdf)| HW 4 due Friday Sept. 25th.| [link to Normal Dist. Calculator](https://www.statdistributions.com/normal/)| 
