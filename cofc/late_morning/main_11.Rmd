@@ -16,6 +16,7 @@ $~$
 | Title | Author | Journal | Year | Quiz|
 |:-----|:-------|:-----|:-----|:-----|
 |Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps| Yang Liu & Jeffrey Heer | Conference on Human Factors in Computing Systems Proceedings | 2018 | 08/31 |
+| Science and Statistics | George Box | Journal of the American Statistical Association | 1976 | 04/06 | [Box quiz solutions](../exams/box_quiz_w_sol.pdf)|
 
 <hr style="border:3px solid black">
 
@@ -104,4 +105,17 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Sept 14th | Normality Continued | NA ||
+|Sept 16th | Review for Exam ||
+|Sept 18th | Exam ||
+
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 6
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+|Sept 21st | Practice Normal and Prep for [Sampling Dists](../notes/Normality_Now_What_.pdf)| HW 4 due Friday Sept. 25th.| [link to Normal Dist. Calculator](https://www.statdistributions.com/normal/)| 
+
 
