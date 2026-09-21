@@ -117,3 +117,16 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Suggested Reading |
 |:-----|:-------|:-----|:-----|
 | Sept 14th | Normality Continued | NA ||
+|Sept 16th | Review for Exam ||
+|Sept 18th | Exam ||
+
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 6
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+|Sept 21st | Practice Normal and Prep for Sampling Dists| HW 4 due Friday Sept. 25th.| [link to Normal Dist. Calculator](https://www.statdistributions.com/normal/)| 
+
