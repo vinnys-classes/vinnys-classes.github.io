@@ -19,6 +19,7 @@ $~$
 | Title | Author | Journal | Year | Quiz|
 |:-----|:-------|:-----|:-----|:-----|
 |Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps| Yang Liu & Jeffrey Heer | Conference on Human Factors in Computing Systems Proceedings | 2018 | 09/01 |
+|Science and Statistics | George Box | Journal of the American Statistical Association | 1976 | 
 
 <hr style="border:3px solid black">
 
@@ -32,8 +33,8 @@ $~$
 
 | Step | Due Date | 
 |:-----|:-------|
-| Data Selection/Project Proposal| October 3rd|
-| Data Check In| October 17th |
+| Data Selection/Project Proposal| October 6th|
+| Data Check In| October 20th |
 | Presentations | November 5th |
 
 
