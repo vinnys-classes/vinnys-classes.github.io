@@ -16,7 +16,7 @@ $~$
 | Title | Author | Journal | Year | Quiz|
 |:-----|:-------|:-----|:-----|:-----|
 |Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps| Yang Liu & Jeffrey Heer | Conference on Human Factors in Computing Systems Proceedings | 2018 | 08/31 |
-| Science and Statistics | George Box | Journal of the American Statistical Association | 1976 | 04/06 | [Box quiz solutions](../exams/box_quiz_w_sol.pdf)|
+| Science and Statistics | George Box | Journal of the American Statistical Association | 1976 | 09/30 | [Box quiz solutions](../exams/box_quiz_w_sol.pdf)|
 
 <hr style="border:3px solid black">
 
