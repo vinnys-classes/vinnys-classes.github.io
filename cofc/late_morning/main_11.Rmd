@@ -118,5 +118,6 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 |Sept 21st | Practice Normal and Prep for [Sampling Dists](../notes/Normality_Now_What_.pdf)| HW 4 due Friday Sept. 25th.| [link to Normal Dist. Calculator](https://www.statdistributions.com/normal/)| 
 | Sept 23rd |Finish Sampling Distributions and introduce [Permutation Testing](../notes/permutation_test_cofc.pdf)|
+| Sept 25th | Practice Permutation Tests and beging [Z-tests](../notes/z_tests.pdf)
 
 
