@@ -126,7 +126,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 <br>
 
-### Week 7 Z-tests and Confidence Intervals
+### Week 7 (Z-tests and Confidence Intervals)
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Sept 28 | Z-tests continued | HW 5 due Friday at 4pm at my office |  
