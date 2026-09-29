@@ -117,3 +117,13 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 | Sept 22| Exam and Intro to Midterm Project | ||
 | Sept 24 |  [Permutation Testing](../notes/permutation_test_cofc.pdf) | HW 4 due October 2nd by 4pm | [link to Normal Dist. Calculator](https://www.statdistributions.com/normal/)|
+
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 7 
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Sept 29 | Hypothesis Statement Practice and [accessibility in data visualizations](../notes/accessible_graphics-2.pdf) | HW 5 due Friday at 4pm at my office |  
