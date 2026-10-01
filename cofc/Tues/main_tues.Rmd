@@ -129,3 +129,4 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Sept 29 | Hypothesis Statement Practice and [accessibility in data visualizations](../notes/accessible_graphics-2.pdf) | HW 5 due Friday at 4pm at my office |  
+| Oct 1 | [Sampling Dists](../notes/Normality_Now_What_.pdf) ||
