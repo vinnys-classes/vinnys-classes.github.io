@@ -132,3 +132,13 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 | Sept 28 | Z-tests continued | HW 5 due Friday at 4pm at my office |  [worksheet on hypothesis statements](../exam/prace_for_mean_testing_worksheet.pdf)
 |  | | |   [worksheet on hypothesis statements solutions](../exam/prace_for_mean_hypo_sol.pdf)
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 8 (Confidence Intervals)
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Oct 5 | Finish and practice Z-tests | | |
+| Oct 7 | More z-test practice and [Confidence Intervals](../notes/confidence_intervals.pdf)
