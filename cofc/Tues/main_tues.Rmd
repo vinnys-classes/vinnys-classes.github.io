@@ -135,3 +135,4 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | October 6th | [Z-tests](../notes/z_tests.pdf) | | 
+| October 8th | Finish z-tests and practice. If time [Confidence Intervals](../notes/confidence_intervals.pdf)
