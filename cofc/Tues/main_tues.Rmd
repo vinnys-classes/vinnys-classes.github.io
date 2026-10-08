@@ -20,6 +20,7 @@ $~$
 |:-----|:-------|:-----|:-----|:-----|
 |Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps| Yang Liu & Jeffrey Heer | Conference on Human Factors in Computing Systems Proceedings | 2018 | 09/01 |
 |Science and Statistics | George Box | Journal of the American Statistical Association | 1976 | Oct 1st |
+|ASA Statement on P-Values| Wassertein et al | The American Statistician | 2016 | Oct 22nd | |
 
 <hr style="border:3px solid black">
 
