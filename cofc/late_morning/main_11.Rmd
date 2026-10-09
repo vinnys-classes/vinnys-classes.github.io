@@ -146,3 +146,4 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 | Oct 5 | Finish and practice Z-tests | | |
 | Oct 7 | More z-test practice and [Confidence Intervals](../notes/confidence_intervals.pdf)
+| Oct 9 | [Sampling Techniques](../notes/sampling_only.pdf) ||
