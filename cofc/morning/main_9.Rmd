@@ -157,7 +157,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Oct 5 | Finish and practice Z-tests | |  [Z-test worksheet](../exam/z_test_worksheet-3.pdf) |
-| Oct 7 | More z-test practice and [Confidence Intervals](../notes/confidence_intervals.pdf)
+| Oct 7 | More z-test practice and [Confidence Intervals](../notes/confidence_intervals.pdf) | |[Z-test worksheet solutions](../exam/z_test_worksheet_sol.pdf)|
 | Oct 9 | [Sampling Techniques](../notes/sampling_only.pdf) ||
 
 
