@@ -31,7 +31,7 @@ It'll be the full 80 minutes. You may bring a notecard and a calculator. If you 
 | Exam | Study Guide | Date | 
 |:-----|:-------|:-----|
 Exam 1 | [Study Guide](../notes/exam_1_study_guide_104.pdf) | Sept 18th |
-Exam 2 | - | TBD |
+Exam 2 | To Be Posted | October 30th |
 Final | -  | December 3rd at 1pm |
 
 <hr style="border:3px solid black">
@@ -144,3 +144,13 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Oct 5 | Finish and practice Z-tests | | |
 | Oct 7 | More z-test practice and [Confidence Intervals](../notes/confidence_intervals.pdf)
 | Oct 9 | [Sampling Techniques](../notes/sampling_only.pdf) ||
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 9 (Confidence Intervals)
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Oct 12th | Break ||
+| Oct 14th | [Confidence Intervals](../notes/confidence_intervals.pdf) ||
