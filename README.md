@@ -5,7 +5,7 @@ A website for my courses
 
 ### Fall 2026
 
-[MATH 104 at 9am MWF](https://vinnys-classes.github.io/cofc/morning/main_9.html)
+[MATH 104 at 9am MWF: CLASS CANCELLED MONDAY OCT 19TH](https://vinnys-classes.github.io/cofc/morning/main_9.html)
 
 [MATH 104 at 11am MWF](https://vinnys-classes.github.io/cofc/late_morning/main_11.html)
 
