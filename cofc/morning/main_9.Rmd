@@ -178,7 +178,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 | Oct 12th | Break ||
 | Oct 14th | [Confidence Intervals](../notes/confidence_intervals.pdf) ||
-| Oct 16th | Sampling Worksheet ||
+| Oct 16th | Work on Sampling  ||[Sampling Worksheet](../random_crap/bias_worksheet.pdf)
 
 
 <hr style="border:2px solid grey">
