@@ -12,7 +12,7 @@ $~$
 
 # Class cancelled Monday Oct. 19th
 
-I have a doctor's appointment at 8am that can't be rescheduled and it's unclear if I'll be back to class in time. I'll post a video that I want you to watch (probably on experiments) as well as a worksheet for confidence intervals. I'll put spare homework outside on the table outside my office door. 
+I have a doctor's appointment at 8am that can't be rescheduled and it's unclear if I'll be back to class in time. I'll post a video that I want you to watch (probably on experiments). In the meantime there is a worksheet for confidence intervals that you can work on before our next class (see Oct 19th on the schedule). I'll put spare homework outside on the table outside my office door once I get back to my office. 
 
 Sorry I didn't make an announcement but I didn't know until about 20 minutes ago (3pm on Friday).
 
@@ -178,3 +178,15 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 | Oct 12th | Break ||
 | Oct 14th | [Confidence Intervals](../notes/confidence_intervals.pdf) ||
+| Oct 16th | Sampling Worksheet ||
+
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 9
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Oct 19th | Class Cancelled | HW 6 (Z-tests) due by Friday at 4pm | [Confidence Interval Worksheet](../random_crap/Conf_lab.pdf)
+
