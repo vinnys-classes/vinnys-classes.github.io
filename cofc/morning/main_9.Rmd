@@ -37,7 +37,7 @@ It'll be the full 80 minutes. You may bring a notecard and a calculator. If you 
 | Exam | Study Guide | Date | 
 |:-----|:-------|:-----|
 Exam 1 | [Study Guide](../notes/exam_1_study_guide_104.pdf) | Sept 18th |
-Exam 2 | To Be Posted | October 30th |
+Exam 2 | [Study Guide Exam 2](../exam/exam_2_overview_cofc.pdf) | October 30th |
 Final  | - | December 7th at 8am |
 
 <hr style="border:3px solid black">
@@ -181,11 +181,12 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Oct 16th | Work on Sampling  ||[Sampling Worksheet](../random_crap/bias_worksheet.pdf)
 
 
+
 <hr style="border:2px solid grey">
 
 <br>
 
-### Week 9
+### Week 10
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Oct 19th | Class Cancelled | HW 6 (Z-tests) due by Friday at 4pm | [Confidence Interval Worksheet](../random_crap/Conf_lab.pdf)
