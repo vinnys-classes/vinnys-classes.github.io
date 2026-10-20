@@ -30,7 +30,7 @@ $~$
 
 
 # Midterm
-[Midterm Instructions](../exam/midterm_tuesday.pdf)
+[Midterm Instructions](../Tues/midterm_tuesday.pdf)
 
 | Step | Due Date | 
 |:-----|:-------|
@@ -145,3 +145,9 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Oct 13th | Break ||
 | Oct 15th | [Confidence Intervals](../notes/confidence_intervals.pdf) |HW 6 due Oct 23rd by 4pm at my office |  [Z-test worksheet](../exam/z_test_worksheet-3.pdf)
 ||||[Z-test worksheet solutions](../exam/z_test_worksheet_sol.pdf)|
+
+
+### Week 10
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Oct 20th | Confidence Intervals and worksheet |Reminder hw is due on friday|
