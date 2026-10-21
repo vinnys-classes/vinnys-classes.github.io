@@ -165,3 +165,4 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Oct 19th | Confidence Interval Worksheet and, if time, [t-tests](../notes/t_tests.pdf)| HW 6 (Z-tests) due by Friday at 4pm | 
+| Oct 21st | t-test time | |  [link to t-distribution calculator](https://lock5stat.com/StatKey/theoretical_distribution/theoretical_distribution.html#t)|
