@@ -10,11 +10,6 @@ output:
 
 $~$
 
-# Class cancelled Monday Oct. 19th
-
-I have a doctor's appointment at 8am that can't be rescheduled and it's unclear if I'll be back to class in time. I'll post a video that I want you to watch (probably on experiments). In the meantime there is a worksheet for confidence intervals that you can work on before our next class (see Oct 19th on the schedule). I'll put spare homework outside on the table outside my office door once I get back to my office. 
-
-Sorry I didn't make an announcement but I didn't know until about 20 minutes ago (3pm on Friday).
 
 # Required Readings
 | Title | Author | Journal | Year | Quiz|
@@ -190,4 +185,4 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Oct 19th | Class Cancelled | HW 6 (Z-tests) due by Friday at 4pm | [Confidence Interval Worksheet](../random_crap/Conf_lab.pdf)
-
+| Oct 21st | Wrap up confidence intervals and start [t-tests](../notes/t_tests.pdf)
