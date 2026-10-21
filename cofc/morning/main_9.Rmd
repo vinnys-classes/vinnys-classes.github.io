@@ -185,4 +185,4 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Oct 19th | Class Cancelled | HW 6 (Z-tests) due by Friday at 4pm | [Confidence Interval Worksheet](../random_crap/Conf_lab.pdf)
-| Oct 21st | Wrap up confidence intervals and start [t-tests](../notes/t_tests.pdf)
+| Oct 21st | Wrap up confidence intervals and start [t-tests](../notes/t_tests.pdf) | | [link to t-distribution calculator](https://lock5stat.com/StatKey/theoretical_distribution/theoretical_distribution.html#t)| 
