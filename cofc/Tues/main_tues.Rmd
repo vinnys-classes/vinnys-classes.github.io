@@ -151,3 +151,4 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Oct 20th | Confidence Intervals and worksheet |Reminder hw is due on friday|
+| Oct 22st | Reading Quiz, finished Conf Int. and maybe [t-test](../notes/t_tests.pdf) time | |  [link to t-distribution calculator](https://lock5stat.com/StatKey/theoretical_distribution/theoretical_distribution.html#t)|
