@@ -5,6 +5,8 @@ A website for my courses
 
 ### Fall 2026
 
+# Class Cancelled Monday Oct 26th (I'm ill)
+
 [MATH 104 at 9am MWF](https://vinnys-classes.github.io/cofc/morning/main_9.html)
 
 [MATH 104 at 11am MWF](https://vinnys-classes.github.io/cofc/late_morning/main_11.html)

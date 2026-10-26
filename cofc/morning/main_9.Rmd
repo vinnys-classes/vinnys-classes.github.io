@@ -10,6 +10,8 @@ output:
 
 $~$
 
+# Class Cancelled Monday Oct 26th (I'm ill)
+
 
 # Required Readings
 | Title | Author | Journal | Year | Quiz|
