@@ -10,7 +10,6 @@ output:
 
 $~$
 
-# Class Cancelled Monday Oct 26th (I'm ill)
 
 
 # Required Readings
@@ -174,8 +173,10 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Oct 12th | Break ||
-| Oct 14th | [Confidence Intervals](../notes/confidence_intervals.pdf) ||
+| Oct 14th | [Confidence Intervals](../notes/confidence_intervals.pdf) | | [Confidence Interval Worksheet](../exam/Conf_lab.pdf) 
+||||[Confidence Interval Solutions](../exam/Conf_lab_sol.pdf) |
 | Oct 16th | Work on Sampling  ||[Sampling Worksheet](../random_crap/bias_worksheet.pdf)
+||||[Sampling Worksheet Solutions](../exam/Biases_and_Improper_Sampling_sol.pdf)
 
 
 
@@ -186,5 +187,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 ### Week 10
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
-| Oct 19th | Class Cancelled | HW 6 (Z-tests) due by Friday at 4pm | [Confidence Interval Worksheet](../random_crap/Conf_lab.pdf)
+| Oct 19th | Class Cancelled | HW 6 (Z-tests) due by Friday at 4pm |
 | Oct 21st | Wrap up confidence intervals and start [t-tests](../notes/t_tests.pdf) | | [link to t-distribution calculator](https://lock5stat.com/StatKey/theoretical_distribution/theoretical_distribution.html#t)| 
+| Oct 23rd | Quiz day and review t-tests | ||
+
