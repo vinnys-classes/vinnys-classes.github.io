@@ -168,3 +168,12 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 | Oct 19th | Confidence Interval Worksheet and, if time, [t-tests](../notes/t_tests.pdf)| HW 6 (Z-tests) due by Friday at 4pm | 
 | Oct 21st | t-test time | |  [link to t-distribution calculator](https://lock5stat.com/StatKey/theoretical_distribution/theoretical_distribution.html#t)|
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 11 (t-test and Exam)
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Oct 27th |  [Z-test homework](../exam/hw_z_tests.pdf) | |[Z-test Homework Solutions](../exam/hw_z_tests_sol.pdf)|
