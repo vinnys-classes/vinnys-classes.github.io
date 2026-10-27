@@ -122,9 +122,6 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Sept 24 |  [Permutation Testing](../notes/permutation_test_cofc.pdf) | HW 4 due October 2nd by 4pm | [link to Normal Dist. Calculator](https://www.statdistributions.com/normal/)|
 
 
-<hr style="border:2px solid grey">
-
-<br>
 
 ### Week 7 
 | Date | Lecture | HW Due | Useful Stuff |
@@ -152,3 +149,9 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 | Oct 20th | Confidence Intervals and worksheet |Reminder hw is due on friday|
 | Oct 22st | Reading Quiz, finished Conf Int. and maybe [t-test](../notes/t_tests.pdf) time | |  [link to t-distribution calculator](https://lock5stat.com/StatKey/theoretical_distribution/theoretical_distribution.html#t)|
+
+### Week 11
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Oct 27th | t-tests and practice | | |
+| Oct 29th | exam review |||
