@@ -10,7 +10,6 @@ output:
 
 $~$
 
-# Class Cancelled Monday Oct 26th (I'm ill)
 
 
 <hr style="border:3px solid black">
