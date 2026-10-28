@@ -183,3 +183,4 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Oct 27th |  [Z-test homework](../exam/hw_z_tests.pdf) | |[Z-test Homework Solutions](../exam/hw_z_tests_sol.pdf)|
+| Oct 29th | [accessibility in data visualizations](../notes/accessible_graphics-2.pdf) and review for exam ||
