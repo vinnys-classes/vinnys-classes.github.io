@@ -32,6 +32,7 @@ $~$
 # Midterm
 [Midterm Instructions](../Tues/midterm_tuesday.pdf)
 
+[Example of Graphic to Make](../vis/nba_example.pdf)
 | Step | Due Date | 
 |:-----|:-------|
 | Data Selection/Project Proposal| October 6th|
@@ -154,4 +155,4 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Oct 27th | t-tests and practice | | |
-| Oct 29th | exam review |||
+| Oct 29th | Briefly [sampling techniques](../notes/sampling_only.pdf) and then exam review |||
