@@ -155,12 +155,15 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 <br>
 
-### Week 9 (confidence Intervals)
+### Week 9
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Oct 12th | Break ||
-| Oct 14th | [Confidence Intervals](../notes/confidence_intervals.pdf) ||
-| Oct 16th | Sampling Worksheet ||
+| Oct 14th | [Confidence Intervals](../notes/confidence_intervals.pdf) | | [Confidence Interval Worksheet](../exam/Conf_lab.pdf) 
+||||[Confidence Interval Solutions](../exam/Conf_lab_sol.pdf) |
+| Oct 16th | Work on Sampling  ||[Sampling Worksheet](../random_crap/bias_worksheet.pdf)
+||||[Sampling Worksheet Solutions](../exam/Biases_and_Improper_Sampling_sol.pdf)
+
 
 
 <hr style="border:2px solid grey">
