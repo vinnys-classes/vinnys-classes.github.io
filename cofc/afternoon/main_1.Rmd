@@ -181,3 +181,13 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 | Oct 26th |  [Z-test homework](../exam/hw_z_tests.pdf) | |[Z-test Homework Solutions](../exam/hw_z_tests_sol.pdf)|
 | Oct 28th | [accessibility in data visualizations](../notes/accessible_graphics-2.pdf) and review for exam ||
+| Oct 30th | exam ||
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 12
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Nov 1| [Experiments](../notes/experiments_only.pdf) |||
