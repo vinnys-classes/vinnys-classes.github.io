@@ -5,6 +5,7 @@ A website for my courses
 
 ### Fall 2026
 
+#### Exam 2 for MWF classes will be handed back on friday
 
 [MATH 104 at 9am MWF](https://vinnys-classes.github.io/cofc/morning/main_9.html)
 
