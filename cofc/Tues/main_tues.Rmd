@@ -30,9 +30,11 @@ $~$
 
 
 # Midterm
+
 [Midterm Instructions](../Tues/midterm_tuesday.pdf)
 
 [Example of Graphic to Make](../vis/nba_example.pdf)
+
 | Step | Due Date | 
 |:-----|:-------|
 | Data Selection/Project Proposal| October 6th|
