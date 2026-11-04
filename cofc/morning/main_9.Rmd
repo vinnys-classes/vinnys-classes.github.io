@@ -202,4 +202,5 @@ You can locate course content by scrolling, or by using the outline in the upper
 ### Week 12
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
-| Nov 1| [Experiments](../notes/experiments_only.pdf) |||
+| Nov 2nd | [Experiments](../notes/experiments_only.pdf) |||
+| Nov 4th | Finish Experiments and then [errors](../notes/errors.pdf)
