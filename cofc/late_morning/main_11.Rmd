@@ -28,7 +28,7 @@ $~$
 
 
 # Exam
-It'll be the full 80 minutes. You may bring a notecard and a calculator. If you do not have a calculator you may leave your answer unsimplified. Eg predicted price = \$ e^2.19.
+It'll be the full 50 minutes. You may bring a notecard and a calculator. If you do not have a calculator you may leave your answer unsimplified. Eg predicted price = \$ e^2.19.
 
 | Exam | Study Guide | Date | 
 |:-----|:-------|:-----|
