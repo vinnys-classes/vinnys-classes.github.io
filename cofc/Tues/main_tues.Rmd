@@ -31,6 +31,13 @@ $~$
 
 # Midterm
 
+
+READ ME: Below is the sign-ups for the ordering of the presentations. Only one member of your team is to sign up (I don't care who it is). The first team member to pick a time slot will pick the time slot the team goes with; no exceptions.
+
+When your presentation ready (before class time Nov 10th) please email it to me as a pdf of one single slide.
+
+[Midterm Sign Ups](https://strawpoll.com/7rnzV9a0DnO)
+
 [Midterm Instructions](../Tues/midterm_tuesday.pdf)
 
 [Example of Graphic to Make](../vis/nba_example.pdf)
