@@ -187,8 +187,10 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 <br>
 
-### Week 12
+
+### Week 12 (Experiments, Errors, and More Inference)
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Nov 2nd | [Experiments](../notes/experiments_only.pdf) |||
 | Nov 4th | Finish Experiments and then [errors](../notes/errors.pdf)
+| Nov 6th | Finsih errors and then [three more inferences](../notes/t_test_diff_in_2_means.pdf)
