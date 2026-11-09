@@ -143,7 +143,7 @@ You can locate course content by scrolling, or by using the outline in the upper
 
 <br>
 
-### Week 8 (Confidence Intervals)
+### Week 8 (Z tests and Confidence Intervals)
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Oct 5 | Finish and practice Z-tests | | [Z-test worksheet](../exam/z_test_worksheet-3.pdf)|
@@ -154,8 +154,8 @@ You can locate course content by scrolling, or by using the outline in the upper
 <hr style="border:2px solid grey">
 
 <br>
-
-### Week 9
+ 
+### Week 9 (Confidence Intervals)
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Oct 12th | Break ||
@@ -189,6 +189,10 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Oct 28th | [accessibility in data visualizations](../notes/accessible_graphics-2.pdf) and review for exam ||
 | Oct 30th | exam ||
 
+<hr style="border:2px solid grey">
+
+<br>
+
 
 ### Week 12 (Experiments, Errors, and More Inference)
 | Date | Lecture | HW Due | Useful Stuff |
@@ -196,3 +200,14 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Nov 2nd | [Experiments](../notes/experiments_only.pdf) |||
 | Nov 4th | Finish Experiments and then [errors](../notes/errors.pdf)
 | Nov 6th | Finsih errors and then [three more inferences](../notes/t_test_diff_in_2_means.pdf)
+
+
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 13 (Simple Linear Regression)
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Nov 9th | Exams back and then [Simple Linear Regression](../notes/slr.pdf)
