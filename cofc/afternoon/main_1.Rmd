@@ -73,6 +73,11 @@ You can locate course content by scrolling, or by using the outline in the upper
 |Aug 21| 5 Num. Summary, Boxplots, and Histograms |||
 
 
+
+<hr style="border:2px solid grey">
+
+<br>
+
 ### Week 2 (Histograms and Numeric Summaries)
 
 | Date | Lecture | HW Due | Suggested Reading |
@@ -82,6 +87,10 @@ You can locate course content by scrolling, or by using the outline in the upper
 |Aug 28| [Scatterplots and Correlation](../notes/correlation.pdf)| [Histogram, Boxplot, Scatterplot Practice Worksheet](../../new_wkst.pdf)|[Solutions](../notes/hist_extra_sol.pdf)|
 
 
+<hr style="border:2px solid grey">
+
+<br>
+
 ### Week 3 (Barplots and Probability)
 
 | Date | Lecture | HW Due | Suggested Reading |
@@ -90,6 +99,10 @@ You can locate course content by scrolling, or by using the outline in the upper
 |Sept 2| [Barplots](../notes/bar_lplots.pdf) |
 |Sept 4| [Probability](../notes/probability_209.pdf) |
 
+
+<hr style="border:2px solid grey">
+
+<br>
 
 
 ### Week 4 (Probability and Normality)
@@ -194,3 +207,14 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Nov 2nd | [Experiments](../notes/experiments_only.pdf) |||
 | Nov 4th | Finish Experiments and then [errors](../notes/errors.pdf)
 | Nov 6th | Finsih errors and then [three more inferences](../notes/t_test_diff_in_2_means.pdf)
+
+
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 13 (Simple Linear Regression)
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Nov 9th | Exams back and then [Simple Linear Regression](../notes/slr.pdf)
