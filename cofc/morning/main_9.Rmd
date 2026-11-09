@@ -205,3 +205,9 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Nov 2nd | [Experiments](../notes/experiments_only.pdf) |||
 | Nov 4th | Finish Experiments and then [errors](../notes/errors.pdf) |||
 | Nov 6th | Finsih errors and then [three more inferences](../notes/t_test_diff_in_2_means.pdf)
+
+
+### Week 13
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Nov 9th | Exams back and then [Simple Linear Regression](../notes/slr.pdf)
