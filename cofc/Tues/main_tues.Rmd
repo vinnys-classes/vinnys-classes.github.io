@@ -183,3 +183,14 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Oct 29th | Briefly [sampling techniques](../notes/sampling_only.pdf) and then exam review |||
 
 ### Week 12
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Nov 4th | No Class, Election Day|||
+| Nov 6th | Exam |||
+
+
+### Week 13
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+|Nov 10th| Presentation day|||
+|Nov 12th| [Linear Regression](../notes/slr.pdf)
