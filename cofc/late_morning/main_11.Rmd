@@ -49,7 +49,7 @@ It'll be the full 50 minutes. You may bring a notecard and a calculator. If you 
 |:-----|:-------|:-----|
 Exam 1 | [Study Guide](../notes/exam_1_study_guide_104.pdf) | Sept 18th |
 Exam 2 | [Study Guide Exam 2](../exam/exam_2_overview_cofc.pdf)  | October 30th |
-Final  | - | December 4th at 1pm |
+Final  | [Study Guide Final Exam](../notes/final_outline_cofc.pdf) | December 4th at 1pm |
 
 <hr style="border:3px solid black">
 
@@ -226,3 +226,12 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Nov 9th | Exams back and then [Simple Linear Regression](../notes/slr.pdf)
+
+<hr style="border:2px solid grey">
+
+<br>
+
+### Week 14 (SLR and Categorical Predictors)
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Nov 16th | Finish Linear Regression and then [SLR with indicators](../notes/regression_with_indicators_cofc.pdf)
