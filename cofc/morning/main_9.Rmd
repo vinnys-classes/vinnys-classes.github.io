@@ -228,4 +228,4 @@ You can locate course content by scrolling, or by using the outline in the upper
 ### Week 14
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
-| Nov 16th | Finish Linear Regression and then [SLR with indicators](../notes/regression_with_indicators_cofc.pdf)
+| Nov 16th | Finish Linear Regression and then [SLR with indicators](../notes/regression_with_indicators_cofc.pdf) | | [Article on extrapolating pop growth to doomsday scenario](https://reason.com/2026/11/13/human-extinction-scheduled-forhuh-how-about-that-today/)
