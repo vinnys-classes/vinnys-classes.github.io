@@ -223,3 +223,9 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Nov 9th | Exams back and then [Simple Linear Regression](../notes/slr.pdf)
+
+
+### Week 14
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Nov 16th | Finish Linear Regression and then [SLR with indicators](../notes/regression_with_indicators_cofc.pdf)
