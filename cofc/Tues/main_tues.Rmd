@@ -194,3 +194,9 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 |Nov 10th| Presentation day|||
 |Nov 12th| [Linear Regression](../notes/slr.pdf)
+
+### Week 14
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Nov 17th| Exams back, finish linear regression and maybe get to [Regression with Categorical Explanatory Variables](../notes/regression_with_indicators_cofc.pdf)
+| Nov 19th | Finish the above and maybe [experiments](../notes/experiments_only.pdf)|
