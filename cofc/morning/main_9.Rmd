@@ -229,3 +229,5 @@ You can locate course content by scrolling, or by using the outline in the upper
 | Date | Lecture | HW Due | Useful Stuff |
 |:-----|:-------|:-----|:-----|
 | Nov 16th | Finish Linear Regression and then [SLR with indicators](../notes/regression_with_indicators_cofc.pdf) | | [Article on extrapolating pop growth to doomsday scenario](https://reason.com/2026/11/13/human-extinction-scheduled-forhuh-how-about-that-today/)
+| Nov 18th | Work on regression some more | ||
+| Nov 20th | [Multiple Linear Regression Lab and Notes](../notes/mulitple_regression.pdf)
