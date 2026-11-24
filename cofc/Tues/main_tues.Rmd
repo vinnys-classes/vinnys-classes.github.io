@@ -200,3 +200,9 @@ You can locate course content by scrolling, or by using the outline in the upper
 |:-----|:-------|:-----|:-----|
 | Nov 17th| Exams back, finish linear regression and maybe get to [Regression with Categorical Explanatory Variables](../notes/regression_with_indicators_cofc.pdf) ||  [Article on extrapolating pop growth to doomsday scenario](https://reason.com/2026/11/13/human-extinction-scheduled-forhuh-how-about-that-today/)
 | Nov 19th | Finish the above and maybe [errors](../notes/errors.pdf)|
+
+
+### Week 15
+| Date | Lecture | HW Due | Useful Stuff |
+|:-----|:-------|:-----|:-----|
+| Nov 24th | [Proportions (not tested)](../notes/t_test_diff_in_2_means.pdf) | 
